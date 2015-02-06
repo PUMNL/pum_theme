@@ -1,0 +1,23 @@
+@media #{$small-up} {
+    .row {
+        @include row-width(100%);
+    }
+} // ./ small-up
+
+@media #{$medium-up} {
+    .row {
+        @include row-width(720px);
+    }
+} // ./ medium-up
+
+@media #{$large-up} {
+    .row {
+        @include row-width(940px);
+    }
+} // ./ large-up
+
+@media #{$xlarge-up} {
+    .row {
+        @include row-width(1200px);
+    }
+} // ./ xlarge-up

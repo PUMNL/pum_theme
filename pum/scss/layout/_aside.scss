@@ -1,0 +1,29 @@
+@media #{$small-up} {
+
+} // ./ small-up
+
+@media #{$medium-up} {
+    aside.sidebar-second {
+        .inner {
+            width: 183px;
+        }
+       
+    } // ./ aside.sidebar-second  
+     
+} // ./ medium-up
+
+@media #{$large-up} {
+    aside.sidebar-second {
+        .inner {
+            width: 224px;
+        }
+    } // ./ aside.sidebar-second
+} // ./ large-up
+
+@media #{$xlarge-up} {
+    aside.sidebar-second {
+        .inner {
+            width: 285px;
+        }
+    } // ./ aside.sidebar-second
+} // ./ xlarge-up

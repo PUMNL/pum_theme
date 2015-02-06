@@ -1,0 +1,40 @@
+@media #{$small-only} {
+    .main .zf-1col, h1#page-title, .l-undermain {
+        padding-left: 1.07143rem;
+        padding-right: 1.07143rem;
+    }    
+} // ./ small-only
+
+@media #{$small-up} {
+    
+} // ./ small-up
+
+@media #{$medium-up} {
+    .views-page {
+        .l-main {
+            .inner {width: 100%;}
+        }
+    }
+
+    .l-main {
+        .inner {
+            width: 506px;
+        }
+    } // ./ l-main    
+} // ./ medium-up
+
+@media #{$large-up} {
+    .l-main {
+        .inner {
+            width: 620px;
+        }
+    } // ./ l-main
+} // ./ large-up
+
+@media #{$xlarge-up} {
+    .l-main {
+        .inner {
+            width: 792px;
+        }
+    } // ./ l-main
+} // ./ xlarge-up

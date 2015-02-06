@@ -1,0 +1,38 @@
+.type-block {
+	background: $pum-color-primary;
+	font-family: $rounded-font-300;
+	padding: 12px;
+	margin-bottom: 1rem;
+	display: block;
+   
+	p,div {
+	   font-size: 20px; 
+	   color: #fff;
+	   
+	   strong {font-family: $rounded-font-700;}
+	   
+    }
+	a {font-size: 18px; color: #fff;}
+	span {
+	    text-align: right;
+	    display: block;
+	    font-size: 1rem;
+	    font-family: $rounded-font-700;
+	    padding-right: 1rem;
+	    background: transparent url(../images/icons/icon-arrow-right-small.png) right center no-repeat;
+	    margin-top: 1rem;
+	    color: #fff;
+	}
+	
+	h1,h2,h3 {font-size: 2rem; color: #fff;}
+	
+	&.default {background: $pum-color-primary;}
+	&.red {background: $pum-color-download-block;}
+	&.purple {background: $pum-color-expert;}
+	&.green {background: $pum-color-customer;}
+	&.blue {background: $pum-color-partner;}
+	
+} // ./ type-block
+
+aside.volunteer .type-block {background: $pum-color-expert;}
+aside.partner-with-us .type-block {background: $pum-color-partner;}

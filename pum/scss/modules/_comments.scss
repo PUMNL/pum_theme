@@ -1,0 +1,18 @@
+@media #{$small-up} {   
+    #comments {
+        border-top: 3px solid #ccc;
+        margin-top: 2rem;
+        padding-top: 1rem;
+
+        h2.title {
+            font-size: 1.25rem;
+            color: $pum-color-primary;
+        }
+
+        .filter-wrapper, .ckeditor_links {display: none !important;}
+
+        button {margin-top: 1rem;}
+
+
+    } // comments
+} // ./ small-up

@@ -1,0 +1,38 @@
+.openlayers-popup {
+	color: #fff;
+	padding: 0;
+	display: block;
+	
+	.title {
+	   font-family: $rounded-font-700;
+	   font-size: 1.3rem;
+	   margin-bottom: .5rem;
+	   display: block;
+	}
+	
+	.co {
+	    font-family: $body-font-family;
+	    font-size: 1rem;
+	   
+	    .label-co {
+	       font-family: $body-font-family;
+	       display: block;
+        }
+	}
+	
+	.link {
+	   padding-top: .5rem;
+	   display: block;
+	   text-align: right;
+	
+	   a {
+		   font-family: $rounded-font-700;
+	       color: #fff;
+	       font-size: .9rem;
+	       padding-right: .7rem;
+           background: transparent url(../images/icons/icon-arrow-right-small.png) right center no-repeat;
+	       
+	       &:hover {text-decoration: none;}
+	   } 
+	}
+}

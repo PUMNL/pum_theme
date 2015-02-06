@@ -1,0 +1,36 @@
+@media #{$small-up} {
+    .l-banner {       
+        .inner-content {
+            height: 200px;
+            overflow: hidden;
+            margin-bottom: 45px;
+        }  
+    } // ./ l-banner
+} // ./ small-up
+
+@media #{$medium-up} {
+    .l-banner {
+        @include bg-gradient();
+        border-top: 15px solid; 
+        
+        .inner-content {height: 295px;}  
+    } // ./ l-banner
+    
+    .front .l-banner {border-top: 0;}
+    
+} // ./ medium-up
+
+@media #{$large-up} {
+
+    
+
+} // ./ large-up
+
+@media #{$xlarge-up} {
+    .front .l-banner {border-top: 15px solid;}
+} // ./ xlarge-up
+
+@media #{$xxlarge-up} {
+
+} // ./ xxlarge-up
+

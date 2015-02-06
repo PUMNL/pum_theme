@@ -1,0 +1,80 @@
+@media #{$small-up} {
+    .node-type-country {
+        aside ul li ul {display: none;}
+    }
+    
+    .node-type-country {
+        .intro-text p {
+            font-family: $body-font-family-bold;
+            margin-bottom: 1rem;
+        }    
+        
+        .group-coordinator-officer, .group-representative {
+            background: #ccc;
+            display: block;
+            width: 100%;
+            padding: 25px 22px;
+            border-bottom: 1px solid #fff;
+            
+            a {color: $body-font-color;}
+            
+            .data {
+                display: inline-block;
+                width: 50%;
+                line-height: 1.6;
+            }
+            
+            .label-above {
+                font-family: $rounded-font-700;
+                font-size: 1.5rem;
+                margin-bottom: .75rem;              
+            }   
+            
+            .field-name-field-country-user-name {
+                font-family: $body-font-family-bold;
+                line-height: 1.6;
+            }    
+                
+            .field-name-field-country-user-email {font-size: .9rem;}
+            
+            ul {margin-left: 0;}
+            li {
+                list-style: none;
+                margin: 0; 
+                padding: 0;
+                
+                .field-name-field-repres-region  {
+                    position: relative;
+                    left: -1rem;
+                    background: transparent url(../images/icons/icon-country-region.png) left center no-repeat;   
+                    font-family: $rounded-font-700;
+                    font-size: 1.3rem;
+                    margin-bottom: .5rem;
+                    padding: .5rem 0 .5rem 2rem;          
+                } 
+                
+                .field-name-field-repres-person {
+                    margin-left: 15px;
+                }           
+            
+            } // ./li
+        } // ./ group-coordinator-officer / group-representative
+    } // ./ node-type-country    
+    
+} // ./ small-up
+
+@media #{$medium-up} {
+
+} // ./ medium-up
+
+@media #{$large-up} {
+
+} // ./ large-up
+
+@media #{$xlarge-up} {
+
+} // ./ xlarge-up
+
+@media #{$xxlarge-up} {
+
+} // ./ xxlarge-up

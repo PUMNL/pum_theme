@@ -1,0 +1,23 @@
+.pum-list-view {
+    .views-field {
+        display:block;
+        padding: 3px 0;
+        
+        strong {
+            margin-top: 1rem;
+            display: block;
+        }
+        
+        .views-row-1 strong {margin-top: 0;}
+        
+        .views-label {
+            width: 300px; 
+            display: inline-block;
+        }
+
+        h2.views-label {
+            margin-bottom: .5rem;
+            margin-top: 2rem;
+        }
+    }
+}

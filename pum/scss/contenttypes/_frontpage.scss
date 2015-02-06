@@ -1,0 +1,241 @@
+.node-type-frontpage {
+	@media #{$small-up} {
+	   .group-row-one {
+	       @include bg-gradient();
+	       padding: 2rem;
+	       text-align: center;
+	       
+	       p {font-size: 1.2rem;}
+	       
+            a {
+                font-family: $rounded-font-700;
+                font-size: 1.3rem;
+            }	       
+	   } // ./ group-row-one
+	   
+        .group-row-two {
+            margin-bottom: 2rem;
+        
+            .inner-content {
+                width: 100%; 
+                margin: 2rem auto 0 auto;
+                padding-top: 12px;
+                font-family: $rounded-font-700;                
+                border-top-width: 4px;
+                border-bottom-width: 4px;
+                border-left: 0;
+                border-right: 0;
+                border-style: solid; 
+                
+                p {font-size: 34px; line-height: 3rem; margin: 0;}
+                a {text-align: right; display: block; font-size: 1.3rem;}
+                
+                &.customer {
+                    border-color: $pum-color-customer;
+                    p, a {color: $pum-color-customer;}
+                } // ./ customer   
+                
+                &.expert {
+                    border-color: $pum-color-expert;
+                    p, a {color: $pum-color-expert;}
+                } // ./ expert  
+                
+                &.partner {
+                    border-color: $pum-color-partner;
+                    p, a {color: $pum-color-partner;}
+                } // ./ partner                  
+                
+            } // ./ inner-content
+        } // ./ group-row-two	 
+        
+        .news-front {
+            text-align: center;
+            margin: 20px auto 70px auto;
+            
+            p {font-size: 1.2rem;}
+            a {font-family: $rounded-font-700;}
+        }
+        
+        .group-row-three {
+            background-color: $pum-color-primary;
+            color: #fff;
+            text-align: center;
+            font-family: $rounded-font-100;
+            padding: 50px 0;
+            
+            h2 {
+                font-size: 4rem;
+                color: #fff;
+                margin-bottom: 3rem;
+            }
+            
+            .data {
+                background: transparent url(../images/bg-stripe-front-data.png) center bottom no-repeat;
+                margin-bottom: 2rem;
+                
+                &.last {
+                    background: none;
+                    margin-bottom: 0;
+                    
+                    .subnumber {margin-bottom: 0;}
+                }
+                
+            }
+            
+            .number {
+                font-size: 60px;
+                margin-bottom: 10px;
+            }
+            
+            .subnumber {
+                font-size: 30px;
+                width: 100%;
+                margin: 0 auto 15px auto;
+                padding-bottom: 20px;
+            }
+            
+            .text {
+                font-family: $body-font-family-light;
+                font-size: .8rem;
+                line-height: 1.6;
+            }
+            
+            .readmore-link {
+                clear: both;
+            
+			    a {
+			        display: inline-block;
+			        font-size: 1rem;
+			        font-family: $rounded-font-700;
+			        padding-right: 1rem;
+			        background: transparent url(../images/icons/icon-arrow-right-small.png) right center no-repeat;
+			        margin-top: 2rem;
+			        color: #fff;
+			    }            
+            }
+            
+        } // ./ group-row-three  
+        
+        .under-bar-front {
+            margin-bottom: 25px;
+            
+            .view-header {
+                text-align: center;
+                margin-top: 25px;
+            }  
+            
+            .block-views-countries-map {
+                .view-header {
+                    margin: 25px 0;
+                    
+                    p {font-size: 1.2rem;}
+                }
+            } // ./ block-views-countries-map
+            
+            .block-views-sectors-home-widget {
+                width: 95%;
+                margin: 0 auto;
+                text-align: center;
+                
+                .view-header {
+                    margin-bottom: 15px;
+                    
+                    p {font-size: 1.2rem;}
+                }
+            
+                .views-row {
+                    display: inline-block;
+                    margin-right: 1rem;
+                    margin-bottom: 1rem;
+                }
+            } // ./ block-views-sectors-home-widget
+            
+            .block-views-stories-home-widget {
+                width: 95%;
+                margin: 0 auto;
+                text-align: center;
+            } // ./ block-views-stories-home-widget
+            
+        } // ./ maps-front                        
+	
+	} // ./ small-up
+	
+	@media #{$medium-up} {
+	
+        .group-row-one {
+            background: #fff;
+            margin: 0 auto;
+            width: 628px;
+            padding: 35px 0 50px 0;
+        } // ./ group-row-one
+        
+        .group-row-two {
+            margin-bottom: 0;
+        
+            .inner-content {
+                width: 90%;
+                margin: 2rem auto 4rem auto;
+            }
+        } // ./ group-row-two
+        
+        .group-row-three {
+            .data {
+                background: none;
+                margin-bottom: 0;
+                
+                &.last {
+                    .subnumber {margin-bottom: 15px;}
+                }
+            }
+        }
+        
+        .under-bar-front {
+            margin-bottom: 65px;
+            
+            .view-header {margin-top: 65px;}  
+            
+            .block-views-countries-map {
+                .view-header {margin: 65px 0;}
+            } // ./ block-views-countries-map
+            
+            .block-views-sectors-home-widget {
+                width: 75%;
+                text-align: left;
+            }
+            
+            .block-views-stories-home-widget {
+                width: 100%;
+                
+                .view-header {
+                    margin: 0 auto 1rem auto;
+                    width: 75%;
+                    
+                    
+                    p {font-size: 1.2rem;}
+                }
+            }
+            
+        } // ./ maps-front          
+        
+	} // ./ medium-up
+	
+	@media #{$large-up} {
+	
+	$large-up-width: 768px;
+	.group-row-one {width: $large-up-width;}
+    .news-front {width: $large-up-width;}
+	   
+	} // ./ large-up
+	
+	@media #{$xlarge-up} {
+	    .under-bar-front {
+	       .block-views-sectors-home-widget {text-align: left;}
+	    }	
+	
+	} // ./ xlarge-up
+	
+	@media #{$xxlarge-up} {
+	
+	} // ./ xxlarge-up
+
+} // ./ front

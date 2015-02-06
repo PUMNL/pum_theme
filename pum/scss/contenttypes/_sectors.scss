@@ -1,0 +1,42 @@
+@media #{$small-up} {
+    .node-type-cluster,
+    .node-type-sector {
+        aside ul li ul {display: none;}
+    }
+} // ./ small-up// ./ small-up
+
+@media #{$medium-up} {
+    .node-type-cluster, .node-type-sector {
+        .l-banner {height: 130px; margin-bottom: 4rem;}
+    }
+
+    .parent-title {
+        width: 960px;
+        margin: 0 auto;
+        padding: 1rem 0;
+        
+        .views-field-field-icon {
+            display: inline-block;
+            margin-right: 1rem;
+        }
+        
+        .views-field-title {
+            display: inline-block;
+            font-family: $rounded-font-700;
+        }
+    }
+} // ./ medium-up
+
+@media #{$large-up} {
+
+} // ./ large-up
+
+@media #{$xlarge-up} {
+    .parent-title {
+        width: 1200px;
+    }
+} // ./ xlarge-up
+
+@media #{$xxlarge-up} {
+
+} // ./ xxlarge-up

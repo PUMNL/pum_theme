@@ -1,0 +1,35 @@
+@media #{$small-up} {
+	.view-id-partner.view-display-id-overview_per_group {
+		.group {
+		   display: block;
+		   width: 100%;
+		   vertical-align: top;
+		   text-align: center;
+		   border-right: 1px solid #ededed;
+		   min-height: 300px;
+		   
+		   h3 {
+		       display: block;
+		       color: #fff;
+		       background: $pum-color-primary;
+		       padding: 1rem;
+		       width: 75%;
+		       margin: 0 auto 2rem auto;
+		       font-size: 1.25rem;
+		       text-align: center;
+		   }
+		   
+		   .views-row {margin-bottom: 2rem;}
+		   
+	    }
+	} // ./ .view-id-partner.view-display-id-overview-per-group
+}
+
+@media #{$medium-up} {
+    .view-id-partner.view-display-id-overview_per_group {
+        .group {
+           display: inline-block;
+           width: 33%;           
+        }
+    } // ./ .view-id-partner.view-display-id-overview-per-group
+}

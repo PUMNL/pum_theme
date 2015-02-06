@@ -1,0 +1,23 @@
+.view-faq.view-display-id-list {
+	margin-bottom: 10rem;
+	
+	.views-row {
+	    padding: .5rem .2rem .1rem .5rem;
+	    
+		.views-field-title {
+		   font-family: $rounded-font-300;
+		   font-size: 1.2rem;
+		   margin-bottom: .5rem;
+		   
+		   &.active {
+		       border-bottom: 1px solid $pum-color-dark;
+		       padding-bottom: .5rem;
+		   }
+		}
+		
+		&.views-row-odd {background: #fafafa;}
+		
+		&.views-row-last {margin-bottom: 3rem;}
+			   
+	} // ./ views-row
+}

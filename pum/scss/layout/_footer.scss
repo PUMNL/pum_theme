@@ -1,0 +1,41 @@
+// Non-modular or client styles for .l-footer region.
+
+@media #{$small-up} {
+	.l-footer {
+	    font-family: $rounded-font-300;
+	    border-top: 1px solid $pum-color-dark;
+	    padding-top: 25px;
+	    
+	    a {color: #000;}
+	    
+	    p {
+	       font-family: $rounded-font-300;
+	       strong {font-family: $rounded-font-700;}
+	    }
+	    
+	    .row-1 {     
+	       a {
+	           padding-left: 1rem;
+	           background: transparent url(../images/icons/icon-arrow-right.png) left center no-repeat;
+	       }
+	    }
+	    
+	    .row-4 {
+	       &.columns {padding-left: 0;}
+	    }
+	    
+	}
+} // ./ small-up
+
+@media #{$medium-up} {
+    .l-footer {
+        .row-1 {
+           &.columns {padding-left: 0;}
+        }
+        
+        .row-4 {
+           &.columns {padding-right: 0;}
+        }
+    }
+} // ./ medium-up
+
