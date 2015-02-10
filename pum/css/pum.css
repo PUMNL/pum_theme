@@ -21420,25 +21420,30 @@ em, i {
   width: 100%;
   left: 0;
 }
-/* line 231, ../scss/contenttypes/_portal.scss */
+/* line 230, ../scss/contenttypes/_portal.scss */
+.section-portal .view-id-pum_portal_directory .views-exposed-form button {
+  margin-top: 1.5rem;
+  padding: .6rem;
+}
+/* line 236, ../scss/contenttypes/_portal.scss */
 .section-portal .view-id-pum_portal_directory table {
   width: 100%;
 }
-/* line 235, ../scss/contenttypes/_portal.scss */
+/* line 240, ../scss/contenttypes/_portal.scss */
 .section-portal .view-portal-my-communities .views-field {
   padding: .5rem 0;
   border-bottom: 1px solid #ededed;
 }
-/* line 239, ../scss/contenttypes/_portal.scss */
+/* line 244, ../scss/contenttypes/_portal.scss */
 .section-portal .view-portal-my-communities .views-field .views-label {
   display: inline-block;
   width: 125px;
 }
-/* line 240, ../scss/contenttypes/_portal.scss */
+/* line 245, ../scss/contenttypes/_portal.scss */
 .section-portal .view-portal-my-communities .views-field .field-content {
   display: inline-block;
 }
-/* line 245, ../scss/contenttypes/_portal.scss */
+/* line 250, ../scss/contenttypes/_portal.scss */
 .section-portal .flag-outer a {
   border-style: solid;
   border-width: 0px;
@@ -21471,7 +21476,7 @@ em, i {
 .section-portal .flag-outer a:hover, .section-portal .flag-outer a:focus {
   color: #fff;
 }
-/* line 251, ../scss/contenttypes/_portal.scss */
+/* line 256, ../scss/contenttypes/_portal.scss */
 .section-portal .view-pum-portal-blog-subscribe .views-field-ops a {
   border-style: solid;
   border-width: 0px;
