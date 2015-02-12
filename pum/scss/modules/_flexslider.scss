@@ -22,8 +22,8 @@
 	                  z-index: 30;
 	              }
 	              
-	              &#slide1 .border {background-color: $pum-color-expert;}  
-	              &#slide2 .border {background-color: $pum-color-customer;}
+	              &#slide1 .border {background-color: $pum-color-customer;}  
+	              &#slide2 .border {background-color: $pum-color-expert;}
 	              &#slide3 .border {background-color: $pum-color-partner;}
 	                        
 	          } // ./ li
@@ -60,14 +60,14 @@
 	              }
 	              
 	              &#nav1 a {
-	                  border-color: $pum-color-expert;
-	                  
-	                  &:hover, &.flex-active {background-color: $pum-color-expert;}
-	              }
-	              &#nav2 a {
 	                  border-color: $pum-color-customer;
 	                  
 	                  &:hover, &.flex-active {background-color: $pum-color-customer;}
+	              }
+	              &#nav2 a {
+	                  border-color: $pum-color-expert;
+	                  
+	                  &:hover, &.flex-active {background-color: $pum-color-expert;}
 	              }
 	              &#nav3 a {
 	                  border-color: $pum-color-partner;

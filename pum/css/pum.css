@@ -21693,11 +21693,11 @@ aside.partner-with-us ul, aside.partner-with-us ul li a {
   }
   /* line 25, ../scss/modules/_flexslider.scss */
   .flexslider.banner-slider ul.slides li#slide1 .border {
-    background-color: #443A94;
+    background-color: #887D14;
   }
   /* line 26, ../scss/modules/_flexslider.scss */
   .flexslider.banner-slider ul.slides li#slide2 .border {
-    background-color: #887D14;
+    background-color: #443A94;
   }
   /* line 27, ../scss/modules/_flexslider.scss */
   .flexslider.banner-slider ul.slides li#slide3 .border {
@@ -21736,19 +21736,19 @@ aside.partner-with-us ul, aside.partner-with-us ul li a {
   }
   /* line 62, ../scss/modules/_flexslider.scss */
   .flexslider.banner-slider ol.flex-control-paging li#nav1 a {
-    border-color: #443A94;
+    border-color: #887D14;
   }
   /* line 65, ../scss/modules/_flexslider.scss */
   .flexslider.banner-slider ol.flex-control-paging li#nav1 a:hover, .flexslider.banner-slider ol.flex-control-paging li#nav1 a.flex-active {
-    background-color: #443A94;
+    background-color: #887D14;
   }
   /* line 67, ../scss/modules/_flexslider.scss */
   .flexslider.banner-slider ol.flex-control-paging li#nav2 a {
-    border-color: #887D14;
+    border-color: #443A94;
   }
   /* line 70, ../scss/modules/_flexslider.scss */
   .flexslider.banner-slider ol.flex-control-paging li#nav2 a:hover, .flexslider.banner-slider ol.flex-control-paging li#nav2 a.flex-active {
-    background-color: #887D14;
+    background-color: #443A94;
   }
   /* line 72, ../scss/modules/_flexslider.scss */
   .flexslider.banner-slider ol.flex-control-paging li#nav3 a {
