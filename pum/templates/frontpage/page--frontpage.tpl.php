@@ -26,10 +26,13 @@
 
   $title_facts = field_get_items('node', $node, 'field_front_facts_title')[0]['value'];
   $number_projects = field_get_items('node', $node, 'field_front_facts_no_projects')[0]['value'];
+  $number_projects_title = field_get_items('node', $node, 'field_front_facts_projects_title')[0]['value'];
   $number_projects_text = field_get_items('node', $node, 'field_front_facts_text_projects')[0]['value'];
   $number_experts = field_get_items('node', $node, 'field_front_facts_no_experts')[0]['value'];
+  $number_expert_title = field_get_items('node', $node, 'field_front_fact_experts_title')[0]['value'];
   $number_experts_text = field_get_items('node', $node, 'field_front_facts_text_experts')[0]['value'];
   $number_years = field_get_items('node', $node, 'field_front_facts_no_years')[0]['value'];
+  $number_years_title = field_get_items('node', $node, 'field_front_fact_years_title')[0]['value'];
   $number_years_text = field_get_items('node', $node, 'field_front_facts_text_years')[0]['value'];
   $read_more_title = field_get_items('node', $node, 'field_front_link_of_read_more')[0]['title'];
   $read_more_link = field_get_items('node', $node, 'field_front_link_of_read_more')[0]['url'];
@@ -217,17 +220,17 @@
           <div class="large-12 columns title"><h2><?php echo $title_facts; ?></h2></div>
           <div class="large-4 medium-4 small-12 columns data first">
             <div class="number"><?php echo $number_projects;?></div>
-            <div class="subnumber">projects</div>
+            <div class="subnumber"><?php echo $number_projects_title; ?></div>
             <div class="text hide-for-small-only"><?php echo $number_projects_text ?></div>
           </div>
           <div class="large-4 medium-4 small-12 columns data">
             <div class="number"><?php echo $number_experts;?></div>
-            <div class="subnumber">experts</div>
+            <div class="subnumber"><?php echo $number_expert_title; ?></div>
             <div class="text hide-for-small-only"><?php echo $number_experts_text ?></div>
           </div>
           <div class="large-4 medium-4 small-12 columns data last">
             <div class="number"><?php echo $number_years;?></div>
-            <div class="subnumber">years experience</div>
+            <div class="subnumber"><?php echo $number_years_title; ?></div>
             <div class="text hide-for-small-only"><?php echo $number_years_text ?></div>
           </div>
           <div class="readmore-link"><a href="<?php echo $read_more_link; ?>"><?php echo $read_more_title; ?></a></div>

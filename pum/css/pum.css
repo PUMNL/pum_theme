@@ -20697,49 +20697,53 @@ em, i {
     margin: 0;
   }
   /* line 31, ../scss/contenttypes/_frontpage.scss */
+  .node-type-frontpage .group-row-two .inner-content p:first-child {
+    height: 180px;
+  }
+  /* line 32, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .group-row-two .inner-content a {
     text-align: right;
     display: block;
     font-size: 1.3rem;
   }
-  /* line 33, ../scss/contenttypes/_frontpage.scss */
+  /* line 34, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .group-row-two .inner-content.customer {
     border-color: #887D14;
   }
-  /* line 35, ../scss/contenttypes/_frontpage.scss */
+  /* line 36, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .group-row-two .inner-content.customer p, .node-type-frontpage .group-row-two .inner-content.customer a {
     color: #887D14;
   }
-  /* line 38, ../scss/contenttypes/_frontpage.scss */
+  /* line 39, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .group-row-two .inner-content.expert {
     border-color: #443A94;
   }
-  /* line 40, ../scss/contenttypes/_frontpage.scss */
+  /* line 41, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .group-row-two .inner-content.expert p, .node-type-frontpage .group-row-two .inner-content.expert a {
     color: #443A94;
   }
-  /* line 43, ../scss/contenttypes/_frontpage.scss */
+  /* line 44, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .group-row-two .inner-content.partner {
     border-color: #009DDF;
   }
-  /* line 45, ../scss/contenttypes/_frontpage.scss */
+  /* line 46, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .group-row-two .inner-content.partner p, .node-type-frontpage .group-row-two .inner-content.partner a {
     color: #009DDF;
   }
-  /* line 51, ../scss/contenttypes/_frontpage.scss */
+  /* line 52, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .news-front {
     text-align: center;
     margin: 20px auto 70px auto;
   }
-  /* line 55, ../scss/contenttypes/_frontpage.scss */
+  /* line 56, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .news-front p {
     font-size: 1.2rem;
   }
-  /* line 56, ../scss/contenttypes/_frontpage.scss */
+  /* line 57, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .news-front a {
     font-family: "MuseoSansRounded-700";
   }
-  /* line 59, ../scss/contenttypes/_frontpage.scss */
+  /* line 60, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .group-row-three {
     background-color: #FE7500;
     color: #fff;
@@ -20747,49 +20751,49 @@ em, i {
     font-family: "MuseoSansRounded-100";
     padding: 50px 0;
   }
-  /* line 66, ../scss/contenttypes/_frontpage.scss */
+  /* line 67, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .group-row-three h2 {
     font-size: 4rem;
     color: #fff;
     margin-bottom: 3rem;
   }
-  /* line 72, ../scss/contenttypes/_frontpage.scss */
+  /* line 73, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .group-row-three .data {
     background: transparent url(../images/bg-stripe-front-data.png) center bottom no-repeat;
     margin-bottom: 2rem;
   }
-  /* line 76, ../scss/contenttypes/_frontpage.scss */
+  /* line 77, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .group-row-three .data.last {
     background: none;
     margin-bottom: 0;
   }
-  /* line 80, ../scss/contenttypes/_frontpage.scss */
+  /* line 81, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .group-row-three .data.last .subnumber {
     margin-bottom: 0;
   }
-  /* line 85, ../scss/contenttypes/_frontpage.scss */
+  /* line 86, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .group-row-three .number {
     font-size: 60px;
     margin-bottom: 10px;
   }
-  /* line 90, ../scss/contenttypes/_frontpage.scss */
+  /* line 91, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .group-row-three .subnumber {
     font-size: 30px;
     width: 100%;
     margin: 0 auto 15px auto;
     padding-bottom: 20px;
   }
-  /* line 97, ../scss/contenttypes/_frontpage.scss */
+  /* line 98, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .group-row-three .text {
     font-family: "merriweatherlight", "Times New Roman", Times, serif;
     font-size: .8rem;
     line-height: 1.6;
   }
-  /* line 103, ../scss/contenttypes/_frontpage.scss */
+  /* line 104, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .group-row-three .readmore-link {
     clear: both;
   }
-  /* line 106, ../scss/contenttypes/_frontpage.scss */
+  /* line 107, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .group-row-three .readmore-link a {
     display: inline-block;
     font-size: 1rem;
@@ -20799,44 +20803,44 @@ em, i {
     margin-top: 2rem;
     color: #fff;
   }
-  /* line 119, ../scss/contenttypes/_frontpage.scss */
+  /* line 120, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .under-bar-front {
     margin-bottom: 25px;
   }
-  /* line 122, ../scss/contenttypes/_frontpage.scss */
+  /* line 123, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .under-bar-front .view-header {
     text-align: center;
     margin-top: 25px;
   }
-  /* line 128, ../scss/contenttypes/_frontpage.scss */
+  /* line 129, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .under-bar-front .block-views-countries-map .view-header {
     margin: 25px 0;
   }
-  /* line 131, ../scss/contenttypes/_frontpage.scss */
+  /* line 132, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .under-bar-front .block-views-countries-map .view-header p {
     font-size: 1.2rem;
   }
-  /* line 135, ../scss/contenttypes/_frontpage.scss */
+  /* line 136, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .under-bar-front .block-views-sectors-home-widget {
     width: 95%;
     margin: 0 auto;
     text-align: center;
   }
-  /* line 140, ../scss/contenttypes/_frontpage.scss */
+  /* line 141, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .under-bar-front .block-views-sectors-home-widget .view-header {
     margin-bottom: 15px;
   }
-  /* line 143, ../scss/contenttypes/_frontpage.scss */
+  /* line 144, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .under-bar-front .block-views-sectors-home-widget .view-header p {
     font-size: 1.2rem;
   }
-  /* line 146, ../scss/contenttypes/_frontpage.scss */
+  /* line 147, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .under-bar-front .block-views-sectors-home-widget .views-row {
     display: inline-block;
     margin-right: 1rem;
     margin-bottom: 1rem;
   }
-  /* line 153, ../scss/contenttypes/_frontpage.scss */
+  /* line 154, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .under-bar-front .block-views-stories-home-widget {
     width: 95%;
     margin: 0 auto;
@@ -20844,74 +20848,74 @@ em, i {
   }
 }
 @media only screen and (min-width: 741px) {
-  /* line 165, ../scss/contenttypes/_frontpage.scss */
+  /* line 166, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .group-row-one {
     background: #fff;
     margin: 0 auto;
     width: 628px;
     padding: 35px 0 50px 0;
   }
-  /* line 172, ../scss/contenttypes/_frontpage.scss */
+  /* line 173, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .group-row-two {
     margin-bottom: 0;
   }
-  /* line 175, ../scss/contenttypes/_frontpage.scss */
+  /* line 176, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .group-row-two .inner-content {
     width: 90%;
     margin: 2rem auto 4rem auto;
   }
-  /* line 182, ../scss/contenttypes/_frontpage.scss */
+  /* line 183, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .group-row-three .data {
     background: none;
     margin-bottom: 0;
   }
-  /* line 187, ../scss/contenttypes/_frontpage.scss */
+  /* line 188, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .group-row-three .data.last .subnumber {
     margin-bottom: 15px;
   }
-  /* line 192, ../scss/contenttypes/_frontpage.scss */
+  /* line 193, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .under-bar-front {
     margin-bottom: 65px;
   }
-  /* line 195, ../scss/contenttypes/_frontpage.scss */
+  /* line 196, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .under-bar-front .view-header {
     margin-top: 65px;
   }
-  /* line 198, ../scss/contenttypes/_frontpage.scss */
+  /* line 199, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .under-bar-front .block-views-countries-map .view-header {
     margin: 65px 0;
   }
-  /* line 201, ../scss/contenttypes/_frontpage.scss */
+  /* line 202, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .under-bar-front .block-views-sectors-home-widget {
     width: 75%;
     text-align: left;
   }
-  /* line 206, ../scss/contenttypes/_frontpage.scss */
+  /* line 207, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .under-bar-front .block-views-stories-home-widget {
     width: 100%;
   }
-  /* line 209, ../scss/contenttypes/_frontpage.scss */
+  /* line 210, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .under-bar-front .block-views-stories-home-widget .view-header {
     margin: 0 auto 1rem auto;
     width: 75%;
   }
-  /* line 214, ../scss/contenttypes/_frontpage.scss */
+  /* line 215, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .under-bar-front .block-views-stories-home-widget .view-header p {
     font-size: 1.2rem;
   }
 }
 @media only screen and (min-width: 961px) {
-  /* line 225, ../scss/contenttypes/_frontpage.scss */
+  /* line 226, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .group-row-one {
     width: 768px;
   }
-  /* line 226, ../scss/contenttypes/_frontpage.scss */
+  /* line 227, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .news-front {
     width: 768px;
   }
 }
 @media only screen and (min-width: 1221px) {
-  /* line 232, ../scss/contenttypes/_frontpage.scss */
+  /* line 233, ../scss/contenttypes/_frontpage.scss */
   .node-type-frontpage .under-bar-front .block-views-sectors-home-widget {
     text-align: left;
   }
@@ -21108,6 +21112,59 @@ em, i {
   /* line 58, ../scss/contenttypes/_countries.scss */
   .node-type-country .group-coordinator-officer li .views-row .field-name-field-repres-person, .node-type-country .group-representative li .views-row .field-name-field-repres-person {
     font-family: "merriweatherbold", "Times New Roman", Times, serif;
+  }
+  /* line 66, ../scss/contenttypes/_countries.scss */
+  .node-type-country .block-views-countries-number-projects {
+    text-align: center;
+  }
+  /* line 68, ../scss/contenttypes/_countries.scss */
+  .node-type-country .block-views-countries-number-projects .view-header {
+    position: relative;
+    top: 30px;
+  }
+  /* line 72, ../scss/contenttypes/_countries.scss */
+  .node-type-country .block-views-countries-number-projects .views-row {
+    width: 33%;
+    float: left;
+  }
+  /* line 75, ../scss/contenttypes/_countries.scss */
+  .node-type-country .block-views-countries-number-projects .views-row .project-per-year {
+    width: 100%;
+    display: block;
+    text-align: center;
+    position: relative;
+    height: 260px;
+  }
+  /* line 81, ../scss/contenttypes/_countries.scss */
+  .node-type-country .block-views-countries-number-projects .views-row .project-per-year .number h2 {
+    color: #fff;
+    position: absolute;
+    bottom: 60px;
+    display: inline-block;
+    width: 140px;
+    z-index: 10;
+    margin-left: -60px;
+    font-size: 75px;
+  }
+  /* line 91, ../scss/contenttypes/_countries.scss */
+  .node-type-country .block-views-countries-number-projects .views-row .project-per-year .bar {
+    max-height: 140px;
+    width: 140px;
+    background: #FE7500;
+    display: inline-block;
+    position: absolute;
+    bottom: 75px;
+    margin-left: -60px;
+  }
+  /* line 100, ../scss/contenttypes/_countries.scss */
+  .node-type-country .block-views-countries-number-projects .views-row .project-per-year .year {
+    font-family: "MuseoSansRounded-100";
+    color: #000;
+    position: absolute;
+    bottom: 30px;
+    display: inline-block;
+    margin-left: -20px;
+    font-size: 28px;
   }
 }
 @media only screen {
