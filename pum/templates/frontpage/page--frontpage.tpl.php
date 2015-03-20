@@ -52,6 +52,11 @@
   $text_business = field_get_items('node', $node, 'field_text_business')[0]['value'];
   $text_expert = field_get_items('node', $node, 'field_text_expert')[0]['value'];
   $text_partner = field_get_items('node', $node, 'field_text_partner')[0]['value'];
+  
+  $title_newsletter = field_get_items('node', $node, 'field_front_title_newsletter')[0]['value'];
+  $text_newsletter = field_get_items('node', $node, 'field_front_text_newsletter')[0]['value']; 
+  $url_button_newsletter = field_get_items('node', $node, 'field_front_link_newsletter')[0]['url'];
+  $title_button_newsletter = field_get_items('node', $node, 'field_front_link_newsletter')[0]['title'];
 ?>
 <!-- /Get the values used on the frontpage -->
 
@@ -257,6 +262,18 @@
   <?php if (!empty($page['maps_front'])): ?>
     <div class="under-bar-front">
       <?php print render($page['maps_front']); ?>
+    </div>
+  <?php endif; ?>
+  
+  <?php if ($title_newsletter != '' && $text_newsletter != ''): ?>
+    <div class="newsletter">
+        <div class="row">
+            <div class="large-12">
+                <h2><?php echo $title_newsletter; ?></h2>
+                <p><?php echo $text_newsletter; ?></p>
+                <a href="<?php echo $url_button_newsletter; ?>" class="button large"><?php echo $title_button_newsletter; ?></a>
+            </div>
+        </div>
     </div>
   <?php endif; ?>
 

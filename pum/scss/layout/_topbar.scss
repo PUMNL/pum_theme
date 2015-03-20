@@ -95,7 +95,8 @@
                     font-family: $rounded-font-700;
                 }
             }
-        } // ./ pumnet-block  
+            
+        } // ./ pumnet-block        
         
         .main-menu-mobile {
             width: 90%;
@@ -304,6 +305,10 @@
                     font-family: $rounded-font-700;
                 }
             }
+
+            &.user-block {
+                float: right;
+            }  
 
             &.logout {
                 position: absolute;
