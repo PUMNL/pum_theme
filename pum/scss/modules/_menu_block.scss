@@ -25,6 +25,12 @@
                }
            }
            
+           &:last-child {
+               a {
+                   border: 0;
+               }
+           }
+           
            ul {
                border-top: 0;
                border-bottom: 1px solid;
