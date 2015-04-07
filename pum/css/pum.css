@@ -20366,19 +20366,26 @@ em, i {
     float: right;
   }
   /* line 318, ../scss/layout/_topbar.scss */
+  .l-topbar .pumnet-block.name-block {
+    float: none;
+    top: 50px;
+    right: 0;
+    position: absolute;
+  }
+  /* line 325, ../scss/layout/_topbar.scss */
   .l-topbar .pumnet-block.logout {
     position: absolute;
     right: 0;
   }
 }
 @media only screen and (min-width: 961px) {
-  /* line 329, ../scss/layout/_topbar.scss */
+  /* line 336, ../scss/layout/_topbar.scss */
   .l-topbar .top-left-menu {
     width: 560px;
   }
 }
 @media only screen and (min-width: 1221px) {
-  /* line 335, ../scss/layout/_topbar.scss */
+  /* line 342, ../scss/layout/_topbar.scss */
   .l-topbar .top-left-menu {
     width: 820px;
   }
@@ -21290,73 +21297,77 @@ em, i {
   display: none;
 }
 /* line 13, ../scss/contenttypes/_portal.scss */
+.section-portal .main-menu {
+  display: none !important;
+}
+/* line 17, ../scss/contenttypes/_portal.scss */
 .section-portal .sub-menu ul, .section-portal .sub-menu .item-list ul {
   border-color: #483493;
 }
-/* line 15, ../scss/contenttypes/_portal.scss */
+/* line 19, ../scss/contenttypes/_portal.scss */
 .section-portal .sub-menu ul li a, .section-portal .sub-menu .item-list ul li a {
   border-color: #483493;
 }
-/* line 20, ../scss/contenttypes/_portal.scss */
+/* line 24, ../scss/contenttypes/_portal.scss */
 .section-portal a {
   color: #483493;
 }
-/* line 23, ../scss/contenttypes/_portal.scss */
+/* line 27, ../scss/contenttypes/_portal.scss */
 .section-portal .l-banner {
   border-color: #483493 !important;
   margin-bottom: 35px;
 }
-/* line 28, ../scss/contenttypes/_portal.scss */
+/* line 32, ../scss/contenttypes/_portal.scss */
 .section-portal .sidebar-second {
   width: 12.5%;
 }
-/* line 29, ../scss/contenttypes/_portal.scss */
+/* line 33, ../scss/contenttypes/_portal.scss */
 .section-portal .main {
   width: 87.5%;
 }
-/* line 30, ../scss/contenttypes/_portal.scss */
+/* line 34, ../scss/contenttypes/_portal.scss */
 .section-portal .inner {
   width: auto !important;
 }
-/* line 31, ../scss/contenttypes/_portal.scss */
+/* line 35, ../scss/contenttypes/_portal.scss */
 .section-portal .panel-pane table, .section-portal .all-topics table {
   width: 100%;
 }
-/* line 32, ../scss/contenttypes/_portal.scss */
+/* line 36, ../scss/contenttypes/_portal.scss */
 .section-portal .panel-pane {
   margin-bottom: 3rem;
 }
-/* line 33, ../scss/contenttypes/_portal.scss */
+/* line 37, ../scss/contenttypes/_portal.scss */
 .section-portal .panel-pane.pane-no-margin {
   margin: 0;
 }
-/* line 37, ../scss/contenttypes/_portal.scss */
+/* line 41, ../scss/contenttypes/_portal.scss */
 .section-portal .pane-views h2.pane-title {
   font-size: 18px;
   padding: 8px 0 8px 40px;
 }
-/* line 41, ../scss/contenttypes/_portal.scss */
+/* line 45, ../scss/contenttypes/_portal.scss */
 .section-portal .pane-views.pane-pum-portal-latest-forum-topics h2.pane-title, .section-portal .pane-views.pane-my-latest-forum-topics-test h2.pane-title {
   background: transparent url(../images/icon-portal-forum-30x30.png) left center no-repeat;
 }
-/* line 42, ../scss/contenttypes/_portal.scss */
+/* line 46, ../scss/contenttypes/_portal.scss */
 .section-portal .pane-views.pane-latest-portal-news h2.pane-title, .section-portal .pane-views.pane-portal-my-latest-news h2.pane-title {
   background: transparent url(../images/icon-portal-news-30x30.png) left center no-repeat;
 }
-/* line 43, ../scss/contenttypes/_portal.scss */
+/* line 47, ../scss/contenttypes/_portal.scss */
 .section-portal .pane-views.pane-latest-portal-blogs h2.pane-title, .section-portal .pane-views.pane-my-blog h2.pane-title {
   background: transparent url(../images/icon-portal-blog-30x30.png) left center no-repeat;
 }
-/* line 44, ../scss/contenttypes/_portal.scss */
+/* line 48, ../scss/contenttypes/_portal.scss */
 .section-portal .pane-views.pane-latest-portal-documents h2.pane-title, .section-portal .pane-views.pane-my-documents h2.pane-title {
   background: transparent url(../images/icon-portal-library-30x30.png) left center no-repeat;
 }
-/* line 49, ../scss/contenttypes/_portal.scss */
+/* line 53, ../scss/contenttypes/_portal.scss */
 .section-portal.page-portal-general-communities .pane-views h2.pane-title {
   font-size: 3.14286rem;
   padding: 0;
 }
-/* line 56, ../scss/contenttypes/_portal.scss */
+/* line 60, ../scss/contenttypes/_portal.scss */
 .section-portal .main .view-header a, .section-portal .main .view-empty a, .section-portal .main .add-button a {
   font-family: "MuseoSansRounded-300";
   color: #fff;
@@ -21366,7 +21377,7 @@ em, i {
   display: inline-block;
   margin-bottom: 1rem;
 }
-/* line 66, ../scss/contenttypes/_portal.scss */
+/* line 70, ../scss/contenttypes/_portal.scss */
 .section-portal .more-link a {
   font-family: "MuseoSansRounded-300";
   color: #fff;
@@ -21374,104 +21385,105 @@ em, i {
   border-radius: 3px;
   padding: 3px;
 }
-/* line 74, ../scss/contenttypes/_portal.scss */
+/* line 78, ../scss/contenttypes/_portal.scss */
 .section-portal .group-tags {
   padding: 1rem;
-  background: #eee;
+  background: #fafafa;
   border: 1px solid #ddd;
   border-radius: 3px;
-  margin-top: 2rem;
+  margin-top: 10rem;
 }
-/* line 83, ../scss/contenttypes/_portal.scss */
+/* line 87, ../scss/contenttypes/_portal.scss */
 .section-portal .view-id-portal_add_private_taxonomy .views-exposed-form {
   float: none;
   width: 100%;
   display: block;
   left: 0;
 }
-/* line 89, ../scss/contenttypes/_portal.scss */
+/* line 93, ../scss/contenttypes/_portal.scss */
 .section-portal .view-id-portal_add_private_taxonomy .view-content table {
   width: 100%;
 }
-/* line 93, ../scss/contenttypes/_portal.scss */
+/* line 97, ../scss/contenttypes/_portal.scss */
+.section-portal.two-col-panel .views-field-title {
+  width: 75%;
+  font-size: .8rem;
+  color: #999;
+}
+/* line 102, ../scss/contenttypes/_portal.scss */
+.section-portal.two-col-panel .views-field-title a {
+  font-size: 1.1rem;
+}
+/* line 104, ../scss/contenttypes/_portal.scss */
 .section-portal.two-col-panel tr.sticky {
   background-image: url(../images/icon-pin.png);
   background-repeat: no-repeat;
   background-position: 95% center;
 }
-/* line 97, ../scss/contenttypes/_portal.scss */
+/* line 108, ../scss/contenttypes/_portal.scss */
 .section-portal.two-col-panel tr.sticky td {
   font-family: "MuseoSansRounded-300";
   display: inline-block;
 }
-/* line 101, ../scss/contenttypes/_portal.scss */
+/* line 112, ../scss/contenttypes/_portal.scss */
 .section-portal.two-col-panel tr.sticky .views-field-display-name, .section-portal.two-col-panel tr.sticky .views-field-field-document-file {
-  width: 25%;
+  width: 100%;
+  overflow: hidden;
 }
-/* line 102, ../scss/contenttypes/_portal.scss */
-.section-portal.two-col-panel tr.sticky .views-field-title {
-  width: 74%;
-  font-size: .8rem;
-  color: #999;
-}
-/* line 107, ../scss/contenttypes/_portal.scss */
-.section-portal.two-col-panel tr.sticky .views-field-title a {
-  font-size: 1.1rem;
-}
-/* line 113, ../scss/contenttypes/_portal.scss */
+/* line 120, ../scss/contenttypes/_portal.scss */
 .section-portal .all-topics td, .section-portal .all-topics td p {
   font-family: "MuseoSansRounded-300";
 }
-/* line 114, ../scss/contenttypes/_portal.scss */
+/* line 121, ../scss/contenttypes/_portal.scss */
 .section-portal .all-topics td {
   display: inline-block;
 }
-/* line 115, ../scss/contenttypes/_portal.scss */
+/* line 122, ../scss/contenttypes/_portal.scss */
 .section-portal .all-topics .views-field-php {
   width: 15%;
 }
-/* line 116, ../scss/contenttypes/_portal.scss */
+/* line 123, ../scss/contenttypes/_portal.scss */
 .section-portal .all-topics .views-field-created {
   width: 15%;
 }
-/* line 117, ../scss/contenttypes/_portal.scss */
+/* line 124, ../scss/contenttypes/_portal.scss */
 .section-portal .all-topics .views-field-field-document-file {
   width: 15%;
 }
-/* line 118, ../scss/contenttypes/_portal.scss */
+/* line 125, ../scss/contenttypes/_portal.scss */
 .section-portal .all-topics .views-field-title {
   width: 35%;
   font-size: .8rem;
   color: #999;
 }
-/* line 123, ../scss/contenttypes/_portal.scss */
+/* line 130, ../scss/contenttypes/_portal.scss */
 .section-portal .all-topics .views-field-title a {
   font-size: 1.1rem;
 }
-/* line 124, ../scss/contenttypes/_portal.scss */
+/* line 131, ../scss/contenttypes/_portal.scss */
 .section-portal .all-topics .views-field-title .comments {
   font-family: "MuseoSansRounded-700";
 }
-/* line 126, ../scss/contenttypes/_portal.scss */
+/* line 133, ../scss/contenttypes/_portal.scss */
 .section-portal .all-topics .views-field-field-blog-image {
   width: 29%;
 }
-/* line 127, ../scss/contenttypes/_portal.scss */
+/* line 134, ../scss/contenttypes/_portal.scss */
 .section-portal .all-topics .views-field-comment-count {
   width: 12%;
 }
-/* line 128, ../scss/contenttypes/_portal.scss */
+/* line 135, ../scss/contenttypes/_portal.scss */
 .section-portal .all-topics .views-field-term-node-tid {
   width: 21%;
 }
-/* line 130, ../scss/contenttypes/_portal.scss */
+/* line 137, ../scss/contenttypes/_portal.scss */
 .section-portal .all-topics .views-field-term-node-tid li {
   list-style: none;
   display: inline-block;
   margin: 0 5px 5px 0;
   padding: 0;
 }
-/* line 135, ../scss/contenttypes/_portal.scss */
+/* line 142, ../scss/contenttypes/_portal.scss */
 .section-portal .all-topics .views-field-term-node-tid li a {
   font-family: "MuseoSansRounded-300";
   font-size: .9rem;
@@ -21482,24 +21494,24 @@ em, i {
   border-radius: 3px;
   background: #fff;
 }
-/* line 148, ../scss/contenttypes/_portal.scss */
+/* line 155, ../scss/contenttypes/_portal.scss */
 .section-portal .all-topics.view-id-latest_portal_blogs .views-field-title {
   width: 35%;
 }
-/* line 151, ../scss/contenttypes/_portal.scss */
+/* line 158, ../scss/contenttypes/_portal.scss */
 .section-portal .all-topics .views-exposed-form {
   float: none;
   width: 100%;
   display: block;
   left: 0;
 }
-/* line 156, ../scss/contenttypes/_portal.scss */
+/* line 163, ../scss/contenttypes/_portal.scss */
 .section-portal .all-topics .views-exposed-form button {
   margin-top: 1.3rem;
   padding: .75rem 1rem;
   border-radius: 3px;
 }
-/* line 164, ../scss/contenttypes/_portal.scss */
+/* line 171, ../scss/contenttypes/_portal.scss */
 .section-portal .field-name-submitted-by {
   padding: .75rem;
   background: #eee;
@@ -21507,7 +21519,7 @@ em, i {
   margin-bottom: 1rem;
   display: inline-block;
 }
-/* line 173, ../scss/contenttypes/_portal.scss */
+/* line 180, ../scss/contenttypes/_portal.scss */
 .section-portal .view-id-portal_countries ul {
   -moz-column-count: 4;
   -moz-column-gap: 20px;
@@ -21518,27 +21530,33 @@ em, i {
   margin: 0;
   padding: 0;
 }
-/* line 183, ../scss/contenttypes/_portal.scss */
+/* line 190, ../scss/contenttypes/_portal.scss */
 .section-portal .view-id-portal_countries ul li {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-/* line 192, ../scss/contenttypes/_portal.scss */
+/* line 199, ../scss/contenttypes/_portal.scss */
 .section-portal .field-type-taxonomy-term-reference h2 {
   font-size: 1rem;
   display: inline-block;
   font-family: "merriweatherregular", "Times New Roman", Times, serif;
+  position: relative;
+  top: 8px;
 }
-/* line 198, ../scss/contenttypes/_portal.scss */
+/* line 207, ../scss/contenttypes/_portal.scss */
 .section-portal .field-type-taxonomy-term-reference ul.links {
+  clear: both;
   display: inline-block;
+  vertical-align: top;
 }
-/* line 200, ../scss/contenttypes/_portal.scss */
+/* line 211, ../scss/contenttypes/_portal.scss */
 .section-portal .field-type-taxonomy-term-reference ul.links li {
+  float: left;
+  margin-right: 1rem;
   list-style: none;
 }
-/* line 202, ../scss/contenttypes/_portal.scss */
+/* line 215, ../scss/contenttypes/_portal.scss */
 .section-portal .field-type-taxonomy-term-reference ul.links li a {
   font-family: "MuseoSansRounded-300";
   font-size: .9rem;
@@ -21549,41 +21567,41 @@ em, i {
   border-radius: 3px;
   background: #fff;
 }
-/* line 216, ../scss/contenttypes/_portal.scss */
+/* line 229, ../scss/contenttypes/_portal.scss */
 .section-portal h2.block-title {
   font-size: 1.5rem;
   color: #FE7500;
 }
-/* line 224, ../scss/contenttypes/_portal.scss */
+/* line 237, ../scss/contenttypes/_portal.scss */
 .section-portal .view-id-pum_portal_directory .views-exposed-form {
   float: none;
   width: 100%;
   left: 0;
 }
-/* line 228, ../scss/contenttypes/_portal.scss */
+/* line 241, ../scss/contenttypes/_portal.scss */
 .section-portal .view-id-pum_portal_directory .views-exposed-form button {
   margin-top: 1.5rem;
   padding: .6rem;
 }
-/* line 233, ../scss/contenttypes/_portal.scss */
+/* line 246, ../scss/contenttypes/_portal.scss */
 .section-portal .view-id-pum_portal_directory table {
   width: 100%;
 }
-/* line 237, ../scss/contenttypes/_portal.scss */
+/* line 250, ../scss/contenttypes/_portal.scss */
 .section-portal .view-portal-my-communities .views-field {
   padding: .5rem 0;
   border-bottom: 1px solid #ededed;
 }
-/* line 240, ../scss/contenttypes/_portal.scss */
+/* line 253, ../scss/contenttypes/_portal.scss */
 .section-portal .view-portal-my-communities .views-field .views-label {
   display: inline-block;
   width: 125px;
 }
-/* line 241, ../scss/contenttypes/_portal.scss */
+/* line 254, ../scss/contenttypes/_portal.scss */
 .section-portal .view-portal-my-communities .views-field .field-content {
   display: inline-block;
 }
-/* line 245, ../scss/contenttypes/_portal.scss */
+/* line 258, ../scss/contenttypes/_portal.scss */
 .section-portal .flag-outer a {
   border-style: solid;
   border-width: 0px;
@@ -21616,7 +21634,7 @@ em, i {
 .section-portal .flag-outer a:hover, .section-portal .flag-outer a:focus {
   color: #fff;
 }
-/* line 251, ../scss/contenttypes/_portal.scss */
+/* line 264, ../scss/contenttypes/_portal.scss */
 .section-portal .view-pum-portal-blog-subscribe .views-field-ops a {
   border-style: solid;
   border-width: 0px;
@@ -21650,6 +21668,25 @@ em, i {
 /* line 144, ../scss/vendor/foundation/components/_buttons.scss */
 .section-portal .view-pum-portal-blog-subscribe .views-field-ops a:hover, .section-portal .view-pum-portal-blog-subscribe .views-field-ops a:focus {
   color: #fff;
+}
+/* line 273, ../scss/contenttypes/_portal.scss */
+.section-portal .field-name-field-document-file table {
+  width: 100%;
+}
+/* line 275, ../scss/contenttypes/_portal.scss */
+.section-portal .field-name-field-document-file table span.file {
+  border: 1px solid #483493;
+  padding: 5px;
+  border-radius: 3px;
+}
+/* line 284, ../scss/contenttypes/_portal.scss */
+.section-portal .block-pum-portal-custom-pum-term-subscription label {
+  width: 80px;
+}
+/* line 287, ../scss/contenttypes/_portal.scss */
+.section-portal .block-pum-portal-custom-pum-term-subscription input[type="checkbox"] {
+  margin: 0;
+  vertical-align: top;
 }
 
 /* line 2, ../scss/contenttypes/_expert.scss */

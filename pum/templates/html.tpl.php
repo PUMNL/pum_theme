@@ -8,10 +8,17 @@
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
+<!--[if lt IE 9]>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+  <script src="//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
+  <script src="//html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+<![endif]-->
   <?php print $scripts; ?>
+
   <!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+  <![endif]-->
 
 	<link rel="apple-touch-icon" href="/sites/all/themes/pum/apple-touch-icon.png" />
 	<link rel="apple-touch-icon" sizes="57x57" href="/sites/all/themes/pum/apple-touch-icon-57x57.png" />

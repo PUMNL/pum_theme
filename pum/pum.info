@@ -48,6 +48,7 @@ scripts[] = js/foundation.min.js
 scripts[] = js/jquery.flexslider-min.js
 scripts[] = js/jquery.columnizer.js
 scripts[] = js/jquery.list.switch.js
+scripts[] = js/rem.min.js
 
 ; Foundation framework scripts (uncompressed).
 ;scripts[] = js/foundation/foundation.js

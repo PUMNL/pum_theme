@@ -14,10 +14,13 @@
 
   $raw_lower = strtolower($raw_link);
   $fulltrail=str_replace(" ","-",$raw_lower);
+
+  $web_portal = field_get_items('node', $node, 'field_portal_or_website');
+  $web_portal = $web_portal[0]['value'];
 ?>
 
 <!--.page -->
-<div role="document" class="page <?php echo $fulltrail; ?> ">
+<div role="document" class="page <?php echo $fulltrail.' '.$web_portal;?> ">
 
   <!--.l-header region -->
   <header role="banner" class="l-header">
@@ -47,7 +50,7 @@
 
     <?php if (!empty($page['header'])): ?>
       <!--.l-header-region -->
-      <section class="l-header-region row">
+      <section class="l-header-region row <?php echo $web_portal; ?>">
         <div class="large-12">
           <div id="logo"><?php if ($linked_logo): print $linked_logo; endif; ?></div>
           <?php print render($page['header']); ?>
@@ -55,7 +58,6 @@
       </section>
       <!--/.l-header-region -->
     <?php endif; ?>
-
   </header>
   <!--/.l-header -->
 
