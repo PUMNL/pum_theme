@@ -34,6 +34,12 @@
         float: none;
         clear: both;
     }
+    .webform-component-matrix {
+        width: auto;
+        .form-item {
+            width: auto;
+        }
+    }
 }
 
 .chosen-choices {

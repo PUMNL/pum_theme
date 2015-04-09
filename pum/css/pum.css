@@ -20033,223 +20033,16 @@ em, i {
   color: #fff;
 }
 
-@media only screen and (max-width: 740px) {
-  /* line 2, ../scss/layout/_topbar.scss */
-  .top-bar {
-    position: relative;
-  }
-  /* line 5, ../scss/layout/_topbar.scss */
-  .top-bar li {
-    background: #FE7500 !important;
-  }
-  /* line 7, ../scss/layout/_topbar.scss */
-  .top-bar a, .top-bar select {
-    font-family: "MuseoSansRounded-300";
-    color: #444;
-    padding: 0;
-    margin: 0;
-  }
-  /* line 15, ../scss/layout/_topbar.scss */
-  .top-bar .menu-icon a {
-    display: block;
-    width: 30px;
-    height: 30px;
-    background: transparent url(../images/menu-icon.png) left 7px no-repeat;
-  }
-  /* line 23, ../scss/layout/_topbar.scss */
-  .top-bar #search-block-form {
-    display: block;
-    vertical-align: top;
-    width: 90%;
-    position: relative;
-    padding-top: 5px;
-    left: 5%;
-    height: 40px;
-  }
-  /* line 32, ../scss/layout/_topbar.scss */
-  .top-bar #search-block-form input[type="text"] {
-    height: 22px;
-    background: #e5e5e5;
-    box-shadow: none;
-    outline: 0;
-    border: 0;
-    display: inline-block;
-    vertical-align: top;
-    width: 100%;
-    margin: 0 auto;
-  }
-  /* line 44, ../scss/layout/_topbar.scss */
-  .top-bar #search-block-form button {
-    position: absolute;
-    right: 0;
-    border: 0;
-    padding: 0;
-    margin: 0;
-    background: transparent url(../images/icons/icon-search.png) center center no-repeat;
-    height: 22px;
-    width: 22px;
-    text-indent: -9999px;
-  }
-  /* line 57, ../scss/layout/_topbar.scss */
-  .top-bar .language-dropdown {
-    display: inline-block;
-    vertical-align: top;
-    width: 30%;
-    margin-left: 5%;
-    color: #fff;
-  }
-  /* line 64, ../scss/layout/_topbar.scss */
-  .top-bar .language-dropdown select {
-    background: transparent;
-    border: 0;
-    outline: 0;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    height: 100%;
-    background: #FE7500;
-    color: #fff;
-  }
-  /* line 76, ../scss/layout/_topbar.scss */
-  .top-bar .low-bandwidth {
-    display: inline-block;
-    width: 40%;
-  }
-  /* line 80, ../scss/layout/_topbar.scss */
-  .top-bar .low-bandwidth a {
-    color: #fff;
-  }
-  /* line 83, ../scss/layout/_topbar.scss */
-  .top-bar .pumnet-block {
-    display: inline-block;
-  }
-  /* line 86, ../scss/layout/_topbar.scss */
-  .top-bar .pumnet-block .button {
-    padding: 0;
-    height: 22px;
-    padding: 5px;
-    background-color: #483493;
-  }
-  /* line 92, ../scss/layout/_topbar.scss */
-  .top-bar .pumnet-block .button a {
-    color: #fff;
-    font-size: .9rem;
-    font-family: "MuseoSansRounded-700";
-  }
-  /* line 101, ../scss/layout/_topbar.scss */
-  .top-bar .main-menu-mobile {
-    width: 90%;
-    margin-left: 5%;
-    position: relative;
-  }
-  /* line 106, ../scss/layout/_topbar.scss */
-  .top-bar .main-menu-mobile ul {
-    margin: 0;
-    padding: 3px 0 0 0;
-    border-top: 1px solid #222;
-  }
-  /* line 111, ../scss/layout/_topbar.scss */
-  .top-bar .main-menu-mobile ul li {
-    background: transparent;
-  }
-  /* line 114, ../scss/layout/_topbar.scss */
-  .top-bar .main-menu-mobile ul li a {
-    color: #222;
-    font-family: "MuseoSansRounded-700";
-    font-size: 1.5rem;
-    margin-bottom: .5rem;
-    padding: 3px 0;
-    display: block;
-    border-bottom: 1px solid #222;
-    background: transparent url(../images/view-exposed-label-inactive.png) 98% center no-repeat;
-  }
-  /* line 124, ../scss/layout/_topbar.scss */
-  .top-bar .main-menu-mobile ul li a.active, .top-bar .main-menu-mobile ul li a.active-trail, .top-bar .main-menu-mobile ul li a:hover {
-    color: #222;
-  }
-  /* line 126, ../scss/layout/_topbar.scss */
-  .top-bar .main-menu-mobile ul li a.active, .top-bar .main-menu-mobile ul li a.active-trail {
-    background-image: url(../images/view-exposed-label-active.png);
-  }
-  /* line 129, ../scss/layout/_topbar.scss */
-  .top-bar .main-menu-mobile ul li ul {
-    border: 0;
-  }
-  /* line 133, ../scss/layout/_topbar.scss */
-  .top-bar .main-menu-mobile ul li ul li a {
-    font-size: 1rem;
-    padding-top: 0;
-    padding-bottom: 0;
-    font-family: "MuseoSansRounded-300";
-    padding-left: 5%;
-    border: 0;
-    background: transparent;
-  }
-  /* line 142, ../scss/layout/_topbar.scss */
-  .top-bar .main-menu-mobile ul li ul li a.active, .top-bar .main-menu-mobile ul li ul li a.active-trail, .top-bar .main-menu-mobile ul li ul li a:hover {
-    font-family: "MuseoSansRounded-700";
-    background: transparent;
-  }
-  /* line 150, ../scss/layout/_topbar.scss */
-  .top-bar .top-menu-left {
-    width: 90%;
-    margin-left: 5%;
-    position: relative;
-  }
-  /* line 155, ../scss/layout/_topbar.scss */
-  .top-bar .top-menu-left ul {
-    margin: 0;
-    padding: 0;
-  }
-  /* line 159, ../scss/layout/_topbar.scss */
-  .top-bar .top-menu-left ul li {
-    background: transparent;
-  }
-  /* line 162, ../scss/layout/_topbar.scss */
-  .top-bar .top-menu-left ul li a {
-    color: #222;
-    font-family: "MuseoSansRounded-300";
-    font-size: 1.2rem;
-    margin-bottom: .5rem;
-    padding: 3px 0;
-    display: block;
-    border-bottom: 1px solid #222;
-  }
-  /* line 171, ../scss/layout/_topbar.scss */
-  .top-bar .top-menu-left ul li a.active, .top-bar .top-menu-left ul li a.active-trail, .top-bar .top-menu-left ul li a:hover {
-    color: #222;
-  }
-  /* line 173, ../scss/layout/_topbar.scss */
-  .top-bar .top-menu-left ul li a.active, .top-bar .top-menu-left ul li a.active-trail {
-    background: transparent url(../images/view-exposed-label-active-small.png) 98% center no-repeat;
-  }
-  /* line 176, ../scss/layout/_topbar.scss */
-  .top-bar .top-menu-left ul li ul {
-    border: 0;
-  }
-  /* line 180, ../scss/layout/_topbar.scss */
-  .top-bar .top-menu-left ul li ul li a {
-    font-size: .9rem;
-    padding-top: 0;
-    padding-bottom: 0;
-    font-family: "MuseoSansRounded-300";
-    padding-left: 5%;
-    border: 0;
-    background: transparent;
-  }
-  /* line 189, ../scss/layout/_topbar.scss */
-  .top-bar .top-menu-left ul li ul li a.active, .top-bar .top-menu-left ul li ul li a.active-trail, .top-bar .top-menu-left ul li ul li a:hover {
-    font-family: "MuseoSansRounded-700";
-  }
-}
 @media only screen {
-  /* line 200, ../scss/layout/_topbar.scss */
+  /* line 5, ../scss/layout/_topbar.scss */
   .top-bar, .top-bar.expanded, .top-bar.expanded .title-area, .top-bar .title-area {
     background: #FE7500;
   }
 }
 @media only screen and (min-width: 741px) {
-  /* line 206, ../scss/layout/_topbar.scss */
+  /* line 11, ../scss/layout/_topbar.scss */
   .l-topbar {
+    clear: both;
     position: relative;
     border-bottom: 1px solid #222;
     height: auto;
@@ -20257,46 +20050,47 @@ em, i {
     height: 45px;
     margin-bottom: 20px;
   }
-  /* line 214, ../scss/layout/_topbar.scss */
+  /* line 19, ../scss/layout/_topbar.scss */
   .l-topbar a, .l-topbar select {
     font-family: "MuseoSansRounded-300";
     color: #444;
     padding: 0;
     margin: 0;
   }
-  /* line 221, ../scss/layout/_topbar.scss */
+  /* line 25, ../scss/layout/_topbar.scss */
   .l-topbar .top-left-menu {
-    display: inline-block;
     vertical-align: top;
-    width: 340px;
+    float: left;
     position: relative;
     top: 6px;
   }
-  /* line 228, ../scss/layout/_topbar.scss */
+  /* line 31, ../scss/layout/_topbar.scss */
   .l-topbar .top-left-menu a {
     margin-right: 25px;
     padding-bottom: 12px;
   }
-  /* line 232, ../scss/layout/_topbar.scss */
+  /* line 35, ../scss/layout/_topbar.scss */
   .l-topbar .top-left-menu a:hover, .l-topbar .top-left-menu a.active, .l-topbar .top-left-menu a.active-trail {
     border-bottom: 3px solid #FE7500;
   }
-  /* line 236, ../scss/layout/_topbar.scss */
+  /* line 38, ../scss/layout/_topbar.scss */
   .l-topbar .low-bandwidth {
-    display: inline-block;
+    float: right;
+    right: 85px;
     vertical-align: top;
     width: 100px;
     padding-top: 6px;
   }
-  /* line 243, ../scss/layout/_topbar.scss */
+  /* line 45, ../scss/layout/_topbar.scss */
   .l-topbar .language-dropdown {
-    display: inline-block;
+    float: right;
     vertical-align: top;
     width: 50px;
     margin-left: 15px;
     padding-top: 9px;
+    right: 85px;
   }
-  /* line 250, ../scss/layout/_topbar.scss */
+  /* line 53, ../scss/layout/_topbar.scss */
   .l-topbar .language-dropdown select {
     background: transparent url(../images/arrow-down-language.png) 25px 4px no-repeat;
     border: 0;
@@ -20311,15 +20105,16 @@ em, i {
                       /* Firefox /
 -webkit-appearance:none; / Safari and Chrome */
   }
-  /* line 265, ../scss/layout/_topbar.scss */
+  /* line 67, ../scss/layout/_topbar.scss */
   .l-topbar .block-search {
-    display: inline-block;
+    float: right;
     vertical-align: top;
     width: 140px;
     position: relative;
     padding-top: 5px;
+    right: 85px;
   }
-  /* line 272, ../scss/layout/_topbar.scss */
+  /* line 75, ../scss/layout/_topbar.scss */
   .l-topbar .block-search input[type="text"] {
     height: 25px;
     background: #e5e5e5;
@@ -20331,7 +20126,7 @@ em, i {
     width: 100%;
     padding: 0 !important;
   }
-  /* line 284, ../scss/layout/_topbar.scss */
+  /* line 87, ../scss/layout/_topbar.scss */
   .l-topbar .block-search button {
     position: absolute;
     right: 0;
@@ -20343,51 +20138,41 @@ em, i {
     width: 22px;
     text-indent: -9999px;
   }
-  /* line 297, ../scss/layout/_topbar.scss */
+  /* line 99, ../scss/layout/_topbar.scss */
   .l-topbar .pumnet-block {
-    display: inline-block;
+    float: right;
     padding-top: 5px;
+    right: 75px;
   }
-  /* line 301, ../scss/layout/_topbar.scss */
+  /* line 104, ../scss/layout/_topbar.scss */
   .l-topbar .pumnet-block .button {
     padding: 0;
     height: 25px;
     padding: 0px 5px;
     background-color: #483493;
   }
-  /* line 307, ../scss/layout/_topbar.scss */
+  /* line 110, ../scss/layout/_topbar.scss */
   .l-topbar .pumnet-block .button a {
     color: #fff;
     font-size: .9rem;
     font-family: "MuseoSansRounded-700";
   }
-  /* line 314, ../scss/layout/_topbar.scss */
+  /* line 117, ../scss/layout/_topbar.scss */
   .l-topbar .pumnet-block.user-block {
-    float: right;
+    position: absolute;
+    right: 0;
   }
-  /* line 318, ../scss/layout/_topbar.scss */
+  /* line 122, ../scss/layout/_topbar.scss */
   .l-topbar .pumnet-block.name-block {
     float: none;
     top: 50px;
     right: 0;
     position: absolute;
   }
-  /* line 325, ../scss/layout/_topbar.scss */
+  /* line 129, ../scss/layout/_topbar.scss */
   .l-topbar .pumnet-block.logout {
     position: absolute;
     right: 0;
-  }
-}
-@media only screen and (min-width: 961px) {
-  /* line 336, ../scss/layout/_topbar.scss */
-  .l-topbar .top-left-menu {
-    width: 560px;
-  }
-}
-@media only screen and (min-width: 1221px) {
-  /* line 342, ../scss/layout/_topbar.scss */
-  .l-topbar .top-left-menu {
-    width: 820px;
   }
 }
 @media only screen {
@@ -21289,86 +21074,86 @@ em, i {
 }
 
 /* line 6, ../scss/contenttypes/_portal.scss */
-.section-portal .breadcrumbs {
+.section-portal .breadcrumbs, .section-tags .breadcrumbs, .views-page .breadcrumbs {
   display: block;
 }
 /* line 9, ../scss/contenttypes/_portal.scss */
-.section-portal.home-portal .breadcrumbs {
+.section-portal.home-portal .breadcrumbs, .section-tags.home-portal .breadcrumbs, .views-page.home-portal .breadcrumbs {
   display: none;
 }
 /* line 13, ../scss/contenttypes/_portal.scss */
-.section-portal .main-menu {
+.section-portal .main-menu, .section-tags .main-menu, .views-page .main-menu {
   display: none !important;
 }
 /* line 17, ../scss/contenttypes/_portal.scss */
-.section-portal .sub-menu ul, .section-portal .sub-menu .item-list ul {
+.section-portal .sub-menu ul, .section-portal .sub-menu .item-list ul, .section-tags .sub-menu ul, .section-tags .sub-menu .item-list ul, .views-page .sub-menu ul, .views-page .sub-menu .item-list ul {
   border-color: #483493;
 }
 /* line 19, ../scss/contenttypes/_portal.scss */
-.section-portal .sub-menu ul li a, .section-portal .sub-menu .item-list ul li a {
+.section-portal .sub-menu ul li a, .section-portal .sub-menu .item-list ul li a, .section-tags .sub-menu ul li a, .section-tags .sub-menu .item-list ul li a, .views-page .sub-menu ul li a, .views-page .sub-menu .item-list ul li a {
   border-color: #483493;
 }
 /* line 24, ../scss/contenttypes/_portal.scss */
-.section-portal a {
+.section-portal a, .section-tags a, .views-page a {
   color: #483493;
 }
 /* line 27, ../scss/contenttypes/_portal.scss */
-.section-portal .l-banner {
+.section-portal .l-banner, .section-tags .l-banner, .views-page .l-banner {
   border-color: #483493 !important;
   margin-bottom: 35px;
 }
 /* line 32, ../scss/contenttypes/_portal.scss */
-.section-portal .sidebar-second {
+.section-portal .sidebar-second, .section-tags .sidebar-second, .views-page .sidebar-second {
   width: 12.5%;
 }
 /* line 33, ../scss/contenttypes/_portal.scss */
-.section-portal .main {
+.section-portal .main, .section-tags .main, .views-page .main {
   width: 87.5%;
 }
 /* line 34, ../scss/contenttypes/_portal.scss */
-.section-portal .inner {
+.section-portal .inner, .section-tags .inner, .views-page .inner {
   width: auto !important;
 }
 /* line 35, ../scss/contenttypes/_portal.scss */
-.section-portal .panel-pane table, .section-portal .all-topics table {
+.section-portal .panel-pane table, .section-portal .all-topics table, .section-tags .panel-pane table, .section-tags .all-topics table, .views-page .panel-pane table, .views-page .all-topics table {
   width: 100%;
 }
 /* line 36, ../scss/contenttypes/_portal.scss */
-.section-portal .panel-pane {
+.section-portal .panel-pane, .section-tags .panel-pane, .views-page .panel-pane {
   margin-bottom: 3rem;
 }
 /* line 37, ../scss/contenttypes/_portal.scss */
-.section-portal .panel-pane.pane-no-margin {
+.section-portal .panel-pane.pane-no-margin, .section-tags .panel-pane.pane-no-margin, .views-page .panel-pane.pane-no-margin {
   margin: 0;
 }
 /* line 41, ../scss/contenttypes/_portal.scss */
-.section-portal .pane-views h2.pane-title {
+.section-portal .pane-views h2.pane-title, .section-tags .pane-views h2.pane-title, .views-page .pane-views h2.pane-title {
   font-size: 18px;
   padding: 8px 0 8px 40px;
 }
 /* line 45, ../scss/contenttypes/_portal.scss */
-.section-portal .pane-views.pane-pum-portal-latest-forum-topics h2.pane-title, .section-portal .pane-views.pane-my-latest-forum-topics-test h2.pane-title {
+.section-portal .pane-views.pane-pum-portal-latest-forum-topics h2.pane-title, .section-portal .pane-views.pane-my-latest-forum-topics-test h2.pane-title, .section-tags .pane-views.pane-pum-portal-latest-forum-topics h2.pane-title, .section-tags .pane-views.pane-my-latest-forum-topics-test h2.pane-title, .views-page .pane-views.pane-pum-portal-latest-forum-topics h2.pane-title, .views-page .pane-views.pane-my-latest-forum-topics-test h2.pane-title {
   background: transparent url(../images/icon-portal-forum-30x30.png) left center no-repeat;
 }
 /* line 46, ../scss/contenttypes/_portal.scss */
-.section-portal .pane-views.pane-latest-portal-news h2.pane-title, .section-portal .pane-views.pane-portal-my-latest-news h2.pane-title {
+.section-portal .pane-views.pane-latest-portal-news h2.pane-title, .section-portal .pane-views.pane-portal-my-latest-news h2.pane-title, .section-tags .pane-views.pane-latest-portal-news h2.pane-title, .section-tags .pane-views.pane-portal-my-latest-news h2.pane-title, .views-page .pane-views.pane-latest-portal-news h2.pane-title, .views-page .pane-views.pane-portal-my-latest-news h2.pane-title {
   background: transparent url(../images/icon-portal-news-30x30.png) left center no-repeat;
 }
 /* line 47, ../scss/contenttypes/_portal.scss */
-.section-portal .pane-views.pane-latest-portal-blogs h2.pane-title, .section-portal .pane-views.pane-my-blog h2.pane-title {
+.section-portal .pane-views.pane-latest-portal-blogs h2.pane-title, .section-portal .pane-views.pane-my-blog h2.pane-title, .section-tags .pane-views.pane-latest-portal-blogs h2.pane-title, .section-tags .pane-views.pane-my-blog h2.pane-title, .views-page .pane-views.pane-latest-portal-blogs h2.pane-title, .views-page .pane-views.pane-my-blog h2.pane-title {
   background: transparent url(../images/icon-portal-blog-30x30.png) left center no-repeat;
 }
 /* line 48, ../scss/contenttypes/_portal.scss */
-.section-portal .pane-views.pane-latest-portal-documents h2.pane-title, .section-portal .pane-views.pane-my-documents h2.pane-title {
+.section-portal .pane-views.pane-latest-portal-documents h2.pane-title, .section-portal .pane-views.pane-my-documents h2.pane-title, .section-tags .pane-views.pane-latest-portal-documents h2.pane-title, .section-tags .pane-views.pane-my-documents h2.pane-title, .views-page .pane-views.pane-latest-portal-documents h2.pane-title, .views-page .pane-views.pane-my-documents h2.pane-title {
   background: transparent url(../images/icon-portal-library-30x30.png) left center no-repeat;
 }
 /* line 53, ../scss/contenttypes/_portal.scss */
-.section-portal.page-portal-general-communities .pane-views h2.pane-title {
+.section-portal.page-portal-general-communities .pane-views h2.pane-title, .section-tags.page-portal-general-communities .pane-views h2.pane-title, .views-page.page-portal-general-communities .pane-views h2.pane-title {
   font-size: 3.14286rem;
   padding: 0;
 }
 /* line 60, ../scss/contenttypes/_portal.scss */
-.section-portal .main .view-header a, .section-portal .main .view-empty a, .section-portal .main .add-button a {
+.section-portal .main .view-header a, .section-portal .main .view-empty a, .section-portal .main .add-button a, .section-tags .main .view-header a, .section-tags .main .view-empty a, .section-tags .main .add-button a, .views-page .main .view-header a, .views-page .main .view-empty a, .views-page .main .add-button a {
   font-family: "MuseoSansRounded-300";
   color: #fff;
   background: #FE7500;
@@ -21378,7 +21163,7 @@ em, i {
   margin-bottom: 1rem;
 }
 /* line 70, ../scss/contenttypes/_portal.scss */
-.section-portal .more-link a {
+.section-portal .more-link a, .section-tags .more-link a, .views-page .more-link a {
   font-family: "MuseoSansRounded-300";
   color: #fff;
   background: #483493;
@@ -21386,105 +21171,110 @@ em, i {
   padding: 3px;
 }
 /* line 78, ../scss/contenttypes/_portal.scss */
-.section-portal .group-tags {
+.section-portal .group-tags, .section-tags .group-tags, .views-page .group-tags {
   padding: 1rem;
-  background: #fafafa;
   border: 1px solid #ddd;
   border-radius: 3px;
   margin-top: 10rem;
 }
-/* line 87, ../scss/contenttypes/_portal.scss */
-.section-portal .view-id-portal_add_private_taxonomy .views-exposed-form {
+/* line 86, ../scss/contenttypes/_portal.scss */
+.section-portal .view-id-portal_add_private_taxonomy .views-exposed-form, .section-tags .view-id-portal_add_private_taxonomy .views-exposed-form, .views-page .view-id-portal_add_private_taxonomy .views-exposed-form {
   float: none;
   width: 100%;
   display: block;
   left: 0;
 }
-/* line 93, ../scss/contenttypes/_portal.scss */
-.section-portal .view-id-portal_add_private_taxonomy .view-content table {
+/* line 92, ../scss/contenttypes/_portal.scss */
+.section-portal .view-id-portal_add_private_taxonomy .view-content table, .section-tags .view-id-portal_add_private_taxonomy .view-content table, .views-page .view-id-portal_add_private_taxonomy .view-content table {
   width: 100%;
 }
-/* line 97, ../scss/contenttypes/_portal.scss */
-.section-portal.two-col-panel .views-field-title {
+/* line 96, ../scss/contenttypes/_portal.scss */
+.section-portal.two-col-panel .views-field-title, .section-tags.two-col-panel .views-field-title, .views-page.two-col-panel .views-field-title {
+  font-family: "MuseoSansRounded-300";
   width: 75%;
   font-size: .8rem;
   color: #999;
 }
 /* line 102, ../scss/contenttypes/_portal.scss */
-.section-portal.two-col-panel .views-field-title a {
+.section-portal.two-col-panel .views-field-title a, .section-tags.two-col-panel .views-field-title a, .views-page.two-col-panel .views-field-title a {
   font-size: 1.1rem;
 }
 /* line 104, ../scss/contenttypes/_portal.scss */
-.section-portal.two-col-panel tr.sticky {
+.section-portal.two-col-panel .views-field-display-name, .section-tags.two-col-panel .views-field-display-name, .views-page.two-col-panel .views-field-display-name {
+  font-family: "MuseoSansRounded-300";
+}
+/* line 107, ../scss/contenttypes/_portal.scss */
+.section-portal.two-col-panel tr.sticky, .section-tags.two-col-panel tr.sticky, .views-page.two-col-panel tr.sticky {
   background-image: url(../images/icon-pin.png);
   background-repeat: no-repeat;
   background-position: 95% center;
 }
-/* line 108, ../scss/contenttypes/_portal.scss */
-.section-portal.two-col-panel tr.sticky td {
+/* line 111, ../scss/contenttypes/_portal.scss */
+.section-portal.two-col-panel tr.sticky td, .section-tags.two-col-panel tr.sticky td, .views-page.two-col-panel tr.sticky td {
   font-family: "MuseoSansRounded-300";
   display: inline-block;
 }
-/* line 112, ../scss/contenttypes/_portal.scss */
-.section-portal.two-col-panel tr.sticky .views-field-display-name, .section-portal.two-col-panel tr.sticky .views-field-field-document-file {
+/* line 115, ../scss/contenttypes/_portal.scss */
+.section-portal.two-col-panel tr.sticky .views-field-display-name, .section-portal.two-col-panel tr.sticky .views-field-field-document-file, .section-tags.two-col-panel tr.sticky .views-field-display-name, .section-tags.two-col-panel tr.sticky .views-field-field-document-file, .views-page.two-col-panel tr.sticky .views-field-display-name, .views-page.two-col-panel tr.sticky .views-field-field-document-file {
   width: 100%;
   overflow: hidden;
 }
-/* line 120, ../scss/contenttypes/_portal.scss */
-.section-portal .all-topics td, .section-portal .all-topics td p {
+/* line 123, ../scss/contenttypes/_portal.scss */
+.section-portal .all-topics td, .section-portal .all-topics td p, .section-tags .all-topics td, .section-tags .all-topics td p, .views-page .all-topics td, .views-page .all-topics td p {
   font-family: "MuseoSansRounded-300";
 }
-/* line 121, ../scss/contenttypes/_portal.scss */
-.section-portal .all-topics td {
+/* line 124, ../scss/contenttypes/_portal.scss */
+.section-portal .all-topics td, .section-tags .all-topics td, .views-page .all-topics td {
   display: inline-block;
 }
-/* line 122, ../scss/contenttypes/_portal.scss */
-.section-portal .all-topics .views-field-php {
-  width: 15%;
-}
-/* line 123, ../scss/contenttypes/_portal.scss */
-.section-portal .all-topics .views-field-created {
-  width: 15%;
-}
-/* line 124, ../scss/contenttypes/_portal.scss */
-.section-portal .all-topics .views-field-field-document-file {
-  width: 15%;
-}
 /* line 125, ../scss/contenttypes/_portal.scss */
-.section-portal .all-topics .views-field-title {
+.section-portal .all-topics .views-field-php, .section-tags .all-topics .views-field-php, .views-page .all-topics .views-field-php {
+  width: 15%;
+}
+/* line 126, ../scss/contenttypes/_portal.scss */
+.section-portal .all-topics .views-field-created, .section-tags .all-topics .views-field-created, .views-page .all-topics .views-field-created {
+  width: 15%;
+}
+/* line 127, ../scss/contenttypes/_portal.scss */
+.section-portal .all-topics .views-field-field-document-file, .section-tags .all-topics .views-field-field-document-file, .views-page .all-topics .views-field-field-document-file {
+  width: 15%;
+  overflow: hidden;
+}
+/* line 128, ../scss/contenttypes/_portal.scss */
+.section-portal .all-topics .views-field-title, .section-tags .all-topics .views-field-title, .views-page .all-topics .views-field-title {
   width: 35%;
   font-size: .8rem;
   color: #999;
 }
-/* line 130, ../scss/contenttypes/_portal.scss */
-.section-portal .all-topics .views-field-title a {
+/* line 133, ../scss/contenttypes/_portal.scss */
+.section-portal .all-topics .views-field-title a, .section-tags .all-topics .views-field-title a, .views-page .all-topics .views-field-title a {
   font-size: 1.1rem;
 }
-/* line 131, ../scss/contenttypes/_portal.scss */
-.section-portal .all-topics .views-field-title .comments {
+/* line 134, ../scss/contenttypes/_portal.scss */
+.section-portal .all-topics .views-field-title .comments, .section-tags .all-topics .views-field-title .comments, .views-page .all-topics .views-field-title .comments {
   font-family: "MuseoSansRounded-700";
 }
-/* line 133, ../scss/contenttypes/_portal.scss */
-.section-portal .all-topics .views-field-field-blog-image {
+/* line 136, ../scss/contenttypes/_portal.scss */
+.section-portal .all-topics .views-field-field-blog-image, .section-tags .all-topics .views-field-field-blog-image, .views-page .all-topics .views-field-field-blog-image {
   width: 29%;
 }
-/* line 134, ../scss/contenttypes/_portal.scss */
-.section-portal .all-topics .views-field-comment-count {
+/* line 137, ../scss/contenttypes/_portal.scss */
+.section-portal .all-topics .views-field-comment-count, .section-tags .all-topics .views-field-comment-count, .views-page .all-topics .views-field-comment-count {
   width: 12%;
 }
-/* line 135, ../scss/contenttypes/_portal.scss */
-.section-portal .all-topics .views-field-term-node-tid {
-  width: 21%;
+/* line 138, ../scss/contenttypes/_portal.scss */
+.section-portal .all-topics .views-field-term-node-tid, .section-tags .all-topics .views-field-term-node-tid, .views-page .all-topics .views-field-term-node-tid {
+  width: 48%;
 }
-/* line 137, ../scss/contenttypes/_portal.scss */
-.section-portal .all-topics .views-field-term-node-tid li {
+/* line 140, ../scss/contenttypes/_portal.scss */
+.section-portal .all-topics .views-field-term-node-tid li, .section-tags .all-topics .views-field-term-node-tid li, .views-page .all-topics .views-field-term-node-tid li {
   list-style: none;
   display: inline-block;
   margin: 0 5px 5px 0;
   padding: 0;
 }
-/* line 142, ../scss/contenttypes/_portal.scss */
-.section-portal .all-topics .views-field-term-node-tid li a {
+/* line 145, ../scss/contenttypes/_portal.scss */
+.section-portal .all-topics .views-field-term-node-tid li a, .section-tags .all-topics .views-field-term-node-tid li a, .views-page .all-topics .views-field-term-node-tid li a {
   font-family: "MuseoSansRounded-300";
   font-size: .9rem;
   text-transform: lowercase;
@@ -21494,33 +21284,44 @@ em, i {
   border-radius: 3px;
   background: #fff;
 }
-/* line 155, ../scss/contenttypes/_portal.scss */
-.section-portal .all-topics.view-id-latest_portal_blogs .views-field-title {
+/* line 158, ../scss/contenttypes/_portal.scss */
+.section-portal .all-topics.view-id-latest_portal_blogs .views-field-title, .section-tags .all-topics.view-id-latest_portal_blogs .views-field-title, .views-page .all-topics.view-id-latest_portal_blogs .views-field-title {
   width: 35%;
 }
-/* line 158, ../scss/contenttypes/_portal.scss */
-.section-portal .all-topics .views-exposed-form {
+/* line 161, ../scss/contenttypes/_portal.scss */
+.section-portal .all-topics .views-exposed-form, .section-tags .all-topics .views-exposed-form, .views-page .all-topics .views-exposed-form {
   float: none;
   width: 100%;
   display: block;
   left: 0;
 }
-/* line 163, ../scss/contenttypes/_portal.scss */
-.section-portal .all-topics .views-exposed-form button {
+/* line 166, ../scss/contenttypes/_portal.scss */
+.section-portal .all-topics .views-exposed-form button, .section-tags .all-topics .views-exposed-form button, .views-page .all-topics .views-exposed-form button {
   margin-top: 1.3rem;
   padding: .75rem 1rem;
   border-radius: 3px;
 }
-/* line 171, ../scss/contenttypes/_portal.scss */
-.section-portal .field-name-submitted-by {
+/* line 174, ../scss/contenttypes/_portal.scss */
+.section-portal .field-name-submitted-by, .section-portal .posted, .section-tags .field-name-submitted-by, .section-tags .posted, .views-page .field-name-submitted-by, .views-page .posted {
   padding: .75rem;
   background: #eee;
   border: 1px solid #ddd;
-  margin-bottom: 1rem;
+  margin-bottom: 50px;
   display: inline-block;
 }
-/* line 180, ../scss/contenttypes/_portal.scss */
-.section-portal .view-id-portal_countries ul {
+/* line 182, ../scss/contenttypes/_portal.scss */
+.section-portal .field-type-file, .section-tags .field-type-file, .views-page .field-type-file {
+  padding: 10px;
+  display: block;
+  background: #483493;
+  margin-bottom: 50px;
+}
+/* line 187, ../scss/contenttypes/_portal.scss */
+.section-portal .field-type-file a, .section-tags .field-type-file a, .views-page .field-type-file a {
+  color: #fff;
+}
+/* line 193, ../scss/contenttypes/_portal.scss */
+.section-portal .view-id-portal_countries ul, .section-tags .view-id-portal_countries ul, .views-page .view-id-portal_countries ul {
   -moz-column-count: 4;
   -moz-column-gap: 20px;
   -webkit-column-count: 4;
@@ -21530,34 +21331,35 @@ em, i {
   margin: 0;
   padding: 0;
 }
-/* line 190, ../scss/contenttypes/_portal.scss */
-.section-portal .view-id-portal_countries ul li {
+/* line 203, ../scss/contenttypes/_portal.scss */
+.section-portal .view-id-portal_countries ul li, .section-tags .view-id-portal_countries ul li, .views-page .view-id-portal_countries ul li {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-/* line 199, ../scss/contenttypes/_portal.scss */
-.section-portal .field-type-taxonomy-term-reference h2 {
+/* line 212, ../scss/contenttypes/_portal.scss */
+.section-portal .field-type-taxonomy-term-reference h2, .section-tags .field-type-taxonomy-term-reference h2, .views-page .field-type-taxonomy-term-reference h2 {
   font-size: 1rem;
   display: inline-block;
   font-family: "merriweatherregular", "Times New Roman", Times, serif;
   position: relative;
   top: 8px;
+  width: 200px;
 }
-/* line 207, ../scss/contenttypes/_portal.scss */
-.section-portal .field-type-taxonomy-term-reference ul.links {
+/* line 221, ../scss/contenttypes/_portal.scss */
+.section-portal .field-type-taxonomy-term-reference ul.links, .section-tags .field-type-taxonomy-term-reference ul.links, .views-page .field-type-taxonomy-term-reference ul.links {
   clear: both;
   display: inline-block;
   vertical-align: top;
 }
-/* line 211, ../scss/contenttypes/_portal.scss */
-.section-portal .field-type-taxonomy-term-reference ul.links li {
+/* line 225, ../scss/contenttypes/_portal.scss */
+.section-portal .field-type-taxonomy-term-reference ul.links li, .section-tags .field-type-taxonomy-term-reference ul.links li, .views-page .field-type-taxonomy-term-reference ul.links li {
   float: left;
   margin-right: 1rem;
   list-style: none;
 }
-/* line 215, ../scss/contenttypes/_portal.scss */
-.section-portal .field-type-taxonomy-term-reference ul.links li a {
+/* line 229, ../scss/contenttypes/_portal.scss */
+.section-portal .field-type-taxonomy-term-reference ul.links li a, .section-tags .field-type-taxonomy-term-reference ul.links li a, .views-page .field-type-taxonomy-term-reference ul.links li a {
   font-family: "MuseoSansRounded-300";
   font-size: .9rem;
   text-transform: lowercase;
@@ -21567,42 +21369,42 @@ em, i {
   border-radius: 3px;
   background: #fff;
 }
-/* line 229, ../scss/contenttypes/_portal.scss */
-.section-portal h2.block-title {
+/* line 243, ../scss/contenttypes/_portal.scss */
+.section-portal h2.block-title, .section-tags h2.block-title, .views-page h2.block-title {
   font-size: 1.5rem;
   color: #FE7500;
 }
-/* line 237, ../scss/contenttypes/_portal.scss */
-.section-portal .view-id-pum_portal_directory .views-exposed-form {
+/* line 251, ../scss/contenttypes/_portal.scss */
+.section-portal .view-id-pum_portal_directory .views-exposed-form, .section-tags .view-id-pum_portal_directory .views-exposed-form, .views-page .view-id-pum_portal_directory .views-exposed-form {
   float: none;
   width: 100%;
   left: 0;
 }
-/* line 241, ../scss/contenttypes/_portal.scss */
-.section-portal .view-id-pum_portal_directory .views-exposed-form button {
+/* line 255, ../scss/contenttypes/_portal.scss */
+.section-portal .view-id-pum_portal_directory .views-exposed-form button, .section-tags .view-id-pum_portal_directory .views-exposed-form button, .views-page .view-id-pum_portal_directory .views-exposed-form button {
   margin-top: 1.5rem;
   padding: .6rem;
 }
-/* line 246, ../scss/contenttypes/_portal.scss */
-.section-portal .view-id-pum_portal_directory table {
+/* line 260, ../scss/contenttypes/_portal.scss */
+.section-portal .view-id-pum_portal_directory table, .section-tags .view-id-pum_portal_directory table, .views-page .view-id-pum_portal_directory table {
   width: 100%;
 }
-/* line 250, ../scss/contenttypes/_portal.scss */
-.section-portal .view-portal-my-communities .views-field {
+/* line 264, ../scss/contenttypes/_portal.scss */
+.section-portal .view-portal-my-communities .views-field, .section-tags .view-portal-my-communities .views-field, .views-page .view-portal-my-communities .views-field {
   padding: .5rem 0;
   border-bottom: 1px solid #ededed;
 }
-/* line 253, ../scss/contenttypes/_portal.scss */
-.section-portal .view-portal-my-communities .views-field .views-label {
+/* line 267, ../scss/contenttypes/_portal.scss */
+.section-portal .view-portal-my-communities .views-field .views-label, .section-tags .view-portal-my-communities .views-field .views-label, .views-page .view-portal-my-communities .views-field .views-label {
   display: inline-block;
   width: 125px;
 }
-/* line 254, ../scss/contenttypes/_portal.scss */
-.section-portal .view-portal-my-communities .views-field .field-content {
+/* line 268, ../scss/contenttypes/_portal.scss */
+.section-portal .view-portal-my-communities .views-field .field-content, .section-tags .view-portal-my-communities .views-field .field-content, .views-page .view-portal-my-communities .views-field .field-content {
   display: inline-block;
 }
-/* line 258, ../scss/contenttypes/_portal.scss */
-.section-portal .flag-outer a {
+/* line 272, ../scss/contenttypes/_portal.scss */
+.section-portal .flag-outer a, .section-tags .flag-outer a, .views-page .flag-outer a {
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
@@ -21627,15 +21429,15 @@ em, i {
   margin-top: 1.5rem;
 }
 /* line 133, ../scss/vendor/foundation/components/_buttons.scss */
-.section-portal .flag-outer a:hover, .section-portal .flag-outer a:focus {
+.section-portal .flag-outer a:hover, .section-portal .flag-outer a:focus, .section-tags .flag-outer a:hover, .section-tags .flag-outer a:focus, .views-page .flag-outer a:hover, .views-page .flag-outer a:focus {
   background-color: #cb5e00;
 }
 /* line 144, ../scss/vendor/foundation/components/_buttons.scss */
-.section-portal .flag-outer a:hover, .section-portal .flag-outer a:focus {
+.section-portal .flag-outer a:hover, .section-portal .flag-outer a:focus, .section-tags .flag-outer a:hover, .section-tags .flag-outer a:focus, .views-page .flag-outer a:hover, .views-page .flag-outer a:focus {
   color: #fff;
 }
-/* line 264, ../scss/contenttypes/_portal.scss */
-.section-portal .view-pum-portal-blog-subscribe .views-field-ops a {
+/* line 278, ../scss/contenttypes/_portal.scss */
+.section-portal .view-pum-portal-blog-subscribe .views-field-ops a, .section-tags .view-pum-portal-blog-subscribe .views-field-ops a, .views-page .view-pum-portal-blog-subscribe .views-field-ops a {
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
@@ -21662,29 +21464,29 @@ em, i {
   margin-top: 1rem;
 }
 /* line 133, ../scss/vendor/foundation/components/_buttons.scss */
-.section-portal .view-pum-portal-blog-subscribe .views-field-ops a:hover, .section-portal .view-pum-portal-blog-subscribe .views-field-ops a:focus {
+.section-portal .view-pum-portal-blog-subscribe .views-field-ops a:hover, .section-portal .view-pum-portal-blog-subscribe .views-field-ops a:focus, .section-tags .view-pum-portal-blog-subscribe .views-field-ops a:hover, .section-tags .view-pum-portal-blog-subscribe .views-field-ops a:focus, .views-page .view-pum-portal-blog-subscribe .views-field-ops a:hover, .views-page .view-pum-portal-blog-subscribe .views-field-ops a:focus {
   background-color: #cb5e00;
 }
 /* line 144, ../scss/vendor/foundation/components/_buttons.scss */
-.section-portal .view-pum-portal-blog-subscribe .views-field-ops a:hover, .section-portal .view-pum-portal-blog-subscribe .views-field-ops a:focus {
+.section-portal .view-pum-portal-blog-subscribe .views-field-ops a:hover, .section-portal .view-pum-portal-blog-subscribe .views-field-ops a:focus, .section-tags .view-pum-portal-blog-subscribe .views-field-ops a:hover, .section-tags .view-pum-portal-blog-subscribe .views-field-ops a:focus, .views-page .view-pum-portal-blog-subscribe .views-field-ops a:hover, .views-page .view-pum-portal-blog-subscribe .views-field-ops a:focus {
   color: #fff;
 }
-/* line 273, ../scss/contenttypes/_portal.scss */
-.section-portal .field-name-field-document-file table {
+/* line 287, ../scss/contenttypes/_portal.scss */
+.section-portal .field-name-field-document-file table, .section-tags .field-name-field-document-file table, .views-page .field-name-field-document-file table {
   width: 100%;
 }
-/* line 275, ../scss/contenttypes/_portal.scss */
-.section-portal .field-name-field-document-file table span.file {
+/* line 289, ../scss/contenttypes/_portal.scss */
+.section-portal .field-name-field-document-file table span.file, .section-tags .field-name-field-document-file table span.file, .views-page .field-name-field-document-file table span.file {
   border: 1px solid #483493;
   padding: 5px;
   border-radius: 3px;
 }
-/* line 284, ../scss/contenttypes/_portal.scss */
-.section-portal .block-pum-portal-custom-pum-term-subscription label {
-  width: 80px;
+/* line 298, ../scss/contenttypes/_portal.scss */
+.section-portal .block-pum-portal-custom-pum-term-subscription label, .section-tags .block-pum-portal-custom-pum-term-subscription label, .views-page .block-pum-portal-custom-pum-term-subscription label {
+  width: 77px;
 }
-/* line 287, ../scss/contenttypes/_portal.scss */
-.section-portal .block-pum-portal-custom-pum-term-subscription input[type="checkbox"] {
+/* line 301, ../scss/contenttypes/_portal.scss */
+.section-portal .block-pum-portal-custom-pum-term-subscription input[type="checkbox"], .section-tags .block-pum-portal-custom-pum-term-subscription input[type="checkbox"], .views-page .block-pum-portal-custom-pum-term-subscription input[type="checkbox"] {
   margin: 0;
   vertical-align: top;
 }
@@ -22807,23 +22609,27 @@ aside.partner-with-us ul, aside.partner-with-us ul li a {
     min-height: 300px;
   }
   /* line 11, ../scss/modules/_partnerview.scss */
+  .view-id-partner.view-display-id-overview_per_group .group:last-child {
+    border: 0;
+  }
+  /* line 13, ../scss/modules/_partnerview.scss */
   .view-id-partner.view-display-id-overview_per_group .group h3 {
     display: block;
     color: #fff;
     background: #FE7500;
-    padding: 1rem;
+    padding: .85rem 3rem;
     width: 75%;
     margin: 0 auto 2rem auto;
     font-size: 1.25rem;
     text-align: center;
   }
-  /* line 22, ../scss/modules/_partnerview.scss */
+  /* line 24, ../scss/modules/_partnerview.scss */
   .view-id-partner.view-display-id-overview_per_group .group .views-row {
     margin-bottom: 2rem;
   }
 }
 @media only screen and (min-width: 741px) {
-  /* line 30, ../scss/modules/_partnerview.scss */
+  /* line 32, ../scss/modules/_partnerview.scss */
   .view-id-partner.view-display-id-overview_per_group .group {
     display: inline-block;
     width: 33%;

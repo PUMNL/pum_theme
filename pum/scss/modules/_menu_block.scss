@@ -1,6 +1,6 @@
 .sub-menu {
    ul { 
-       margin: 1rem 0;
+       margin: 1rem 0 3rem 0;
        padding: 0;
        border-top: 5px solid;
        border-bottom: 5px solid;
@@ -39,8 +39,18 @@
            }
            
            &.last a {border-bottom: 0;}
-       } // ./ li (first)
+       } // ./ li (first) 
    } // ./ ul (first)
+    .item-list {
+        ul {
+            li {
+                a {
+                    border-bottom: 1px solid;
+                    border-color: $pum-color-primary;
+                }
+            }
+        }
+    }
 } // ./sub-menu
 
 aside {
