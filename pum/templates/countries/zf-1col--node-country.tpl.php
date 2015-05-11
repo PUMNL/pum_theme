@@ -1,6 +1,6 @@
 <script type="text/javascript">
 jQuery(document).ready(function() {
-	jQuery(".group-representative ul").columnize({columns:2, lastNeverTallest: true});
+	jQuery(".group-representative ul").columnize({columns:2});
 });
 </script>
 <<?php print $layout_wrapper; print $layout_attributes; ?> class="zf-1col <?php print $classes;?>">

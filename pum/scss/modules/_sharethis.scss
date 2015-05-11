@@ -1,0 +1,23 @@
+.sharethis {
+	position: fixed;
+	z-index: 20;
+	left: 0;
+	top: 225px;
+	span {
+		display: block;
+		width: 35px;
+		height: 35px;
+		background: blue;
+		margin-bottom: 1px;
+		cursor: pointer;
+		&.st_facebook_custom {
+			background: transparent url(../images/icon-fb-sharethis.png) left top no-repeat;
+		}
+		&.st_twitter_custom {
+			background: transparent url(../images/icon-tw-sharethis.png) left top no-repeat;
+		}
+		&.st_linkedin_custom {
+			background: transparent url(../images/icon-li-sharethis.png) left top no-repeat;
+		}		
+	}
+}

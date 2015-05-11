@@ -55,7 +55,7 @@
 	                height: 50px;
 	                margin-right: 20px;
 	                background-color: $pum-color-pumnet;
-	                
+	                &.home {background-image: url(../images/icon-portal-home-50x50.png);}
 	                &.blogs {background-image: url(../images/icon-portal-blog-50x50.png);}
 	                &.forums {background-image: url(../images/icon-portal-forum-50x50.png);}
 	                &.news {background-image: url(../images/icon-portal-news-50x50.png);}

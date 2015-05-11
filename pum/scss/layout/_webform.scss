@@ -1,38 +1,38 @@
 .webform-client-form {
     .form-item {
-        display: inline-block;
-        margin: 0;
-        margin-top: 1.5rem;
-        margin-bottom: 1.5rem;
-        width: 728px;
-        &:last-child {
-            margin: 0;
+        margin-top: 0;
+        input[type="text"], input[type="email"] {
+            width: auto;
+            max-width: 100%;
         }
-        &.width-25 {
-            width: 177px;
-            margin-right: 15px;
+        .description {
+            margin: -6px 0 0 0;
+            font-size: 1rem;
+            color: #999;
         }
-        &.width-50 {
-            width: 365px;
-            margin-right: 15px;
+        input[type="radio"].error, input[type="checkbox"].error {
+            outline: 3px solid red;
         }
-        &.width-75 {
-            width: 495px;
-            margin-right: 15px;
+        select {
+            width: auto;
         }
-        &.width-100 {
-            width: 728px;
-            margin: 0;
-        }
-        input[type="text"] {
-            margin: 0;
-            padding: 0;
+        .newcustomer-local-rep.error {
+            display: block !important;
+            position: relative;
+            top: -40px;
+            left: -2px;
+            height: 42px;
+            width: 404px;
+            z-index: -1;
         }
     }
     button {
         display: block;
         float: none;
         clear: both;
+        .form-submit {
+            display: inline-block;
+        }
     }
     .webform-component-matrix {
         width: auto;
@@ -40,8 +40,57 @@
             width: auto;
         }
     }
+    .webform-progressbar {
+        padding-bottom: 20px;
+    }
+    .webform-component-date {
+        .webform-container-inline  {
+            div.form-item {
+                display: inline-block;
+                min-width: 100px;
+            }
+        }
+    }
+    button, .button {
+        @include button($button-tny, $primary-color,false,false,false);
+        display: inline-block;
+        &:hover {
+            background-color: #ccc;
+            color: #000;
+        }
+        &.radius {
+            border-radius: 0;
+        }
+    }
+    .webform-component-file {
+        button {float: left;}
+        .description {display: none;}
+    }
 }
 
-.chosen-choices {
-    padding: 10px !important;
+.chosen-container {
+    position: relative;
+    .chosen-choices {
+        padding: 10px !important;
+    }
+}
+
+.binair {
+    input[type="checkbox"] {
+        margin-bottom: 0;
+    }
+}
+.webform-progressbar {
+    .webform-progressbar-outer {
+        border-color: #999;
+    }
+    .webform-progressbar-page {
+        border-color: #999;
+    }
+    .webform-progressbar-page.completed, .webform-progressbar-page.current, .webform-progressbar-inner {
+        background-color: $pum-color-primary;
+    }
+    .webform-progressbar-page-label {
+        display: inline-block;
+    }
 }

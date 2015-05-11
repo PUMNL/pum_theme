@@ -45,16 +45,14 @@
       <!--/.l-topbar -->
     <?php endif; ?>
 
-    <?php if (!empty($page['header'])): ?>
-      <!--.l-header-region -->
-      <section class="l-header-region row">
-        <div class="large-12">
-          <div id="logo"><?php if ($linked_logo): print $linked_logo; endif; ?></div>
-          <?php print render($page['header']); ?>
-        </div>
-      </section>
-      <!--/.l-header-region -->
-    <?php endif; ?>
+    <!--.l-header-region -->
+    <section class="l-header-region row">
+      <div class="large-12">
+        <div id="logo"><?php if ($linked_logo): print $linked_logo; endif; ?></div>
+        <?php print render($page['header']); ?>
+      </div>
+    </section>
+    <!--/.l-header-region -->
 
   </header>
   <!--/.l-header -->
@@ -199,3 +197,9 @@
   <?php if ($messages && $zurb_foundation_messages_modal): print $messages; endif; ?>
 </div>
 <!--/.page -->
+
+<?php if (!empty($page['sharethis'])): ?>
+  <div class="sharethis">
+	  <?php print render($page['sharethis']); ?>
+  </div>
+<?php endif; ?>

@@ -23,6 +23,12 @@
   $business_text = field_get_items('node', $node, 'field_front_business_text')[0]['value'];
   $expert_text = field_get_items('node', $node, 'field_front_expert_text')[0]['value'];
   $partner_text = field_get_items('node', $node, 'field_front_partner_text')[0]['value'];
+  $business_title = field_get_items('node', $node, 'field_front_business_link')[0]['title'];
+  $business_link = field_get_items('node', $node, 'field_front_business_link')[0]['url'];
+  $expert_title = field_get_items('node', $node, 'field_front_expert_link')[0]['title'];
+  $expert_link = field_get_items('node', $node, 'field_front_expert_link')[0]['url'];
+  $partner_title = field_get_items('node', $node, 'field_front_partner_link')[0]['title'];
+  $partner_link = field_get_items('node', $node, 'field_front_partner_link')[0]['url'];
 
   $title_facts = field_get_items('node', $node, 'field_front_facts_title')[0]['value'];
   $number_projects = field_get_items('node', $node, 'field_front_facts_no_projects')[0]['value'];
@@ -49,6 +55,7 @@
   $text_align_business = field_get_items('node', $node, 'field_text_align_business')[0]['value'];
   $text_align_expert = field_get_items('node', $node, 'field_text_align_expert')[0]['value'];
   $text_align_partner = field_get_items('node', $node, 'field_text_align_partner')[0]['value'];
+ 
   $text_business = field_get_items('node', $node, 'field_text_business')[0]['value'];
   $text_expert = field_get_items('node', $node, 'field_text_expert')[0]['value'];
   $text_partner = field_get_items('node', $node, 'field_text_partner')[0]['value'];
@@ -198,16 +205,19 @@
         <div class="large-4 medium-4 small-12 columns block-content">
           <div class="inner-content customer">
             <?php echo $business_text; ?>
+            <a href="<?php echo $business_link; ?>"><?php echo $business_title; ?></a>
           </div>
         </div>
         <div class="large-4 medium-4 small-12 columns block-content">
           <div class="inner-content expert">
             <?php echo $expert_text; ?>
+            <a href="<?php echo $expert_link; ?>"><?php echo $expert_title; ?></a>
           </div>
         </div>
         <div class="large-4 medium-4 small-12 columns block-content">
           <div class="inner-content partner">
             <?php echo $partner_text; ?>
+            <a href="<?php echo $partner_link; ?>"><?php echo $partner_title; ?></a>
           </div>
         </div>
       </div>

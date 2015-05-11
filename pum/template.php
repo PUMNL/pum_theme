@@ -20,10 +20,15 @@ function pum_preprocess_page(&$vars, $hook) {
 
   drupal_add_library('system', 'jquery.cookie');
 
-
   if (isset($vars['node'])) {
     // If the node type is "blog_madness" the template suggestion will be "page--blog-madness.tpl.php".
     $vars['theme_hook_suggestions'][] = 'page__'. $vars['node']->type;
+  }
+}
+
+function pum_form_alter(&$form, &$form_state, $form_id) {
+  if (!empty($form['actions']) && !empty($form['actions']['submit'])) {
+    $form['actions']['submit']['#attributes'] = array('class' => array('button'));
   }
 }
 

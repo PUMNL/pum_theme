@@ -201,3 +201,9 @@
   <?php if ($messages && $zurb_foundation_messages_modal): print $messages; endif; ?>
 </div>
 <!--/.page -->
+
+<?php if (!empty($page['sharethis'])): ?>
+  <div class="sharethis">
+	  <?php print render($page['sharethis']); ?>
+  </div>
+<?php endif; ?>

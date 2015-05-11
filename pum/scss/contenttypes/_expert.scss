@@ -10,12 +10,14 @@
         
         .views-row-1 strong {margin-top: 0;}
         
-        .views-label {
-            width: 300px; 
+        span.views-label {
+            width: 325px; 
             display: inline-block;
+            font-family: $body-font-family-bold;
         }
 
         h2.views-label {
+            width: auto;
             margin-bottom: .5rem;
             margin-top: 2rem;
         }

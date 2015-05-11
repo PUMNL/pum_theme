@@ -3,25 +3,21 @@
 }
 
 .section-portal, .section-tags, .views-page, .page-user {
-    .inner {
-        width: 100%;
-    }
     .breadcrumbs {
         display: block;
     }
     &.home-portal .breadcrumbs {
         display: none;
     }
-
-    .l-main .button, .l-main button {
-        @include button($button-tny);
-        background-color: $pum-color-pumnet;
-        border-color: $pum-color-pumnet;
-    }
     .webform-progressbar {
         .webform-progressbar-page.completed, .webform-progressbar-page.current, .webform-progressbar-inner {
             background-color: $pum-color-pumnet;
         }
+    }
+    button, .button {
+        background-color: $pum-color-pumnet;
+        border-color: $pum-color-pumnet;
+        color: #fff;
     }
     .main-menu {
         display: none !important;
@@ -73,20 +69,27 @@
     }
 
     .main .view-header a, .main .view-empty a, .main .add-button a {
-        @include button($button-tny);
         font-family: $rounded-font-300;
+        color: #fff;
         background: $pum-color-primary;
+        border-radius: 3px;
+        padding: 3px;	
+        display: inline-block;
         margin-bottom: 1rem;	
     }
 	
     .more-link a {
-        @include button($button-tny);
+        font-family: $rounded-font-300;
+        color: #fff;
         background: $pum-color-pumnet;
+        border-radius: 3px;
+        padding: 3px;
     }	
 
     .group-tags {
         padding: 1rem;
         border: 1px solid #ddd;
+        border-radius: 3px;
         margin-top: 10rem;
     }
 
@@ -107,33 +110,37 @@
             background-position: 95% center;            
         }
         td {
+            font-family: $rounded-font-300;
+            display: inline-block; 
             overflow: hidden;
-            font-size: .9rem;
-            height: 54px;
         }
         .view-pum-portal-latest-forum-topics {
             .views-field-display-name {
                 width: 30%;
+                font-family: $rounded-font-300;
             }
             .views-field-title { //inclusief date
                 width: 65%;
                 color: #999;
                 font-size: .8rem;
                 a {
-                    font-size: .9rem;
+                    font-size: 1.1rem;
+                    font-family: $rounded-font-300;
                 }
             }
         }
         .view-id-latest_portal_blogs {
             .views-field-display-name {
                 width: 30%;
+                font-family: $rounded-font-300;
             }
             .views-field-title { //inclusief date
                 width: 65%;
                 color: #999;
                 font-size: .8rem;
                 a {
-                    font-size: .9rem;
+                    font-size: 1.1rem;
+                    font-family: $rounded-font-300;
                 }
             }            
         }
@@ -143,21 +150,22 @@
                 color: #999;
                 font-size: .8rem;
                 a {
-                    font-size: .9rem;
+                    font-size: 1.1rem;
                 }
             }
         }
         .view-id-latest_portal_documents {
             .views-field-field-document-file {
-                width: 57%;
+                width: 65%;
             }
             .views-field-title {
-                width: 43%;
+                width: 30%;
             }
         }
     } // two-col-panel
 
     .all-topics {
+        td, td p {font-family: $rounded-font-300;}
         &.view-id-latest_portal_news {
             .views-field-created {
                 width: 15%;
@@ -165,16 +173,14 @@
                 font-size: .8rem;
             }
             .views-field-title {
-                width: 70%;
+                width: 35%;
             }
             .views-field-comment-count {
                 width: 5%;
             }
-            /* excluded from display
             .views-field-term-node-tid {
                 width: 35%;
             }
-            */
         }
         &.view-id-pum_portal_latest_forum_topics {
             .views-field-php {
@@ -184,23 +190,21 @@
                 width: 15%;
             }
             .views-field-title {
-                width: 65%;
+                width: 30%;
             }
             .views-field-comment-count {
                 width: 5%;
-            } 
-            /* excluded from display
+            }
             .views-field-term-node-tid {
                 width: 35%;
-            }    
-            */        
+            }            
         }
         &.view-id-latest_portal_blogs {
             .views-field-php {
-                width: 20%;
+                width: 10%;
             }
             .views-field-title {
-                width: 60%;
+                width: 40%;
                 color: #999;
                 font-size: .8rem;
                 a {
@@ -208,27 +212,23 @@
                 }
             }
             .views-field-field-blog-image {
-                width: 20%;
+                width: 15%;
             }
-            /* excluded from display
             .views-field-term-node-tid {
                 width: 35%;
-            } 
-            */             
+            }              
         }
         &.view-id-latest_portal_documents  {
             .views-field-field-document-file {
-                width: 55%;
+                width: 30%;
                 overflow: hidden;
             }
             .views-field-title {
-                width: 45%;
+                width: 35%;
             }
-            /* excluded from display
             .views-field-term-node-tid {
                 width: 35%;
-            } 
-            */            
+            }             
         }
         
         .views-field-term-node-tid {
@@ -244,6 +244,7 @@
                     padding: 3px;
                     border: 1px solid $pum-color-expert;
                     display: inline-block;
+                    border-radius: 3px;
                     background: #fff;
                 }
             }
@@ -257,6 +258,7 @@
             button {
                 margin-top: 1.3rem;
                 padding: .75rem 1rem;
+                border-radius: $global-radius;
                 background-color: $pum-color-pumnet;
                 border-color: $pum-color-pumnet;
             }
@@ -325,6 +327,7 @@
                     padding: 3px;
                     border: 1px solid $pum-color-expert;
                     display: inline-block;
+                    border-radius: 3px;
                     background: #fff;
                 }
             }
@@ -390,6 +393,7 @@
             span.file {
                 border: 1px solid $pum-color-pumnet;
                 padding: 5px;
+                border-radius: 3px;
             }
         }
     }
@@ -455,10 +459,8 @@
 
 form ul.token-input-list {
     height: 38px !important;
-    input {
-        outline: none !important;
-        box-shadow: none !important;
-        background: #fff !important;
+    element {
+        outline: 0;
     }
 }
 
@@ -470,35 +472,6 @@ code.help div {
     font-weight: normal;
     min-width: 250px;
     box-shadow: 0px 0px 10px 10px rgba(0,0,0,.25);
-    padding: 10px 25px 10px 10px;
+    padding: 10px;
     z-index: 9;
-    span.close {
-        text-indent: -9999px;
-        display: block;
-        width: 20px;
-        height: 20px;
-        background: transparent url(../images/icon-close.png) left top no-repeat;
-        right: 5px; 
-        top: 5px;
-    }
-}
-
-.page-user {
-    #crm-container {
-        .crm-section {
-            border-bottom: 1px solid #ededed;
-            .label {
-                background: transparent;
-                font-size: .9rem;
-                font-family: $body-font-family-bold;
-                text-align: left;
-                color: #000;
-                width: 20%;
-            }
-        }
-    }
-    #user-page-contact {
-        display: block;
-        margin-bottom: .75rem;
-    }
 }
