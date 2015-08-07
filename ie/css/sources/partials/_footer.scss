@@ -1,0 +1,17 @@
+  .l-footer {
+      font-family: $font-sans;
+      border-top: 1px solid #000;
+      padding-top: 25px;
+
+      a {color: #000;}
+
+      p {
+         font-family: $font-sans;
+         strong {font-weight: bold;}
+      }
+
+      .large-3 {
+        width: 25%;
+        float: left;
+      }
+  }

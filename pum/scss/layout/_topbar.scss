@@ -4,7 +4,36 @@
 @media #{$small-up} {
     .top-bar, .top-bar.expanded, .top-bar.expanded .title-area, .top-bar .title-area {
         background: $pum-color-primary;
-    }    
+        a {
+            color: #fff;
+        }
+        .menu-icon a {
+            background: transparent url(../images/hamburger.png) center center no-repeat;
+        }
+        .button {
+            background: #fff;
+            color: $pum-color-primary;
+        }
+        .button.purple {
+            background: $pum-color-pumnet;
+            color: #fff;
+        }
+        .main-menu-mobile, .top-menu-left {
+            ul  {
+                margin: 0;
+                padding: 0;
+                li {
+                    padding: 0;
+                    margin: 0;
+                    a {
+                        border-bottom: 1px solid #fff;
+                        padding: 5px;
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media #{$medium-up} {
@@ -27,11 +56,11 @@
             float: left;
             position: relative;
             top: 6px;
-        
+
             a {
                 margin-right: 25px;
                 padding-bottom: 12px;
-                
+
                 &:hover, &.active, &.active-trail {border-bottom: 3px solid $pum-color-primary;}
             }
         } // ./ top-left-menu
@@ -69,8 +98,8 @@
             float: right;
             vertical-align: top;
             width: 140px;
-            position: relative; 
-            padding-top: 5px;  
+            position: relative;
+            padding-top: 5px;
             right: 85px;
             position: relative;
             input[type="text"] {
@@ -84,7 +113,7 @@
                 width: 100%;
                 padding: 0 !important;
             }
-            
+
             button {
                 position: absolute;
                 right: 0;
@@ -101,13 +130,13 @@
             position: absolute;
             padding-top: 5px;
             right: 0;
-            
+
             .button {
                 padding: 0;
                 height: 25px;
                 padding: 0px 5px;
                 background-color: #483493;
-                
+
                 a {
                     color: #fff;
                     font-size: .9rem;
@@ -118,8 +147,8 @@
             &.user-block {
                 position: absolute;
                 right: 0;
-            }  
-            
+            }
+
             &.name-block {
                 float: none;
                 top: 50px;
@@ -130,20 +159,20 @@
             &.logout {
                 position: absolute;
                 right: 0;
-            } 
-            
-        } // ./ pumnet-block 
+            }
+
+        } // ./ pumnet-block
     }
 }
 
 @media #{$large-up} {
     .l-topbar {
-        
+
     } // ./ l-topbar
 } // ./ large-up
 
 @media #{$xlarge-up} {
     .l-topbar {
-        
+
     } // ./ l-topbar
 } // ./ xlarge-up

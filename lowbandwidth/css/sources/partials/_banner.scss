@@ -1,0 +1,31 @@
+.l-banner {
+    @include bg-gradient(#f0f8ff, #bee1ff);
+    @include clearfix();
+    display: block;
+    width: 100%;
+    margin: 0 0 20px 0;
+    padding: 0;
+    .wrapper {
+        min-height: 200px;
+        .view-display-id-country_list {
+            @include clearfix();
+            .views-row {
+                float: left;
+                padding: 5px 5px 5px 0;
+                a {
+                    @include rem(16px);
+                    font-family: $font-sans;
+                }
+            }
+        }
+        .view-display-id-sector_list {
+            h3 {
+                @include rem(12px);
+                font-family: $font-sans;
+                font-weight: bold;
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+}

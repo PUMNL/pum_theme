@@ -14,102 +14,110 @@
             margin: 1rem 0 1.5rem 0;
             font-size: 1.2rem;
         }
-        
+
         .field-name-field-story-slogan {
             font-size: 2rem;
             font-family: $rounded-font-100;
             margin-bottom: 1.5rem;
             color: $pum-color-primary;
         }
-        
+
     } // ./node-type-story-regular
-    
-    .node-type-story-expert {  
+
+    .node-type-story-expert {
         .field-name-field-story-user-reference p {
             text-transform: uppercase;
             font-family: $rounded-font-700;
             color: $pum-color-expert;
         }
-         
+
         .field-name-field-story-slogan {
             font-size: 3rem;
             font-family: $rounded-font-100;
             margin-bottom: 1.5rem;
             color: $pum-color-expert;
         }
-        
+
         .field-name-picture-from-user-ds {
             float: left;
             margin-right: 1rem;
             min-height: 175px;
-            
+
             img {border-radius: 999px;}
         }
-        
+
         .field-name-field-intro {
-            min-height: 175px;
             p {font-family: $body-font-family-bold;}
-        }        
-        
-    } // ./node-type-story-expert 
-    
-    .node-type-story-partner {  
+        }
+
+        .field-name-body {
+            clear: both;
+        }
+
+    } // ./node-type-story-expert
+
+    .node-type-story-partner {
         .field-name-field-story-user-reference p {
             text-transform: uppercase;
             font-family: $rounded-font-700;
             color: $pum-color-partner;
         }
-         
+
         .field-name-field-story-slogan {
             font-size: 3rem;
             font-family: $rounded-font-100;
             margin-bottom: 1.5rem;
             color: $pum-color-partner;
         }
-        
+
         .field-name-picture-from-user-ds {
             float: left;
             margin-right: 1rem;
             min-height: 75px;
-            
+
             img {border-radius: 999px;}
         }
-        
+
         .field-name-field-intro {
-            min-height: 175px;
             p {font-family: $body-font-family-bold;}
-        }        
-        
-    } // ./node-type-story-partner        
-    
-    .node-type-story-customer {  
+        }
+
+        .field-name-body {
+            clear: both;
+        }
+
+    } // ./node-type-story-partner
+
+    .node-type-story-customer {
         .field-name-field-story-user-reference p {
             text-transform: uppercase;
             font-family: $rounded-font-700;
             color: $pum-color-customer;
         }
-         
+
         .field-name-field-story-slogan {
             font-size: 3rem;
             font-family: $rounded-font-100;
             margin-bottom: 1.5rem;
             color: $pum-color-customer;
         }
-        
+
         .field-name-picture-from-user-ds {
             float: left;
             margin-right: 1rem;
             min-height: 175px;
-            
+
             img {border-radius: 999px;}
         }
-        
+
         .field-name-field-intro {
-            min-height: 175px;
             p {font-family: $body-font-family-bold;}
-        }      
-        
-    } // ./node-type-story-customer     
+        }
+
+        .field-name-body {
+            clear: both;
+        }
+    } // ./node-type-story-customer
 
 } // ./ medium-up
 

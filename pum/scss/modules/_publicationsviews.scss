@@ -1,0 +1,118 @@
+@media #{$small-up} {
+	.view-publications {
+	    margin-top: 20px;
+
+	    h3 {
+	       font-size: 1rem;
+	       font-family: $rounded-font-700;
+	       border-bottom: 2px solid $pum-color-dark;
+	       padding-bottom: 10px;
+	    }
+
+	    .views-row {
+	        display: block;
+	        vertical-align: top;
+	        margin-right: 0;
+	        margin-bottom: 4px;
+	        cursor: pointer;
+
+	        .node {
+	            height: 280px;
+	            width: 100%;
+	            margin: 0;
+                background: $pum-color-primary;
+
+	            img {display: none;}
+
+	            p {
+	                font-family: $rounded-font-300;
+	                color: #fff;
+	                margin: 0;
+	                padding: 10px;
+	            }
+
+	        } // ./ node
+	    } // ./ views-row
+
+	    .views-exposed-form {
+	        font-family: $rounded-font-300;
+
+	        .views-exposed-widget {
+	           padding: 0;
+	           width: 100%;
+	           display: block;
+	        }
+
+	        .bef-checkboxes {margin-bottom: 1rem;}
+
+	        label {
+	           max-width: 240px;
+	           width: auto;
+	           letter-spacing: -1px;
+	        }
+
+	        input[type='checkbox'] {margin-bottom: 0;}
+
+	        .exposed-filter-label {
+	            font-family: $rounded-font-700;
+	            border-bottom: 1px solid $pum-color-dark;
+	            margin-bottom: 5px;
+	            background: transparent url(../images/view-exposed-label-active.png) 95% center no-repeat;
+	            width: 100%;
+	            max-width: 100%;
+	        }
+	    }
+
+	} // ./ view-stories
+
+} // ./ small-up
+
+@media #{$medium-up} {
+	.view-publications {
+	        .views-row {
+	            margin-right: 10px;
+	            margin-bottom: 10px;
+	            display: inline-block;
+
+	            .node {
+	               width: 220px;
+
+	               img {display: inherit;}
+	            }
+
+	        }
+    }
+
+    .node-type-frontpage {
+        .view-publications {
+            .views-row {
+                .node {
+                    width: 300px;
+                }
+            }
+        }
+    } // ./ front
+
+    .views-exposed-form {
+        width: 224px;
+        position: relative;
+        left: 3px;
+        float: right;
+
+        .exposed-filter-label {max-width: 224px; width: 224px;}
+    }
+} // ./ medium-up
+
+@media #{$xlarge-up} {
+    .view-publications {
+        .views-row {margin-right: 80px;}
+
+	    .views-exposed-form {
+	        width: 285px;
+
+	        .exposed-filter-label {max-width: 285px; width: 285px;}
+	    }
+    }
+
+}
+

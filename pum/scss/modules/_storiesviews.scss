@@ -1,61 +1,63 @@
 @media #{$small-up} {
 	.view-stories {
 	    margin-top: 20px;
-	    
+
 	    h3 {
 	       font-size: 1rem;
 	       font-family: $rounded-font-700;
 	       border-bottom: 2px solid $pum-color-dark;
 	       padding-bottom: 10px;
 	    }
-	    
+
 	    .views-row {
-	        display: block; 
+	        display: block;
 	        vertical-align: top;
 	        margin-right: 0;
 	        margin-bottom: 4px;
 	        cursor: pointer;
-	        
+
 	        .node {
 	            height: 280px;
 	            width: 100%;
 	            margin: 0;
-	            
+
 	            img {display: none;}
-	            
+
 	            p {
 	                font-family: $rounded-font-300;
 	                color: #fff;
 	                margin: 0;
 	                padding: 10px;
 	            }
-	        
+
 	            &.node-story-regular {
 	                background: $pum-color-primary;
-	                
+
 	                .field-name-post-date {
 	                    padding: 10px;
 	                    font-family: $rounded-font-100;
 	                    color: #fff;
 	                    text-align: left;
 	                }
-	                
-	                .field-name-field-story-slogan p {
-	                    font-family: $rounded-font-700;
+
+	                .field-name-title {
+	                    font-family: $rounded-font-100;
+	                    color: #fff;
 	                    padding: 0 10px;
 	                    margin: 0;
-	                    font-size: 1.1rem;
 	                    text-align: left;
-	                } 
+	                    line-height: 1;
+	                    font-size: 1.8rem;
+	                }
 	            }
-	            
+
 	            &.node-story-customer {
 	                background: $pum-color-customer;
 	                color: #fff;
 	                overflow: hidden;
 	                position: relative;
 	                text-align: left;
-	                
+
 	                img {
 	                    position: absolute;
 	                    top: 0px;
@@ -63,36 +65,36 @@
 	                    opacity: .25;
 	                    min-height: 270px;
 	                }
-	                
+
 	                .field-name-field-intro, .field-name-field-story-user-reference, .field-name-post-date {
 	                    position: relative;
 	                    z-index: 1;
 	                }
-	                
+
 	                .field-name-post-date {
 	                   font-family: $rounded-font-100;
 	                   padding: 10px;
 	                   font-size: 1rem;
 	                }
-	                
+
 	                .field-name-field-story-user-reference {
 	                    font-family: $rounded-font-700;
 	                    font-size: 1.1rem;
 	                    padding: 0 0 0 10px;
 	                }
-	                
+
 	                .field-name-field-story-slogan p {
 	                    font-family: $rounded-font-100;
 	                    font-size: 1.4rem;
 	                    padding: 10px;
 	                    position: relative;
 	                    z-index: 10;
-	                } 
+	                }
 	            }
-	            
+
 	            &.node-story-expert {
 	                background: $pum-color-expert;
-	                
+
 	                .field-name-field-story-user-reference {
 	                    font-family: $rounded-font-700;
 	                    text-align: right;
@@ -100,7 +102,7 @@
 	                    color: #fff;
 	                    font-size: 1.1rem;
 	                }
-	                
+
 	                .field-name-field-story-slogan p {
 	                    text-align: right;
 	                    padding: 0 10px 10px 10px;
@@ -109,20 +111,20 @@
 	                    color: #fff;
 	                    position: relative;
 	                    z-index: 10;
-	                }   
-	                
+	                }
+
 	                .field-name-post-date {
 	                    font-family: $rounded-font-100;
 	                    font-size: 1rem;
 	                    padding: 10px 10px 0 0;
 	                    text-align: right;
 	                    color: #fff;
-	                }               
-	            } 
-	            
+	                }
+	            }
+
                 &.node-story-partner {
                     background: $pum-color-partner;
-                    
+
                     .field-name-field-story-user-reference {
                         font-family: $rounded-font-700;
                         text-align: right;
@@ -130,7 +132,7 @@
                         color: #fff;
                         font-size: 1.1rem;
                     }
-                    
+
                     .field-name-field-story-slogan p {
                         text-align: right;
                         padding: 0 10px 10px 10px;
@@ -139,38 +141,38 @@
                         color: #fff;
                         position: relative;
                         z-index: 10;
-                    }   
-                    
+                    }
+
                     .field-name-post-date {
                         font-family: $rounded-font-100;
                         font-size: 1rem;
                         padding: 10px 10px 0 0;
                         text-align: right;
                         color: #fff;
-                    }               
-                } 	            
+                    }
+                }
 	        } // ./ node
 	    } // ./ views-row
-	    
+
 	    .views-exposed-form {
 	        font-family: $rounded-font-300;
-	        
+
 	        .views-exposed-widget {
 	           padding: 0;
 	           width: 100%;
 	           display: block;
 	        }
-	        
+
 	        .bef-checkboxes {margin-bottom: 1rem;}
-	        
+
 	        label {
-	           max-width: 240px; 
+	           max-width: 240px;
 	           width: auto;
 	           letter-spacing: -1px;
 	        }
-	        
+
 	        input[type='checkbox'] {margin-bottom: 0;}
-	        
+
 	        .exposed-filter-label {
 	            font-family: $rounded-font-700;
 	            border-bottom: 1px solid $pum-color-dark;
@@ -178,91 +180,85 @@
 	            background: transparent url(../images/view-exposed-label-inactive.png) 95% center no-repeat;
 	            width: 100%;
 	            max-width: 100%;
-	            
+
 	            &.active {background-image: url(../images/view-exposed-label-active.png);}
 	        }
 	    }
-	    
+
 	    &.view-display-id-story_per_user_button {
 	        margin: 0;
-	        
+
 	        .views-row {
 	            margin: 0;
 	            display: block;
 	        }
 	    } // ./ view-display-id-story_per_user_button
-	    
+
 	    &.view-display-id-story_per_country_button {
 	        @extend .view-display-id-story_per_user_button;
 	    }
-	    
+
 	    &.view-display-id-story_per_sector_button {
 	        @extend .view-display-id-story_per_user_button;
 	    }
-	        
+
 	} // ./ view-stories
-	
+
 	.node-type-frontpage {
 	   .view-stories {
 	       .views-row {
 	           .node {
 	               height: 315px;
-	               
-	                &.node-story-regular {
-	                    .field-name-field-story-slogan p {font-size: 1.25rem;} 
-	                }
-	                
 	                &.node-story-customer {
-	                    
 	                    .field-name-post-date {font-size: 1.15rem;}
-	                    
+
 	                    .field-name-field-story-user-reference {font-size: 1.25rem;}
-	                    
-	                    .field-name-field-story-slogan p {font-size: 1.8rem;} 
+
+	                    .field-name-field-story-slogan p {font-size: 1.8rem;}
 	                }
-	                
+
 	                &.node-story-expert {
 	                    background: $pum-color-expert;
-	                    
+
 	                    .field-name-field-story-user-reference {font-size: 1.25rem;}
-	                    
-	                    .field-name-field-story-slogan p {font-size: 1.8rem;}   
-	                    
-	                    .field-name-post-date {font-size: 1.15rem;}               
-	                }	
-                    
+
+	                    .field-name-field-story-slogan p {font-size: 1.8rem;}
+
+	                    .field-name-post-date {font-size: 1.15rem;}
+	                }
+
                     &.node-story-partner {
                         background: $pum-color-partner;
-                        
+
                         .field-name-field-story-user-reference {font-size: 1.25rem;}
-                        
-                        .field-name-field-story-slogan p {font-size: 1.8rem;}   
-                        
-                        .field-name-post-date {font-size: 1.15rem;}               
-                    }   	                               
+
+                        .field-name-field-story-slogan p {font-size: 1.8rem;}
+
+                        .field-name-post-date {font-size: 1.15rem;}
+                    }
 	           }
 	       }
 	   }
 	} // ./ front
-	
+
 } // ./ small-up
 
 @media #{$medium-up} {
-	.view-stories {    
+	.view-stories {
 	        .views-row {
 	            margin-right: 10px;
 	            margin-bottom: 10px;
 	            display: inline-block;
-	            
+
 	            .node {
 	               width: 220px;
-	               
+
 	               img {display: inherit;}
 	            }
-	            
+
 	        }
     }
-    
+
     .node-type-frontpage {
         .view-stories {
             .views-row {
@@ -272,27 +268,27 @@
             }
         }
     } // ./ front
-   
+
     .views-exposed-form {
         width: 224px;
         position: relative;
         left: 3px;
         float: right;
-        
+
         .exposed-filter-label {max-width: 224px; width: 224px;}
     }
 } // ./ medium-up
 
-@media #{$xlarge-up} {  
+@media #{$xlarge-up} {
     .view-stories {
         .views-row {margin-right: 80px;}
-    
+
 	    .views-exposed-form {
 	        width: 285px;
-	        
+
 	        .exposed-filter-label {max-width: 285px; width: 285px;}
-	    }    
-    } 
+	    }
+    }
 
 }
 

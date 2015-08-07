@@ -1,0 +1,23 @@
+$font-base-size : 16px;
+$font-base-lineheight : 24px;
+
+$font-regular: Times, "Times New Roman", "Helvetica Neue", arial, sans-serif;
+$font-sans: "Helvetica Neue", arial, sans-serif;
+
+//  basic colors
+$color-primary: #FE7500;
+$color-secondary: #443A94;
+$color-three: #ededed;
+$color-base: #000000;
+
+$color-expert: #443A94;
+$color-customer: #887D14;
+$color-partner: #009DDF;
+$color-pumnet: #483493;
+$color-download: #d63d25;
+
+//  breakpoints
+$breakpoint-mobile: (320/16)*1em;
+$breakpoint-tablet: (768/16)*1em;
+$breakpoint-desktop-small: (1024/16)*1em;
+$breakpoint-desktop-large: (1440/16)*1em;

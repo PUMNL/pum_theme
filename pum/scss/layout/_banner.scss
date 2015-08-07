@@ -1,28 +1,29 @@
 @media #{$small-up} {
-    .l-banner {       
+    .l-banner {
         .inner-content {
             height: 200px;
             overflow: hidden;
             margin-bottom: 45px;
-        }  
+        }
     } // ./ l-banner
 } // ./ small-up
 
 @media #{$medium-up} {
     .l-banner {
         @include bg-gradient();
-        border-top: 15px solid; 
-        
-        .inner-content {height: 295px;}  
+        border-top: 15px solid;
+        margin-bottom: 20px;
+
+        .inner-content {height: 295px;}
     } // ./ l-banner
-    
-    .front .l-banner {border-top: 0;}
-    
+
+    .front .l-banner {border-top: 0; margin-bottom: 0;}
+
 } // ./ medium-up
 
 @media #{$large-up} {
 
-    
+
 
 } // ./ large-up
 

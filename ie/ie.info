@@ -1,0 +1,28 @@
+name = IE theme
+description = Theme created from a HTML template
+package = Core
+screenshot = screenshot.png
+version = 7.x-1.0-alpha1
+core = 7.x
+
+; custom stylesheets
+stylesheets[all][] = css/style.css
+
+; custom js files
+
+; regions
+regions[topbar_small]        = Topbar Small
+regions[topbar]              = Topbar
+regions[header]              = Header
+regions[banner]              = Banner
+regions[help]                = Help
+regions[highlighted]         = Highlighted
+regions[featured]            = Featured
+regions[news_front]          = News Region Front
+regions[content]             = Content
+regions[undermain]           = UnderMain
+regions[maps_front]          = Maps Region Front
+regions[sidebar_first]       = Left Sidebar
+regions[sidebar_second]      = Right Sidebar
+regions[footer]              = Footer
+regions[sharethis]           = Sharethis

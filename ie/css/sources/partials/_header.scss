@@ -1,0 +1,175 @@
+.l-header {
+    border-bottom: 15px solid $color-primary;
+    .l-topbar {
+        display: block;
+        .wrapper {
+            @include clearfix();
+            border-bottom: 1px solid #000;
+            position: relative;
+            ul {
+                @include clearfix();
+                margin: 0;
+                padding: 0;
+                li {
+                    float: left;
+                    margin: 0 15px 0 0;
+                    padding: 0;
+                    list-style: none;
+                    a {
+                        @include rem(14px);
+                        font-family: $font-sans;
+                        color: #000;
+                        text-decoration: none;
+                    }
+                }
+            }
+            .ie-notifier {
+                @include rem(20px);
+                display: block;
+                height: 150px;
+                background: $color-pumnet;
+                color: #fff;
+                position: absolute;
+                text-align: center;
+            }
+            .top-left-menu {
+                vertical-align: top;
+                float: left;
+                position: relative;
+                top: 156px;
+                a {
+                    margin-right: 25px;
+                    &:hover, &.active, &.active-trail {border-bottom: 3px solid $color-primary;}
+                }
+            }
+            .low-bandwidth {
+                float: right;
+                right: 85px;
+                vertical-align: top;
+                padding-top: 156px;
+                position: relative;
+            }
+            .language-dropdown {
+                float: right;
+                vertical-align: top;
+                width: 50px;
+                margin-left: 15px;
+                padding-top: 159px;
+                right: 85px;
+                position: relative;
+            }
+            .block-search {
+                float: right;
+                vertical-align: top;
+                width: 140px;
+                position: relative;
+                padding-top: 155px;
+                right: 85px;
+                position: relative;
+                input[type="text"] {
+                    height: 25px;
+                    background: #e5e5e5;
+                    box-shadow: none;
+                    outline: 0;
+                    border: 0;
+                    display: inline-block;
+                    vertical-align: top;
+                    width: 100%;
+                    padding: 0 !important;
+                }
+                input[type="submit"] {
+                    display: none;
+                }
+            }
+            .pumnet-block {
+                position: absolute;
+                padding-top: 155px;
+                right: 0;
+                .button {
+                    padding: 0;
+                    height: 25px;
+                    padding: 0px 5px;
+                    background-color: #483493;
+                    a {
+                        color: #fff;
+                        font-size: .9rem;
+                        font-family: $font-sans;
+                    }
+                }
+                &.user-block {
+                    position: absolute;
+                    right: 0;
+                }
+                &.name-block {
+                    float: none;
+                    top: 35px;
+                    right: 0;
+                    position: absolute;
+                }
+                &.logout {
+                    position: absolute;
+                    right: 0;
+                }
+            }
+        }
+    }
+    #logo {
+        position: relative;
+        top: 5px;
+    }
+    .main-menu {
+        float: right;
+        position: relative;
+        ul {
+            @include clearfix();
+            margin: 0;
+            padding: 0;
+            position: relative;
+            top: -24px;
+            li {
+                float: left;
+                margin: 0 15px 0 0;
+                padding: 0;
+                list-style: none;
+                a {
+                    font-family: $font-sans;
+                    color: #000;
+                    font-size: 18px;
+                    margin-right: 20px;
+                    text-decoration: none;
+                    &:hover, &.active, &.active-trail {
+                        border-bottom: 15px solid #000;
+                    }
+                }
+                li.last a {margin-right: 0;}
+            }
+        }
+    }
+    .portal-menu {
+        float: right;
+        position: relative;
+        top: -73px;
+        ul.menu {
+            li {
+                float: left;
+                list-style: none;
+            }
+            a {
+                display: block;
+                text-indent: -9999px;
+                width: 50px;
+                height: 50px;
+                margin-right: 20px;
+                background-color: $color-pumnet;
+                &.home {background-image: url(../images/icon-portal-home-50x50.png);}
+                &.blogs {background-image: url(../images/icon-portal-blog-50x50.png);}
+                &.forums {background-image: url(../images/icon-portal-forum-50x50.png);}
+                &.news {background-image: url(../images/icon-portal-news-50x50.png);}
+                &.libraries {background-image: url(../images/icon-portal-library-50x50.png);}
+                &.communities {background-image: url(../images/icon-portal-community-50x50.png);}
+                &.directory {background-image: url(../images/icon-portal-directory-50x50.png);}
+            } // a
+        }
+        li.last a {margin-right: 0;}
+    }
+}

@@ -1,0 +1,1928 @@
+/* line 5, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 1, sources/partials/_base.scss */
+html {
+  box-sizing: border-box;
+  font-family: Times, "Times New Roman", "Helvetica Neue", arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* line 12, sources/partials/_base.scss */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* line 16, sources/partials/_base.scss */
+::selection {
+  color: white;
+  background: #443A94;
+  /* WebKit/Blink Browsers */
+}
+
+/* line 20, sources/partials/_base.scss */
+::-moz-selection {
+  color: white;
+  background: #443A94;
+  /* Gecko Browsers */
+}
+
+/* line 25, sources/partials/_base.scss */
+input[type="text"], input[type="tel"], input[type="email"], input[type="password"], textarea {
+  font-size: 12px;
+  font-size: 0.66667rem;
+  line-height: 30px;
+  border: medium none;
+  background: #f9f9f9;
+  border: 1px solid #efefef;
+  padding: 0 14px;
+  height: 30px;
+  width: 100%;
+  min-width: 40px;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+}
+
+/* line 39, sources/partials/_base.scss */
+textarea {
+  font-family: Times, "Times New Roman", "Helvetica Neue", arial, sans-serif;
+  padding: 14px;
+  min-height: 145px;
+  resize: vertical;
+}
+
+/* line 46, sources/partials/_base.scss */
+input[type="submit"] {
+  font-family: Times, "Times New Roman", "Helvetica Neue", arial, sans-serif;
+  text-align: center;
+  cursor: pointer;
+  width: auto;
+  padding: 14px 20px;
+  background: #FE7500;
+  color: #fff;
+  border: 0;
+  margin: 10px 0;
+}
+
+/* line 58, sources/partials/_base.scss */
+a {
+  color: #FE7500;
+  display: inline-block;
+}
+
+/* line 63, sources/partials/_base.scss */
+strong {
+  font-weight: bold;
+}
+
+/* line 67, sources/partials/_base.scss */
+p {
+  margin-bottom: 15px;
+}
+/* line 69, sources/partials/_base.scss */
+p:last-of-type {
+  margin-bottom: 0;
+}
+
+/* line 74, sources/partials/_base.scss */
+h1, h2, h3, h4, h5 {
+  margin: 0 0 30px 0;
+  padding: 0;
+  font-weight: strong;
+  color: #FE7500;
+}
+
+/* line 81, sources/partials/_base.scss */
+h1 {
+  font-size: 40px;
+  font-size: 2.22222rem;
+  line-height: 40px;
+}
+
+/* line 86, sources/partials/_base.scss */
+h2 {
+  font-size: 32px;
+  font-size: 1.77778rem;
+  line-height: 32px;
+}
+
+/* line 91, sources/partials/_base.scss */
+h3 {
+  font-size: 24px;
+  font-size: 1.33333rem;
+  line-height: 24px;
+}
+
+/* line 96, sources/partials/_base.scss */
+h4 {
+  font-size: 22px;
+  font-size: 1.22222rem;
+  line-height: 22px;
+}
+
+/* line 101, sources/partials/_base.scss */
+ol, ul {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+/* line 106, sources/partials/_base.scss */
+ol {
+  list-style-type: decimal;
+}
+
+/* line 110, sources/partials/_base.scss */
+ul {
+  list-style-type: disc;
+}
+
+/* line 114, sources/partials/_base.scss */
+.button {
+  color: #fff;
+  padding: 8px;
+  background: #FE7500;
+  font-family: "Helvetica Neue", arial, sans-serif;
+  text-decoration: none;
+}
+
+/* line 2, sources/partials/_mixins.scss */
+.page:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 126, sources/partials/_base.scss */
+.wrapper {
+  width: 1052px;
+  margin: 0 auto;
+}
+/* line 129, sources/partials/_base.scss */
+.wrapper .main-content {
+  float: left;
+  width: 802px;
+}
+/* line 133, sources/partials/_base.scss */
+.wrapper .sidebar-second {
+  float: right;
+  width: 250px;
+}
+
+/* line 140, sources/partials/_base.scss */
+.sidebar-second.get-advice ul, .sidebar-second.get-advice ul li a {
+  border-color: #887D14;
+}
+/* line 141, sources/partials/_base.scss */
+.sidebar-second.volunteer ul, .sidebar-second.volunteer ul li a {
+  border-color: #443A94;
+}
+/* line 142, sources/partials/_base.scss */
+.sidebar-second.partner-with-us ul, .sidebar-second.partner-with-us ul li a {
+  border-color: #009DDF;
+}
+/* line 143, sources/partials/_base.scss */
+.sidebar-second .sub-menu {
+  width: 250px;
+  margin-bottom: 25px;
+}
+/* line 146, sources/partials/_base.scss */
+.sidebar-second .sub-menu ul {
+  margin: 0;
+  padding: 0;
+  border-top: 5px solid;
+  border-bottom: 5px solid;
+  border-color: #FE7500;
+}
+/* line 152, sources/partials/_base.scss */
+.sidebar-second .sub-menu ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 156, sources/partials/_base.scss */
+.sidebar-second .sub-menu ul li a {
+  color: #000;
+  display: block;
+  font-family: "Helvetica Neue", arial, sans-serif;
+  padding: 6px 0;
+  border-bottom: 1px solid;
+  border-color: #FE7500;
+}
+/* line 163, sources/partials/_base.scss */
+.sidebar-second .sub-menu ul li a:hover, .sidebar-second .sub-menu ul li a.active, .sidebar-second .sub-menu ul li a.active-trail {
+  text-decoration: none;
+  font-family: "Helvetica Neue", arial, sans-serif;
+}
+/* line 169, sources/partials/_base.scss */
+.sidebar-second .sub-menu ul li:last-child a {
+  border: 0;
+}
+/* line 173, sources/partials/_base.scss */
+.sidebar-second .sub-menu ul li ul {
+  border-top: 0;
+  border-bottom: 1px solid;
+  padding-left: .75rem;
+  margin: 0;
+}
+/* line 179, sources/partials/_base.scss */
+.sidebar-second .sub-menu ul li.last a {
+  border-bottom: 0;
+}
+/* line 185, sources/partials/_base.scss */
+.sidebar-second .sub-menu .item-list ul li a {
+  border-bottom: 1px solid;
+  border-color: #FE7500;
+}
+
+/* line 195, sources/partials/_base.scss */
+.type-block {
+  background: #FE7500;
+  font-family: "Helvetica Neue", arial, sans-serif;
+  padding: 12px;
+  margin-bottom: 20px;
+  display: block;
+}
+/* line 201, sources/partials/_base.scss */
+.type-block p, .type-block div {
+  font-size: 20px;
+  font-size: 1.11111rem;
+  color: #fff;
+}
+/* line 204, sources/partials/_base.scss */
+.type-block p strong, .type-block div strong {
+  font-weight: bold;
+}
+/* line 208, sources/partials/_base.scss */
+.type-block a {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+/* line 213, sources/partials/_base.scss */
+.type-block span {
+  text-align: right;
+  display: block;
+  font-size: 1rem;
+  font-family: "Helvetica Neue", arial, sans-serif;
+  padding-right: 1rem;
+  background: transparent url(../images/icons/icon-arrow-right-small.png) right center no-repeat;
+  margin-top: 1rem;
+  color: #fff;
+}
+/* line 224, sources/partials/_base.scss */
+.type-block h1, .type-block h2, .type-block h3 {
+  font-size: 2rem;
+  color: #fff;
+}
+/* line 226, sources/partials/_base.scss */
+.type-block.default {
+  background: #FE7500;
+}
+/* line 227, sources/partials/_base.scss */
+.type-block.red {
+  background: #d63d25;
+}
+/* line 228, sources/partials/_base.scss */
+.type-block.purple {
+  background: #443A94;
+}
+/* line 229, sources/partials/_base.scss */
+.type-block.green {
+  background: #887D14;
+}
+/* line 230, sources/partials/_base.scss */
+.type-block.blue {
+  background: #009DDF;
+}
+
+/* line 233, sources/partials/_base.scss */
+.sidebar-second.volunteer .type-block {
+  background: #443A94;
+}
+
+/* line 234, sources/partials/_base.scss */
+.sidebar-second.partner-with-us .type-block {
+  background: #009DDF;
+}
+
+/* line 236, sources/partials/_base.scss */
+.view-faq.view-display-id-list {
+  margin-bottom: 10rem;
+}
+/* line 238, sources/partials/_base.scss */
+.view-faq.view-display-id-list .views-row {
+  padding: .5rem .2rem .1rem .5rem;
+}
+/* line 240, sources/partials/_base.scss */
+.view-faq.view-display-id-list .views-row .views-field-title {
+  font-family: "Helvetica Neue", arial, sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: .5rem;
+}
+/* line 244, sources/partials/_base.scss */
+.view-faq.view-display-id-list .views-row .views-field-title.active {
+  border-bottom: 1px solid #000;
+  padding-bottom: .5rem;
+}
+/* line 249, sources/partials/_base.scss */
+.view-faq.view-display-id-list .views-row.views-row-odd {
+  background: #fafafa;
+}
+/* line 250, sources/partials/_base.scss */
+.view-faq.view-display-id-list .views-row.views-row-last {
+  margin-bottom: 3rem;
+}
+
+/* line 255, sources/partials/_base.scss */
+.view-id-partner.view-display-id-overview_per_group .group {
+  display: inline-block;
+  width: 33%;
+  vertical-align: top;
+  text-align: center;
+  border-right: 1px solid #ededed;
+  min-height: 300px;
+}
+/* line 262, sources/partials/_base.scss */
+.view-id-partner.view-display-id-overview_per_group .group:last-child {
+  border: 0;
+}
+/* line 263, sources/partials/_base.scss */
+.view-id-partner.view-display-id-overview_per_group .group h3 {
+  font-size: 16px;
+  font-size: 0.88889rem;
+  display: block;
+  color: #fff;
+  background: #FE7500;
+  padding: 10px;
+  width: 75%;
+  margin: 0 auto 20px auto;
+  text-align: center;
+}
+/* line 273, sources/partials/_base.scss */
+.view-id-partner.view-display-id-overview_per_group .group .views-row {
+  margin-bottom: 2rem;
+}
+
+/* line 1, sources/partials/_header.scss */
+.l-header {
+  border-bottom: 15px solid #FE7500;
+}
+/* line 3, sources/partials/_header.scss */
+.l-header .l-topbar {
+  display: block;
+}
+/* line 5, sources/partials/_header.scss */
+.l-header .l-topbar .wrapper {
+  border-bottom: 1px solid #000;
+  position: relative;
+}
+/* line 2, sources/partials/_mixins.scss */
+.l-header .l-topbar .wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 9, sources/partials/_header.scss */
+.l-header .l-topbar .wrapper ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 2, sources/partials/_mixins.scss */
+.l-header .l-topbar .wrapper ul:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 13, sources/partials/_header.scss */
+.l-header .l-topbar .wrapper ul li {
+  float: left;
+  margin: 0 15px 0 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 18, sources/partials/_header.scss */
+.l-header .l-topbar .wrapper ul li a {
+  font-size: 14px;
+  font-size: 0.77778rem;
+  font-family: "Helvetica Neue", arial, sans-serif;
+  color: #000;
+  text-decoration: none;
+}
+/* line 26, sources/partials/_header.scss */
+.l-header .l-topbar .wrapper .ie-notifier {
+  font-size: 20px;
+  font-size: 1.11111rem;
+  display: block;
+  height: 150px;
+  background: #483493;
+  color: #fff;
+  position: absolute;
+  text-align: center;
+}
+/* line 35, sources/partials/_header.scss */
+.l-header .l-topbar .wrapper .top-left-menu {
+  vertical-align: top;
+  float: left;
+  position: relative;
+  top: 156px;
+}
+/* line 40, sources/partials/_header.scss */
+.l-header .l-topbar .wrapper .top-left-menu a {
+  margin-right: 25px;
+}
+/* line 42, sources/partials/_header.scss */
+.l-header .l-topbar .wrapper .top-left-menu a:hover, .l-header .l-topbar .wrapper .top-left-menu a.active, .l-header .l-topbar .wrapper .top-left-menu a.active-trail {
+  border-bottom: 3px solid #FE7500;
+}
+/* line 45, sources/partials/_header.scss */
+.l-header .l-topbar .wrapper .low-bandwidth {
+  float: right;
+  right: 85px;
+  vertical-align: top;
+  padding-top: 156px;
+  position: relative;
+}
+/* line 52, sources/partials/_header.scss */
+.l-header .l-topbar .wrapper .language-dropdown {
+  float: right;
+  vertical-align: top;
+  width: 50px;
+  margin-left: 15px;
+  padding-top: 159px;
+  right: 85px;
+  position: relative;
+}
+/* line 61, sources/partials/_header.scss */
+.l-header .l-topbar .wrapper .block-search {
+  float: right;
+  vertical-align: top;
+  width: 140px;
+  position: relative;
+  padding-top: 155px;
+  right: 85px;
+  position: relative;
+}
+/* line 69, sources/partials/_header.scss */
+.l-header .l-topbar .wrapper .block-search input[type="text"] {
+  height: 25px;
+  background: #e5e5e5;
+  box-shadow: none;
+  outline: 0;
+  border: 0;
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  padding: 0 !important;
+}
+/* line 80, sources/partials/_header.scss */
+.l-header .l-topbar .wrapper .block-search input[type="submit"] {
+  display: none;
+}
+/* line 84, sources/partials/_header.scss */
+.l-header .l-topbar .wrapper .pumnet-block {
+  position: absolute;
+  padding-top: 155px;
+  right: 0;
+}
+/* line 88, sources/partials/_header.scss */
+.l-header .l-topbar .wrapper .pumnet-block .button {
+  padding: 0;
+  height: 25px;
+  padding: 0px 5px;
+  background-color: #483493;
+}
+/* line 93, sources/partials/_header.scss */
+.l-header .l-topbar .wrapper .pumnet-block .button a {
+  color: #fff;
+  font-size: .9rem;
+  font-family: "Helvetica Neue", arial, sans-serif;
+}
+/* line 99, sources/partials/_header.scss */
+.l-header .l-topbar .wrapper .pumnet-block.user-block {
+  position: absolute;
+  right: 0;
+}
+/* line 103, sources/partials/_header.scss */
+.l-header .l-topbar .wrapper .pumnet-block.name-block {
+  float: none;
+  top: 35px;
+  right: 0;
+  position: absolute;
+}
+/* line 109, sources/partials/_header.scss */
+.l-header .l-topbar .wrapper .pumnet-block.logout {
+  position: absolute;
+  right: 0;
+}
+/* line 116, sources/partials/_header.scss */
+.l-header #logo {
+  position: relative;
+  top: 5px;
+}
+/* line 120, sources/partials/_header.scss */
+.l-header .main-menu {
+  float: right;
+  position: relative;
+}
+/* line 123, sources/partials/_header.scss */
+.l-header .main-menu ul {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: -24px;
+}
+/* line 2, sources/partials/_mixins.scss */
+.l-header .main-menu ul:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 129, sources/partials/_header.scss */
+.l-header .main-menu ul li {
+  float: left;
+  margin: 0 15px 0 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 134, sources/partials/_header.scss */
+.l-header .main-menu ul li a {
+  font-family: "Helvetica Neue", arial, sans-serif;
+  color: #000;
+  font-size: 18px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+/* line 140, sources/partials/_header.scss */
+.l-header .main-menu ul li a:hover, .l-header .main-menu ul li a.active, .l-header .main-menu ul li a.active-trail {
+  border-bottom: 15px solid #000;
+}
+/* line 144, sources/partials/_header.scss */
+.l-header .main-menu ul li li.last a {
+  margin-right: 0;
+}
+/* line 148, sources/partials/_header.scss */
+.l-header .portal-menu {
+  float: right;
+  position: relative;
+  top: -73px;
+}
+/* line 153, sources/partials/_header.scss */
+.l-header .portal-menu ul.menu li {
+  float: left;
+  list-style: none;
+}
+/* line 157, sources/partials/_header.scss */
+.l-header .portal-menu ul.menu a {
+  display: block;
+  text-indent: -9999px;
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  background-color: #483493;
+}
+/* line 164, sources/partials/_header.scss */
+.l-header .portal-menu ul.menu a.home {
+  background-image: url(../images/icon-portal-home-50x50.png);
+}
+/* line 165, sources/partials/_header.scss */
+.l-header .portal-menu ul.menu a.blogs {
+  background-image: url(../images/icon-portal-blog-50x50.png);
+}
+/* line 166, sources/partials/_header.scss */
+.l-header .portal-menu ul.menu a.forums {
+  background-image: url(../images/icon-portal-forum-50x50.png);
+}
+/* line 167, sources/partials/_header.scss */
+.l-header .portal-menu ul.menu a.news {
+  background-image: url(../images/icon-portal-news-50x50.png);
+}
+/* line 168, sources/partials/_header.scss */
+.l-header .portal-menu ul.menu a.libraries {
+  background-image: url(../images/icon-portal-library-50x50.png);
+}
+/* line 169, sources/partials/_header.scss */
+.l-header .portal-menu ul.menu a.communities {
+  background-image: url(../images/icon-portal-community-50x50.png);
+}
+/* line 170, sources/partials/_header.scss */
+.l-header .portal-menu ul.menu a.directory {
+  background-image: url(../images/icon-portal-directory-50x50.png);
+}
+/* line 173, sources/partials/_header.scss */
+.l-header .portal-menu li.last a {
+  margin-right: 0;
+}
+
+/* line 1, sources/partials/_banner.scss */
+.l-banner {
+  background: #f0f8ff;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #f0f8ff 0%, #bee1ff 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #f0f8ff), color-stop(100%, #bee1ff));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg, #f0f8ff 0%, #bee1ff 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg, #f0f8ff 0%, #bee1ff 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg, #f0f8ff 0%, #bee1ff 100%);
+  /* IE10+ */
+  background: linear-gradient(135deg, #f0f8ff 0%, #bee1ff 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f8ff', endColorstr='#bee1ff',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+  display: block;
+  width: 100%;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+/* line 2, sources/partials/_mixins.scss */
+.l-banner:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 8, sources/partials/_banner.scss */
+.l-banner .wrapper {
+  min-height: 200px;
+}
+/* line 2, sources/partials/_mixins.scss */
+.l-banner .wrapper .view-display-id-country_list:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 12, sources/partials/_banner.scss */
+.l-banner .wrapper .view-display-id-country_list .views-row {
+  float: left;
+  padding: 5px 5px 5px 0;
+}
+/* line 15, sources/partials/_banner.scss */
+.l-banner .wrapper .view-display-id-country_list .views-row a {
+  font-size: 16px;
+  font-size: 0.88889rem;
+  font-family: "Helvetica Neue", arial, sans-serif;
+}
+/* line 22, sources/partials/_banner.scss */
+.l-banner .wrapper .view-display-id-sector_list h3 {
+  font-size: 12px;
+  font-size: 0.66667rem;
+  font-family: "Helvetica Neue", arial, sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 1, sources/partials/_footer.scss */
+.l-footer {
+  font-family: "Helvetica Neue", arial, sans-serif;
+  border-top: 1px solid #000;
+  padding-top: 25px;
+}
+/* line 6, sources/partials/_footer.scss */
+.l-footer a {
+  color: #000;
+}
+/* line 8, sources/partials/_footer.scss */
+.l-footer p {
+  font-family: "Helvetica Neue", arial, sans-serif;
+}
+/* line 10, sources/partials/_footer.scss */
+.l-footer p strong {
+  font-weight: bold;
+}
+/* line 13, sources/partials/_footer.scss */
+.l-footer .large-3 {
+  width: 25%;
+  float: left;
+}
+
+/* line 2, sources/partials/_frontpage.scss */
+.front .group-row-one {
+  text-align: center;
+  padding: 15px 0;
+  margin-bottom: 20px;
+}
+/* line 7, sources/partials/_frontpage.scss */
+.front .group-row-two {
+  margin-bottom: 20px;
+}
+/* line 2, sources/partials/_mixins.scss */
+.front .group-row-two:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 10, sources/partials/_frontpage.scss */
+.front .group-row-two .inner-content {
+  width: 100%;
+  margin: 2rem auto 0 auto;
+  padding-top: 12px;
+  font-family: "Helvetica Neue", arial, sans-serif;
+  border-top-width: 4px;
+  border-bottom-width: 4px;
+  border-left: 0;
+  border-right: 0;
+  border-style: solid;
+}
+/* line 20, sources/partials/_frontpage.scss */
+.front .group-row-two .inner-content p {
+  font-size: 34px;
+  line-height: 3rem;
+  margin: 0;
+}
+/* line 21, sources/partials/_frontpage.scss */
+.front .group-row-two .inner-content p:first-child {
+  height: 210px;
+}
+/* line 22, sources/partials/_frontpage.scss */
+.front .group-row-two .inner-content a {
+  text-align: right;
+  display: block;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+/* line 23, sources/partials/_frontpage.scss */
+.front .group-row-two .inner-content.customer {
+  float: left;
+  width: 30%;
+  margin-right: 4%;
+  border-color: #887D14;
+}
+/* line 28, sources/partials/_frontpage.scss */
+.front .group-row-two .inner-content.customer p, .front .group-row-two .inner-content.customer a {
+  color: #887D14;
+}
+/* line 30, sources/partials/_frontpage.scss */
+.front .group-row-two .inner-content.expert {
+  float: left;
+  width: 30%;
+  margin-right: 4%;
+  border-color: #443A94;
+}
+/* line 35, sources/partials/_frontpage.scss */
+.front .group-row-two .inner-content.expert p, .front .group-row-two .inner-content.expert a {
+  color: #443A94;
+}
+/* line 37, sources/partials/_frontpage.scss */
+.front .group-row-two .inner-content.partner {
+  float: left;
+  width: 30%;
+  border-color: #009DDF;
+}
+/* line 41, sources/partials/_frontpage.scss */
+.front .group-row-two .inner-content.partner p, .front .group-row-two .inner-content.partner a {
+  color: #009DDF;
+}
+/* line 45, sources/partials/_frontpage.scss */
+.front .group-row-three {
+  margin-bottom: 20px;
+  background-color: #FE7500;
+  color: #fff;
+  text-align: center;
+  font-family: "Helvetica Neue", arial, sans-serif;
+  font-weight: bold;
+  padding: 50px 0;
+}
+/* line 2, sources/partials/_mixins.scss */
+.front .group-row-three:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 54, sources/partials/_frontpage.scss */
+.front .group-row-three h2 {
+  font-size: 60px;
+  font-size: 3.33333rem;
+  color: #fff;
+  margin-bottom: 30px;
+}
+/* line 59, sources/partials/_frontpage.scss */
+.front .group-row-three .data {
+  float: left;
+  width: 33%;
+  margin-bottom: 26px;
+}
+/* line 63, sources/partials/_frontpage.scss */
+.front .group-row-three .data.last {
+  background: none;
+  margin-bottom: 0;
+}
+/* line 66, sources/partials/_frontpage.scss */
+.front .group-row-three .data.last .subnumber {
+  margin-bottom: 0;
+}
+/* line 69, sources/partials/_frontpage.scss */
+.front .group-row-three .number {
+  font-size: 45px;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+/* line 73, sources/partials/_frontpage.scss */
+.front .group-row-three .subnumber {
+  font-size: 30px;
+  width: 100%;
+  margin: 0 auto 15px auto;
+  padding-bottom: 10px;
+}
+/* line 79, sources/partials/_frontpage.scss */
+.front .group-row-three .text {
+  font-weight: lighter;
+  font-size: 14px;
+  font-size: 0.77778rem;
+  line-height: 1.6;
+}
+/* line 84, sources/partials/_frontpage.scss */
+.front .group-row-three .readmore-link {
+  clear: both;
+}
+/* line 86, sources/partials/_frontpage.scss */
+.front .group-row-three .readmore-link a {
+  display: inline-block;
+  font-size: 1rem;
+  font-family: "Helvetica Neue", arial, sans-serif;
+  padding-right: 1rem;
+  background: transparent url(../images/icons/icon-arrow-right-small.png) right center no-repeat;
+  margin-top: 2rem;
+  color: #fff;
+}
+/* line 97, sources/partials/_frontpage.scss */
+.front .news-front, .front .newsletter {
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* line 102, sources/partials/_frontpage.scss */
+.front .under-bar-front {
+  margin-bottom: 65px;
+  text-align: center;
+}
+/* line 105, sources/partials/_frontpage.scss */
+.front .under-bar-front .view-header {
+  *zoom: 1;
+  margin-top: 30px;
+}
+/* line 2, sources/partials/_mixins.scss */
+.front .under-bar-front .view-header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 110, sources/partials/_frontpage.scss */
+.front .under-bar-front .view-id-stories.view-display-id-home_widget {
+  *width: 1080px;
+  *margin: 0 auto;
+}
+/* line 114, sources/partials/_frontpage.scss */
+.front .under-bar-front .view-id-sectors.view-display-id-home_widget {
+  width: 1080px;
+  margin: 0 auto;
+  text-align: left;
+}
+/* line 2, sources/partials/_mixins.scss */
+.front .under-bar-front .view-id-sectors.view-display-id-home_widget:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 119, sources/partials/_frontpage.scss */
+.front .under-bar-front .view-id-sectors.view-display-id-home_widget .view-header {
+  text-align: center;
+  *zoom: 1;
+}
+/* line 123, sources/partials/_frontpage.scss */
+.front .under-bar-front .view-id-sectors.view-display-id-home_widget .views-row {
+  display: inline-block;
+  *float: left;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+/* line 1, sources/partials/_stories.scss */
+.view-stories {
+  clear: both;
+  margin-top: 20px;
+}
+/* line 2, sources/partials/_mixins.scss */
+.view-stories:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 5, sources/partials/_stories.scss */
+.view-stories h3 {
+  font-size: 1rem;
+  font-family: "Helvetica Neue", arial, sans-serif;
+  font-weight: bold;
+  border-bottom: 2px solid #000;
+  padding-bottom: 10px;
+}
+/* line 13, sources/partials/_stories.scss */
+.view-stories .main-content .view-content {
+  width: 900px;
+}
+/* line 17, sources/partials/_stories.scss */
+.view-stories .views-row {
+  vertical-align: top;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  display: inline-block;
+  *float: left;
+  cursor: pointer;
+}
+/* line 26, sources/partials/_stories.scss */
+.view-stories .views-row .node {
+  height: 280px;
+  width: 220px;
+  margin: 0;
+}
+/* line 31, sources/partials/_stories.scss */
+.view-stories .views-row .node img {
+  width: 100%;
+  height: auto;
+}
+/* line 36, sources/partials/_stories.scss */
+.view-stories .views-row .node p {
+  font-family: "Helvetica Neue", arial, sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 10px;
+}
+/* line 43, sources/partials/_stories.scss */
+.view-stories .views-row .node.node-story-regular {
+  background: #FE7500;
+}
+/* line 46, sources/partials/_stories.scss */
+.view-stories .views-row .node.node-story-regular .field-name-post-date {
+  padding: 10px;
+  font-family: "Helvetica Neue", arial, sans-serif;
+  font-weight: lighter;
+  color: #fff;
+  text-align: left;
+}
+/* line 54, sources/partials/_stories.scss */
+.view-stories .views-row .node.node-story-regular .field-name-title {
+  font-family: "Helvetica Neue", arial, sans-serif;
+  font-weight: lighter;
+  color: #fff;
+  padding: 0 10px;
+  margin: 0;
+  text-align: left;
+  line-height: 1;
+  font-size: 1.8rem;
+}
+/* line 66, sources/partials/_stories.scss */
+.view-stories .views-row .node.node-story-customer {
+  background: #887D14;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+}
+/* line 73, sources/partials/_stories.scss */
+.view-stories .views-row .node.node-story-customer img {
+  position: absolute;
+  top: 0px;
+  z-index: 0;
+  opacity: .25;
+  min-height: 270px;
+}
+/* line 81, sources/partials/_stories.scss */
+.view-stories .views-row .node.node-story-customer .field-name-field-intro, .view-stories .views-row .node.node-story-customer .field-name-field-story-user-reference, .view-stories .views-row .node.node-story-customer .field-name-post-date {
+  position: relative;
+  z-index: 1;
+}
+/* line 86, sources/partials/_stories.scss */
+.view-stories .views-row .node.node-story-customer .field-name-post-date {
+  font-family: "Helvetica Neue", arial, sans-serif;
+  font-weight: lighter;
+  padding: 10px;
+  font-size: 1rem;
+}
+/* line 93, sources/partials/_stories.scss */
+.view-stories .views-row .node.node-story-customer .field-name-field-story-user-reference {
+  font-family: "Helvetica Neue", arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 0 0 0 10px;
+}
+/* line 100, sources/partials/_stories.scss */
+.view-stories .views-row .node.node-story-customer .field-name-field-story-slogan p {
+  font-family: "Helvetica Neue", arial, sans-serif;
+  font-weight: lighter;
+  font-size: 1.4rem;
+  padding: 10px;
+  position: relative;
+  z-index: 10;
+}
+/* line 110, sources/partials/_stories.scss */
+.view-stories .views-row .node.node-story-expert {
+  background: #443A94;
+}
+/* line 113, sources/partials/_stories.scss */
+.view-stories .views-row .node.node-story-expert .field-name-field-story-user-reference {
+  font-family: "Helvetica Neue", arial, sans-serif;
+  font-weight: bold;
+  text-align: right;
+  padding: 10px 10px 10px 0;
+  color: #fff;
+  font-size: 1.1rem;
+}
+/* line 122, sources/partials/_stories.scss */
+.view-stories .views-row .node.node-story-expert .field-name-field-story-slogan p {
+  text-align: right;
+  padding: 0 10px 10px 10px;
+  font-family: "Helvetica Neue", arial, sans-serif;
+  font-weight: lighter;
+  font-size: 1.4rem;
+  color: #fff;
+  position: relative;
+  z-index: 10;
+}
+/* line 133, sources/partials/_stories.scss */
+.view-stories .views-row .node.node-story-expert .field-name-post-date {
+  font-family: "Helvetica Neue", arial, sans-serif;
+  font-weight: lighter;
+  font-size: 1rem;
+  padding: 10px 10px 0 0;
+  text-align: right;
+  color: #fff;
+}
+/* line 143, sources/partials/_stories.scss */
+.view-stories .views-row .node.node-story-partner {
+  background: #009DDF;
+}
+/* line 146, sources/partials/_stories.scss */
+.view-stories .views-row .node.node-story-partner .field-name-field-story-user-reference {
+  font-family: "Helvetica Neue", arial, sans-serif;
+  font-weight: bold;
+  text-align: right;
+  padding: 10px 10px 10px 0;
+  color: #fff;
+  font-size: 1.1rem;
+}
+/* line 155, sources/partials/_stories.scss */
+.view-stories .views-row .node.node-story-partner .field-name-field-story-slogan p {
+  text-align: right;
+  padding: 0 10px 10px 10px;
+  font-family: "Helvetica Neue", arial, sans-serif;
+  font-weight: lighter;
+  font-size: 1.4rem;
+  color: #fff;
+  position: relative;
+  z-index: 10;
+}
+/* line 166, sources/partials/_stories.scss */
+.view-stories .views-row .node.node-story-partner .field-name-post-date {
+  font-family: "Helvetica Neue", arial, sans-serif;
+  font-weight: lighter;
+  font-size: 1rem;
+  padding: 10px 10px 0 0;
+  text-align: right;
+  color: #fff;
+}
+/* line 178, sources/partials/_stories.scss */
+.view-stories .views-exposed-form {
+  font-family: "Helvetica Neue", arial, sans-serif;
+}
+/* line 180, sources/partials/_stories.scss */
+.view-stories .views-exposed-form .views-exposed-widgets {
+  padding: 0;
+  width: 285px;
+  display: block;
+  right: -35px;
+  position: absolute;
+}
+/* line 188, sources/partials/_stories.scss */
+.view-stories .views-exposed-form .bef-checkboxes {
+  margin-bottom: 1rem;
+}
+/* line 192, sources/partials/_stories.scss */
+.view-stories .views-exposed-form label {
+  max-width: 240px;
+  width: auto;
+  letter-spacing: -1px;
+  font-weight: normal;
+}
+/* line 199, sources/partials/_stories.scss */
+.view-stories .views-exposed-form input[type='checkbox'] {
+  margin-bottom: 0;
+}
+/* line 201, sources/partials/_stories.scss */
+.view-stories .views-exposed-form .exposed-filter-label {
+  font-family: "Helvetica Neue", arial, sans-serif;
+  border-bottom: 1px solid #000;
+  margin-bottom: 5px;
+  background: transparent url(../images/view-exposed-label-inactive.png) 95% center no-repeat;
+  width: 285px;
+  max-width: 285px;
+}
+/* line 211, sources/partials/_stories.scss */
+.view-stories.view-display-id-story_per_user_button, .view-stories.view-display-id-story_per_country_button, .view-stories.view-display-id-story_per_sector_button {
+  margin: 0;
+}
+/* line 214, sources/partials/_stories.scss */
+.view-stories.view-display-id-story_per_user_button .views-row, .view-stories.view-display-id-story_per_country_button .views-row, .view-stories.view-display-id-story_per_sector_button .views-row {
+  margin: 0;
+  display: block;
+}
+
+/* line 233, sources/partials/_stories.scss */
+.node-type-frontpage .view-stories .views-row .node {
+  height: 315px;
+  width: 300px;
+}
+/* line 237, sources/partials/_stories.scss */
+.node-type-frontpage .view-stories .views-row .node.node-story-customer .field-name-post-date {
+  font-size: 1.15rem;
+}
+/* line 238, sources/partials/_stories.scss */
+.node-type-frontpage .view-stories .views-row .node.node-story-customer .field-name-field-story-user-reference {
+  font-size: 1.25rem;
+}
+/* line 239, sources/partials/_stories.scss */
+.node-type-frontpage .view-stories .views-row .node.node-story-customer .field-name-field-story-slogan p {
+  font-size: 1.8rem;
+}
+/* line 242, sources/partials/_stories.scss */
+.node-type-frontpage .view-stories .views-row .node.node-story-expert {
+  background: #443A94;
+}
+/* line 244, sources/partials/_stories.scss */
+.node-type-frontpage .view-stories .views-row .node.node-story-expert .field-name-field-story-user-reference {
+  font-size: 1.25rem;
+}
+/* line 245, sources/partials/_stories.scss */
+.node-type-frontpage .view-stories .views-row .node.node-story-expert .field-name-field-story-slogan p {
+  font-size: 1.8rem;
+}
+/* line 246, sources/partials/_stories.scss */
+.node-type-frontpage .view-stories .views-row .node.node-story-expert .field-name-post-date {
+  font-size: 1.15rem;
+}
+/* line 249, sources/partials/_stories.scss */
+.node-type-frontpage .view-stories .views-row .node.node-story-partner {
+  background: #009DDF;
+}
+/* line 251, sources/partials/_stories.scss */
+.node-type-frontpage .view-stories .views-row .node.node-story-partner .field-name-field-story-user-reference {
+  font-size: 1.25rem;
+}
+/* line 252, sources/partials/_stories.scss */
+.node-type-frontpage .view-stories .views-row .node.node-story-partner .field-name-field-story-slogan p {
+  font-size: 1.8rem;
+}
+/* line 253, sources/partials/_stories.scss */
+.node-type-frontpage .view-stories .views-row .node.node-story-partner .field-name-post-date {
+  font-size: 1.15rem;
+}
+
+/* line 261, sources/partials/_stories.scss */
+.view-id-stories.view-display-id-all_stories .view-content {
+  width: 900px;
+}
+
+/* line 2, sources/partials/_news.scss */
+.view-id-news.view-display-id-overview .views-row {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #000;
+}
+/* line 8, sources/partials/_news.scss */
+.view-id-news.view-display-id-overview .title {
+  font-family: "Helvetica Neue", arial, sans-serif;
+  font-size: 1.25rem;
+  margin-bottom: .5rem;
+}
+/* line 14, sources/partials/_news.scss */
+.view-id-news.view-display-id-overview .image {
+  float: left;
+  margin: 0 1rem .5rem 0;
+}
+/* line 19, sources/partials/_news.scss */
+.view-id-news.view-display-id-overview .date {
+  float: left;
+  margin-right: 1rem;
+  position: relative;
+  top: 2px;
+}
+/* line 26, sources/partials/_news.scss */
+.view-id-news.view-display-id-overview .link {
+  float: right;
+}
+/* line 29, sources/partials/_news.scss */
+.view-id-news.view-display-id-overview .link a {
+  padding: 10px;
+  font-family: "Helvetica Neue", arial, sans-serif;
+  display: inline-block;
+}
+/* line 36, sources/partials/_news.scss */
+.view-id-news.view-display-id-overview .news .link a {
+  background: #000;
+  color: #fff;
+}
+/* line 37, sources/partials/_news.scss */
+.view-id-news.view-display-id-overview .media .link a {
+  background: #000;
+  color: #fff;
+}
+
+/* line 41, sources/partials/_news.scss */
+.block-views-exp-news-overview {
+  float: right;
+  font-family: "Helvetica Neue", arial, sans-serif;
+}
+/* line 45, sources/partials/_news.scss */
+.block-views-exp-news-overview .views-exposed-widget {
+  padding: 0;
+}
+/* line 46, sources/partials/_news.scss */
+.block-views-exp-news-overview label {
+  font-weight: normal;
+  font-family: "Helvetica Neue", arial, sans-serif;
+  border-bottom: 1px solid #000;
+  margin-bottom: 5px;
+}
+/* line 54, sources/partials/_news.scss */
+.block-views-exp-news-overview .form-item label {
+  font-family: "Helvetica Neue", arial, sans-serif;
+  border-bottom: 0;
+  margin: 0;
+  width: auto;
+}
+
+/* line 1, sources/partials/_portal.scss */
+.breadcrumbs {
+  display: none;
+}
+
+/* line 6, sources/partials/_portal.scss */
+.page-portal .inner, .section-portal .inner, .section-tags .inner, .views-page .inner, .page-user .inner {
+  width: 100%;
+}
+/* line 9, sources/partials/_portal.scss */
+.page-portal .breadcrumbs, .section-portal .breadcrumbs, .section-tags .breadcrumbs, .views-page .breadcrumbs, .page-user .breadcrumbs {
+  display: block;
+}
+/* line 12, sources/partials/_portal.scss */
+.page-portal.home-portal .breadcrumbs, .section-portal.home-portal .breadcrumbs, .section-tags.home-portal .breadcrumbs, .views-page.home-portal .breadcrumbs, .page-user.home-portal .breadcrumbs {
+  display: none;
+}
+/* line 16, sources/partials/_portal.scss */
+.page-portal .cols-0 td, .page-portal .cols-0 .td, .section-portal .cols-0 td, .section-portal .cols-0 .td, .section-tags .cols-0 td, .section-tags .cols-0 .td, .views-page .cols-0 td, .views-page .cols-0 .td, .page-user .cols-0 td, .page-user .cols-0 .td {
+  display: inline-block;
+}
+/* line 21, sources/partials/_portal.scss */
+.page-portal .cols-5 td, .page-portal .cols-5 .td, .page-portal .cols-6 td, .page-portal .cols-6 .td, .page-portal .cols-7 td, .page-portal .cols-7 .td, .section-portal .cols-5 td, .section-portal .cols-5 .td, .section-portal .cols-6 td, .section-portal .cols-6 .td, .section-portal .cols-7 td, .section-portal .cols-7 .td, .section-tags .cols-5 td, .section-tags .cols-5 .td, .section-tags .cols-6 td, .section-tags .cols-6 .td, .section-tags .cols-7 td, .section-tags .cols-7 .td, .views-page .cols-5 td, .views-page .cols-5 .td, .views-page .cols-6 td, .views-page .cols-6 .td, .views-page .cols-7 td, .views-page .cols-7 .td, .page-user .cols-5 td, .page-user .cols-5 .td, .page-user .cols-6 td, .page-user .cols-6 .td, .page-user .cols-7 td, .page-user .cols-7 .td {
+  font-size: 12px;
+}
+/* line 25, sources/partials/_portal.scss */
+.page-portal td, .page-portal .td, .section-portal td, .section-portal .td, .section-tags td, .section-tags .td, .views-page td, .views-page .td, .page-user td, .page-user .td {
+  display: table-cell;
+  padding: 0 10px;
+}
+/* line 29, sources/partials/_portal.scss */
+.page-portal .l-main .button, .page-portal .l-main button, .section-portal .l-main .button, .section-portal .l-main button, .section-tags .l-main .button, .section-tags .l-main button, .views-page .l-main .button, .views-page .l-main button, .page-user .l-main .button, .page-user .l-main button {
+  padding: 10px;
+  background-color: #483493;
+  border-color: #483493;
+  color: #fff;
+}
+/* line 36, sources/partials/_portal.scss */
+.page-portal .webform-progressbar .webform-progressbar-page.completed, .page-portal .webform-progressbar .webform-progressbar-page.current, .page-portal .webform-progressbar .webform-progressbar-inner, .section-portal .webform-progressbar .webform-progressbar-page.completed, .section-portal .webform-progressbar .webform-progressbar-page.current, .section-portal .webform-progressbar .webform-progressbar-inner, .section-tags .webform-progressbar .webform-progressbar-page.completed, .section-tags .webform-progressbar .webform-progressbar-page.current, .section-tags .webform-progressbar .webform-progressbar-inner, .views-page .webform-progressbar .webform-progressbar-page.completed, .views-page .webform-progressbar .webform-progressbar-page.current, .views-page .webform-progressbar .webform-progressbar-inner, .page-user .webform-progressbar .webform-progressbar-page.completed, .page-user .webform-progressbar .webform-progressbar-page.current, .page-user .webform-progressbar .webform-progressbar-inner {
+  background-color: #483493;
+}
+/* line 40, sources/partials/_portal.scss */
+.page-portal .main-menu, .section-portal .main-menu, .section-tags .main-menu, .views-page .main-menu, .page-user .main-menu {
+  display: none !important;
+}
+/* line 44, sources/partials/_portal.scss */
+.page-portal .sub-menu ul, .page-portal .sub-menu .item-list ul, .section-portal .sub-menu ul, .section-portal .sub-menu .item-list ul, .section-tags .sub-menu ul, .section-tags .sub-menu .item-list ul, .views-page .sub-menu ul, .views-page .sub-menu .item-list ul, .page-user .sub-menu ul, .page-user .sub-menu .item-list ul {
+  border-color: #483493;
+}
+/* line 46, sources/partials/_portal.scss */
+.page-portal .sub-menu ul li a, .page-portal .sub-menu .item-list ul li a, .section-portal .sub-menu ul li a, .section-portal .sub-menu .item-list ul li a, .section-tags .sub-menu ul li a, .section-tags .sub-menu .item-list ul li a, .views-page .sub-menu ul li a, .views-page .sub-menu .item-list ul li a, .page-user .sub-menu ul li a, .page-user .sub-menu .item-list ul li a {
+  border-color: #483493;
+  background: transparent;
+  color: #000;
+}
+/* line 53, sources/partials/_portal.scss */
+.page-portal a, .section-portal a, .section-tags a, .views-page a, .page-user a {
+  color: #483493;
+}
+/* line 56, sources/partials/_portal.scss */
+.page-portal .l-banner, .page-portal .l-header, .section-portal .l-banner, .section-portal .l-header, .section-tags .l-banner, .section-tags .l-header, .views-page .l-banner, .views-page .l-header, .page-user .l-banner, .page-user .l-header {
+  border-color: #483493 !important;
+  margin-bottom: 35px;
+}
+/* line 60, sources/partials/_portal.scss */
+.page-portal .panel-pane table, .page-portal .all-topics table, .section-portal .panel-pane table, .section-portal .all-topics table, .section-tags .panel-pane table, .section-tags .all-topics table, .views-page .panel-pane table, .views-page .all-topics table, .page-user .panel-pane table, .page-user .all-topics table {
+  width: 100%;
+}
+/* line 61, sources/partials/_portal.scss */
+.page-portal .panel-pane, .section-portal .panel-pane, .section-tags .panel-pane, .views-page .panel-pane, .page-user .panel-pane {
+  margin-bottom: 3rem;
+}
+/* line 62, sources/partials/_portal.scss */
+.page-portal .panel-pane.pane-no-margin, .section-portal .panel-pane.pane-no-margin, .section-tags .panel-pane.pane-no-margin, .views-page .panel-pane.pane-no-margin, .page-user .panel-pane.pane-no-margin {
+  margin: 0;
+}
+/* line 66, sources/partials/_portal.scss */
+.page-portal .pane-views h2.pane-title, .section-portal .pane-views h2.pane-title, .section-tags .pane-views h2.pane-title, .views-page .pane-views h2.pane-title, .page-user .pane-views h2.pane-title {
+  font-size: 18px;
+  padding: 8px 0 8px 40px;
+}
+/* line 70, sources/partials/_portal.scss */
+.page-portal .pane-views.pane-pum-portal-latest-forum-topics h2.pane-title, .page-portal .pane-views.pane-my-latest-forum-topics-test h2.pane-title, .section-portal .pane-views.pane-pum-portal-latest-forum-topics h2.pane-title, .section-portal .pane-views.pane-my-latest-forum-topics-test h2.pane-title, .section-tags .pane-views.pane-pum-portal-latest-forum-topics h2.pane-title, .section-tags .pane-views.pane-my-latest-forum-topics-test h2.pane-title, .views-page .pane-views.pane-pum-portal-latest-forum-topics h2.pane-title, .views-page .pane-views.pane-my-latest-forum-topics-test h2.pane-title, .page-user .pane-views.pane-pum-portal-latest-forum-topics h2.pane-title, .page-user .pane-views.pane-my-latest-forum-topics-test h2.pane-title {
+  background: transparent url(../images/icon-portal-forum-30x30.png) left center no-repeat;
+}
+/* line 71, sources/partials/_portal.scss */
+.page-portal .pane-views.pane-latest-portal-news h2.pane-title, .page-portal .pane-views.pane-portal-my-latest-news h2.pane-title, .section-portal .pane-views.pane-latest-portal-news h2.pane-title, .section-portal .pane-views.pane-portal-my-latest-news h2.pane-title, .section-tags .pane-views.pane-latest-portal-news h2.pane-title, .section-tags .pane-views.pane-portal-my-latest-news h2.pane-title, .views-page .pane-views.pane-latest-portal-news h2.pane-title, .views-page .pane-views.pane-portal-my-latest-news h2.pane-title, .page-user .pane-views.pane-latest-portal-news h2.pane-title, .page-user .pane-views.pane-portal-my-latest-news h2.pane-title {
+  background: transparent url(../images/icon-portal-news-30x30.png) left center no-repeat;
+}
+/* line 72, sources/partials/_portal.scss */
+.page-portal .pane-views.pane-latest-portal-blogs h2.pane-title, .page-portal .pane-views.pane-my-blog h2.pane-title, .section-portal .pane-views.pane-latest-portal-blogs h2.pane-title, .section-portal .pane-views.pane-my-blog h2.pane-title, .section-tags .pane-views.pane-latest-portal-blogs h2.pane-title, .section-tags .pane-views.pane-my-blog h2.pane-title, .views-page .pane-views.pane-latest-portal-blogs h2.pane-title, .views-page .pane-views.pane-my-blog h2.pane-title, .page-user .pane-views.pane-latest-portal-blogs h2.pane-title, .page-user .pane-views.pane-my-blog h2.pane-title {
+  background: transparent url(../images/icon-portal-blog-30x30.png) left center no-repeat;
+}
+/* line 73, sources/partials/_portal.scss */
+.page-portal .pane-views.pane-latest-portal-documents h2.pane-title, .page-portal .pane-views.pane-my-documents h2.pane-title, .section-portal .pane-views.pane-latest-portal-documents h2.pane-title, .section-portal .pane-views.pane-my-documents h2.pane-title, .section-tags .pane-views.pane-latest-portal-documents h2.pane-title, .section-tags .pane-views.pane-my-documents h2.pane-title, .views-page .pane-views.pane-latest-portal-documents h2.pane-title, .views-page .pane-views.pane-my-documents h2.pane-title, .page-user .pane-views.pane-latest-portal-documents h2.pane-title, .page-user .pane-views.pane-my-documents h2.pane-title {
+  background: transparent url(../images/icon-portal-library-30x30.png) left center no-repeat;
+}
+/* line 78, sources/partials/_portal.scss */
+.page-portal.page-portal-general-communities .pane-views h2.pane-title, .section-portal.page-portal-general-communities .pane-views h2.pane-title, .section-tags.page-portal-general-communities .pane-views h2.pane-title, .views-page.page-portal-general-communities .pane-views h2.pane-title, .page-user.page-portal-general-communities .pane-views h2.pane-title {
+  font-size: 3.14286rem;
+  padding: 0;
+}
+/* line 85, sources/partials/_portal.scss */
+.page-portal .main .view-header a, .page-portal .main .view-empty a, .page-portal .main .add-button a, .section-portal .main .view-header a, .section-portal .main .view-empty a, .section-portal .main .add-button a, .section-tags .main .view-header a, .section-tags .main .view-empty a, .section-tags .main .add-button a, .views-page .main .view-header a, .views-page .main .view-empty a, .views-page .main .add-button a, .page-user .main .view-header a, .page-user .main .view-empty a, .page-user .main .add-button a {
+  padding: 10px;
+  font-family: "Helvetica Neue", arial, sans-serif;
+  background: #FE7500;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+/* line 93, sources/partials/_portal.scss */
+.page-portal .more-link a, .section-portal .more-link a, .section-tags .more-link a, .views-page .more-link a, .page-user .more-link a {
+  padding: 10px;
+  background: #483493;
+  color: #fff;
+}
+/* line 99, sources/partials/_portal.scss */
+.page-portal .group-tags, .section-portal .group-tags, .section-tags .group-tags, .views-page .group-tags, .page-user .group-tags {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  margin-top: 10rem;
+}
+/* line 106, sources/partials/_portal.scss */
+.page-portal .view-id-portal_add_private_taxonomy .views-exposed-form, .section-portal .view-id-portal_add_private_taxonomy .views-exposed-form, .section-tags .view-id-portal_add_private_taxonomy .views-exposed-form, .views-page .view-id-portal_add_private_taxonomy .views-exposed-form, .page-user .view-id-portal_add_private_taxonomy .views-exposed-form {
+  float: none;
+  width: 100%;
+  display: block;
+  left: 0;
+}
+/* line 112, sources/partials/_portal.scss */
+.page-portal .view-id-portal_add_private_taxonomy .view-content table, .section-portal .view-id-portal_add_private_taxonomy .view-content table, .section-tags .view-id-portal_add_private_taxonomy .view-content table, .views-page .view-id-portal_add_private_taxonomy .view-content table, .page-user .view-id-portal_add_private_taxonomy .view-content table {
+  width: 100%;
+}
+/* line 116, sources/partials/_portal.scss */
+.page-portal.two-col-panel tr.sticky, .section-portal.two-col-panel tr.sticky, .section-tags.two-col-panel tr.sticky, .views-page.two-col-panel tr.sticky, .page-user.two-col-panel tr.sticky {
+  background-image: url(../images/icon-pin.png);
+  background-repeat: no-repeat;
+  background-position: 95% center;
+}
+/* line 121, sources/partials/_portal.scss */
+.page-portal.two-col-panel td, .section-portal.two-col-panel td, .section-tags.two-col-panel td, .views-page.two-col-panel td, .page-user.two-col-panel td {
+  overflow: hidden;
+  font-size: .9rem;
+  height: 54px;
+}
+/* line 127, sources/partials/_portal.scss */
+.page-portal.two-col-panel .view-pum-portal-latest-forum-topics .views-field-display-name, .section-portal.two-col-panel .view-pum-portal-latest-forum-topics .views-field-display-name, .section-tags.two-col-panel .view-pum-portal-latest-forum-topics .views-field-display-name, .views-page.two-col-panel .view-pum-portal-latest-forum-topics .views-field-display-name, .page-user.two-col-panel .view-pum-portal-latest-forum-topics .views-field-display-name {
+  width: 30%;
+}
+/* line 130, sources/partials/_portal.scss */
+.page-portal.two-col-panel .view-pum-portal-latest-forum-topics .views-field-title, .section-portal.two-col-panel .view-pum-portal-latest-forum-topics .views-field-title, .section-tags.two-col-panel .view-pum-portal-latest-forum-topics .views-field-title, .views-page.two-col-panel .view-pum-portal-latest-forum-topics .views-field-title, .page-user.two-col-panel .view-pum-portal-latest-forum-topics .views-field-title {
+  width: 65%;
+  color: #999;
+  font-size: .8rem;
+}
+/* line 134, sources/partials/_portal.scss */
+.page-portal.two-col-panel .view-pum-portal-latest-forum-topics .views-field-title a, .section-portal.two-col-panel .view-pum-portal-latest-forum-topics .views-field-title a, .section-tags.two-col-panel .view-pum-portal-latest-forum-topics .views-field-title a, .views-page.two-col-panel .view-pum-portal-latest-forum-topics .views-field-title a, .page-user.two-col-panel .view-pum-portal-latest-forum-topics .views-field-title a {
+  font-size: .9rem;
+}
+/* line 140, sources/partials/_portal.scss */
+.page-portal.two-col-panel .view-id-latest_portal_blogs .views-field-display-name, .section-portal.two-col-panel .view-id-latest_portal_blogs .views-field-display-name, .section-tags.two-col-panel .view-id-latest_portal_blogs .views-field-display-name, .views-page.two-col-panel .view-id-latest_portal_blogs .views-field-display-name, .page-user.two-col-panel .view-id-latest_portal_blogs .views-field-display-name {
+  width: 30%;
+}
+/* line 143, sources/partials/_portal.scss */
+.page-portal.two-col-panel .view-id-latest_portal_blogs .views-field-title, .section-portal.two-col-panel .view-id-latest_portal_blogs .views-field-title, .section-tags.two-col-panel .view-id-latest_portal_blogs .views-field-title, .views-page.two-col-panel .view-id-latest_portal_blogs .views-field-title, .page-user.two-col-panel .view-id-latest_portal_blogs .views-field-title {
+  width: 65%;
+  color: #999;
+  font-size: .8rem;
+}
+/* line 147, sources/partials/_portal.scss */
+.page-portal.two-col-panel .view-id-latest_portal_blogs .views-field-title a, .section-portal.two-col-panel .view-id-latest_portal_blogs .views-field-title a, .section-tags.two-col-panel .view-id-latest_portal_blogs .views-field-title a, .views-page.two-col-panel .view-id-latest_portal_blogs .views-field-title a, .page-user.two-col-panel .view-id-latest_portal_blogs .views-field-title a {
+  font-size: .9rem;
+}
+/* line 153, sources/partials/_portal.scss */
+.page-portal.two-col-panel .view-id-latest_portal_news .views-field-title, .section-portal.two-col-panel .view-id-latest_portal_news .views-field-title, .section-tags.two-col-panel .view-id-latest_portal_news .views-field-title, .views-page.two-col-panel .view-id-latest_portal_news .views-field-title, .page-user.two-col-panel .view-id-latest_portal_news .views-field-title {
+  width: 100%;
+  color: #999;
+  font-size: .8rem;
+}
+/* line 157, sources/partials/_portal.scss */
+.page-portal.two-col-panel .view-id-latest_portal_news .views-field-title a, .section-portal.two-col-panel .view-id-latest_portal_news .views-field-title a, .section-tags.two-col-panel .view-id-latest_portal_news .views-field-title a, .views-page.two-col-panel .view-id-latest_portal_news .views-field-title a, .page-user.two-col-panel .view-id-latest_portal_news .views-field-title a {
+  font-size: .9rem;
+}
+/* line 163, sources/partials/_portal.scss */
+.page-portal.two-col-panel .view-id-latest_portal_documents .views-field-field-document-file, .section-portal.two-col-panel .view-id-latest_portal_documents .views-field-field-document-file, .section-tags.two-col-panel .view-id-latest_portal_documents .views-field-field-document-file, .views-page.two-col-panel .view-id-latest_portal_documents .views-field-field-document-file, .page-user.two-col-panel .view-id-latest_portal_documents .views-field-field-document-file {
+  width: 55%;
+}
+/* line 165, sources/partials/_portal.scss */
+.page-portal.two-col-panel .view-id-latest_portal_documents .views-field-field-document-file .file, .section-portal.two-col-panel .view-id-latest_portal_documents .views-field-field-document-file .file, .section-tags.two-col-panel .view-id-latest_portal_documents .views-field-field-document-file .file, .views-page.two-col-panel .view-id-latest_portal_documents .views-field-field-document-file .file, .page-user.two-col-panel .view-id-latest_portal_documents .views-field-field-document-file .file {
+  overflow: hidden;
+  width: 100%;
+}
+/* line 170, sources/partials/_portal.scss */
+.page-portal.two-col-panel .view-id-latest_portal_documents .views-field-title, .section-portal.two-col-panel .view-id-latest_portal_documents .views-field-title, .section-tags.two-col-panel .view-id-latest_portal_documents .views-field-title, .views-page.two-col-panel .view-id-latest_portal_documents .views-field-title, .page-user.two-col-panel .view-id-latest_portal_documents .views-field-title {
+  width: 43%;
+}
+/* line 177, sources/partials/_portal.scss */
+.page-portal .all-topics.view-id-latest_portal_news, .section-portal .all-topics.view-id-latest_portal_news, .section-tags .all-topics.view-id-latest_portal_news, .views-page .all-topics.view-id-latest_portal_news, .page-user .all-topics.view-id-latest_portal_news {
+  /* excluded from display
+  .views-field-term-node-tid {
+      width: 35%;
+  }
+  */
+}
+/* line 178, sources/partials/_portal.scss */
+.page-portal .all-topics.view-id-latest_portal_news .views-field-created, .section-portal .all-topics.view-id-latest_portal_news .views-field-created, .section-tags .all-topics.view-id-latest_portal_news .views-field-created, .views-page .all-topics.view-id-latest_portal_news .views-field-created, .page-user .all-topics.view-id-latest_portal_news .views-field-created {
+  width: 15%;
+  color: #999;
+  font-size: .8rem;
+}
+/* line 183, sources/partials/_portal.scss */
+.page-portal .all-topics.view-id-latest_portal_news .views-field-title, .section-portal .all-topics.view-id-latest_portal_news .views-field-title, .section-tags .all-topics.view-id-latest_portal_news .views-field-title, .views-page .all-topics.view-id-latest_portal_news .views-field-title, .page-user .all-topics.view-id-latest_portal_news .views-field-title {
+  width: 70%;
+}
+/* line 186, sources/partials/_portal.scss */
+.page-portal .all-topics.view-id-latest_portal_news .views-field-comment-count, .section-portal .all-topics.view-id-latest_portal_news .views-field-comment-count, .section-tags .all-topics.view-id-latest_portal_news .views-field-comment-count, .views-page .all-topics.view-id-latest_portal_news .views-field-comment-count, .page-user .all-topics.view-id-latest_portal_news .views-field-comment-count {
+  width: 5%;
+}
+/* line 195, sources/partials/_portal.scss */
+.page-portal .all-topics.view-id-pum_portal_latest_forum_topics, .section-portal .all-topics.view-id-pum_portal_latest_forum_topics, .section-tags .all-topics.view-id-pum_portal_latest_forum_topics, .views-page .all-topics.view-id-pum_portal_latest_forum_topics, .page-user .all-topics.view-id-pum_portal_latest_forum_topics {
+  /* excluded from display
+  .views-field-term-node-tid {
+      width: 35%;
+  }
+  */
+}
+/* line 196, sources/partials/_portal.scss */
+.page-portal .all-topics.view-id-pum_portal_latest_forum_topics .views-field-php, .section-portal .all-topics.view-id-pum_portal_latest_forum_topics .views-field-php, .section-tags .all-topics.view-id-pum_portal_latest_forum_topics .views-field-php, .views-page .all-topics.view-id-pum_portal_latest_forum_topics .views-field-php, .page-user .all-topics.view-id-pum_portal_latest_forum_topics .views-field-php {
+  width: 5%;
+}
+/* line 199, sources/partials/_portal.scss */
+.page-portal .all-topics.view-id-pum_portal_latest_forum_topics .views-field-created, .section-portal .all-topics.view-id-pum_portal_latest_forum_topics .views-field-created, .section-tags .all-topics.view-id-pum_portal_latest_forum_topics .views-field-created, .views-page .all-topics.view-id-pum_portal_latest_forum_topics .views-field-created, .page-user .all-topics.view-id-pum_portal_latest_forum_topics .views-field-created {
+  width: 15%;
+}
+/* line 202, sources/partials/_portal.scss */
+.page-portal .all-topics.view-id-pum_portal_latest_forum_topics .views-field-title, .section-portal .all-topics.view-id-pum_portal_latest_forum_topics .views-field-title, .section-tags .all-topics.view-id-pum_portal_latest_forum_topics .views-field-title, .views-page .all-topics.view-id-pum_portal_latest_forum_topics .views-field-title, .page-user .all-topics.view-id-pum_portal_latest_forum_topics .views-field-title {
+  width: 65%;
+}
+/* line 205, sources/partials/_portal.scss */
+.page-portal .all-topics.view-id-pum_portal_latest_forum_topics .views-field-comment-count, .section-portal .all-topics.view-id-pum_portal_latest_forum_topics .views-field-comment-count, .section-tags .all-topics.view-id-pum_portal_latest_forum_topics .views-field-comment-count, .views-page .all-topics.view-id-pum_portal_latest_forum_topics .views-field-comment-count, .page-user .all-topics.view-id-pum_portal_latest_forum_topics .views-field-comment-count {
+  width: 5%;
+}
+/* line 214, sources/partials/_portal.scss */
+.page-portal .all-topics.view-id-latest_portal_blogs, .section-portal .all-topics.view-id-latest_portal_blogs, .section-tags .all-topics.view-id-latest_portal_blogs, .views-page .all-topics.view-id-latest_portal_blogs, .page-user .all-topics.view-id-latest_portal_blogs {
+  /* excluded from display
+  .views-field-term-node-tid {
+      width: 35%;
+  }
+  */
+}
+/* line 215, sources/partials/_portal.scss */
+.page-portal .all-topics.view-id-latest_portal_blogs .views-field-php, .section-portal .all-topics.view-id-latest_portal_blogs .views-field-php, .section-tags .all-topics.view-id-latest_portal_blogs .views-field-php, .views-page .all-topics.view-id-latest_portal_blogs .views-field-php, .page-user .all-topics.view-id-latest_portal_blogs .views-field-php {
+  width: 20%;
+}
+/* line 218, sources/partials/_portal.scss */
+.page-portal .all-topics.view-id-latest_portal_blogs .views-field-title, .section-portal .all-topics.view-id-latest_portal_blogs .views-field-title, .section-tags .all-topics.view-id-latest_portal_blogs .views-field-title, .views-page .all-topics.view-id-latest_portal_blogs .views-field-title, .page-user .all-topics.view-id-latest_portal_blogs .views-field-title {
+  width: 60%;
+  color: #999;
+  font-size: .8rem;
+}
+/* line 222, sources/partials/_portal.scss */
+.page-portal .all-topics.view-id-latest_portal_blogs .views-field-title a, .section-portal .all-topics.view-id-latest_portal_blogs .views-field-title a, .section-tags .all-topics.view-id-latest_portal_blogs .views-field-title a, .views-page .all-topics.view-id-latest_portal_blogs .views-field-title a, .page-user .all-topics.view-id-latest_portal_blogs .views-field-title a {
+  font-size: 1.1rem;
+}
+/* line 226, sources/partials/_portal.scss */
+.page-portal .all-topics.view-id-latest_portal_blogs .views-field-field-blog-image, .section-portal .all-topics.view-id-latest_portal_blogs .views-field-field-blog-image, .section-tags .all-topics.view-id-latest_portal_blogs .views-field-field-blog-image, .views-page .all-topics.view-id-latest_portal_blogs .views-field-field-blog-image, .page-user .all-topics.view-id-latest_portal_blogs .views-field-field-blog-image {
+  width: 20%;
+}
+/* line 235, sources/partials/_portal.scss */
+.page-portal .all-topics.view-id-latest_portal_documents, .section-portal .all-topics.view-id-latest_portal_documents, .section-tags .all-topics.view-id-latest_portal_documents, .views-page .all-topics.view-id-latest_portal_documents, .page-user .all-topics.view-id-latest_portal_documents {
+  /* excluded from display
+  .views-field-term-node-tid {
+      width: 35%;
+  }
+  */
+}
+/* line 236, sources/partials/_portal.scss */
+.page-portal .all-topics.view-id-latest_portal_documents .views-field-field-document-file, .section-portal .all-topics.view-id-latest_portal_documents .views-field-field-document-file, .section-tags .all-topics.view-id-latest_portal_documents .views-field-field-document-file, .views-page .all-topics.view-id-latest_portal_documents .views-field-field-document-file, .page-user .all-topics.view-id-latest_portal_documents .views-field-field-document-file {
+  width: 55%;
+  overflow: hidden;
+}
+/* line 240, sources/partials/_portal.scss */
+.page-portal .all-topics.view-id-latest_portal_documents .views-field-title, .section-portal .all-topics.view-id-latest_portal_documents .views-field-title, .section-tags .all-topics.view-id-latest_portal_documents .views-field-title, .views-page .all-topics.view-id-latest_portal_documents .views-field-title, .page-user .all-topics.view-id-latest_portal_documents .views-field-title {
+  width: 45%;
+}
+/* line 251, sources/partials/_portal.scss */
+.page-portal .all-topics .views-field-term-node-tid li, .section-portal .all-topics .views-field-term-node-tid li, .section-tags .all-topics .views-field-term-node-tid li, .views-page .all-topics .views-field-term-node-tid li, .page-user .all-topics .views-field-term-node-tid li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 5px 5px 0;
+  padding: 0;
+}
+/* line 256, sources/partials/_portal.scss */
+.page-portal .all-topics .views-field-term-node-tid li a, .section-portal .all-topics .views-field-term-node-tid li a, .section-tags .all-topics .views-field-term-node-tid li a, .views-page .all-topics .views-field-term-node-tid li a, .page-user .all-topics .views-field-term-node-tid li a {
+  font-family: "Helvetica Neue", arial, sans-serif;
+  font-size: .8rem;
+  text-transform: lowercase;
+  padding: 3px;
+  border: 1px solid #443A94;
+  display: inline-block;
+  background: #fff;
+}
+/* line 268, sources/partials/_portal.scss */
+.page-portal .all-topics .views-exposed-form, .section-portal .all-topics .views-exposed-form, .section-tags .all-topics .views-exposed-form, .views-page .all-topics .views-exposed-form, .page-user .all-topics .views-exposed-form {
+  float: none;
+  width: 100%;
+  display: block;
+  left: 0;
+}
+/* line 273, sources/partials/_portal.scss */
+.page-portal .all-topics .views-exposed-form button, .section-portal .all-topics .views-exposed-form button, .section-tags .all-topics .views-exposed-form button, .views-page .all-topics .views-exposed-form button, .page-user .all-topics .views-exposed-form button {
+  margin-top: 1.3rem;
+  padding: .75rem 1rem;
+  background-color: #483493;
+  border-color: #483493;
+}
+/* line 282, sources/partials/_portal.scss */
+.page-portal .field-name-submitted-by, .page-portal .posted, .section-portal .field-name-submitted-by, .section-portal .posted, .section-tags .field-name-submitted-by, .section-tags .posted, .views-page .field-name-submitted-by, .views-page .posted, .page-user .field-name-submitted-by, .page-user .posted {
+  padding: .75rem;
+  background: #eee;
+  border: 1px solid #ddd;
+  margin-bottom: 50px;
+  display: inline-block;
+}
+/* line 290, sources/partials/_portal.scss */
+.page-portal .field-type-file, .section-portal .field-type-file, .section-tags .field-type-file, .views-page .field-type-file, .page-user .field-type-file {
+  padding: 10px;
+  display: block;
+  background: #483493;
+  margin-bottom: 50px;
+}
+/* line 295, sources/partials/_portal.scss */
+.page-portal .field-type-file a, .section-portal .field-type-file a, .section-tags .field-type-file a, .views-page .field-type-file a, .page-user .field-type-file a {
+  color: #fff;
+}
+/* line 301, sources/partials/_portal.scss */
+.page-portal .view-id-portal_countries ul, .section-portal .view-id-portal_countries ul, .section-tags .view-id-portal_countries ul, .views-page .view-id-portal_countries ul, .page-user .view-id-portal_countries ul {
+  -moz-column-count: 4;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 4;
+  -webkit-column-gap: 20px;
+  column-count: 4;
+  column-gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+/* line 311, sources/partials/_portal.scss */
+.page-portal .view-id-portal_countries ul li, .section-portal .view-id-portal_countries ul li, .section-tags .view-id-portal_countries ul li, .views-page .view-id-portal_countries ul li, .page-user .view-id-portal_countries ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 320, sources/partials/_portal.scss */
+.page-portal .field-type-taxonomy-term-reference h2, .section-portal .field-type-taxonomy-term-reference h2, .section-tags .field-type-taxonomy-term-reference h2, .views-page .field-type-taxonomy-term-reference h2, .page-user .field-type-taxonomy-term-reference h2 {
+  font-size: 1rem;
+  display: inline-block;
+  font-family: Times, "Times New Roman", "Helvetica Neue", arial, sans-serif;
+  position: relative;
+  top: 8px;
+  width: 200px;
+}
+/* line 329, sources/partials/_portal.scss */
+.page-portal .field-type-taxonomy-term-reference ul.links, .section-portal .field-type-taxonomy-term-reference ul.links, .section-tags .field-type-taxonomy-term-reference ul.links, .views-page .field-type-taxonomy-term-reference ul.links, .page-user .field-type-taxonomy-term-reference ul.links {
+  clear: both;
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 333, sources/partials/_portal.scss */
+.page-portal .field-type-taxonomy-term-reference ul.links li, .section-portal .field-type-taxonomy-term-reference ul.links li, .section-tags .field-type-taxonomy-term-reference ul.links li, .views-page .field-type-taxonomy-term-reference ul.links li, .page-user .field-type-taxonomy-term-reference ul.links li {
+  float: left;
+  margin-right: 1rem;
+  list-style: none;
+}
+/* line 337, sources/partials/_portal.scss */
+.page-portal .field-type-taxonomy-term-reference ul.links li a, .section-portal .field-type-taxonomy-term-reference ul.links li a, .section-tags .field-type-taxonomy-term-reference ul.links li a, .views-page .field-type-taxonomy-term-reference ul.links li a, .page-user .field-type-taxonomy-term-reference ul.links li a {
+  font-family: "Helvetica Neue", arial, sans-serif;
+  font-size: .9rem;
+  text-transform: lowercase;
+  padding: 3px;
+  border: 1px solid #443A94;
+  display: inline-block;
+  background: #fff;
+}
+/* line 350, sources/partials/_portal.scss */
+.page-portal h2.block-title, .section-portal h2.block-title, .section-tags h2.block-title, .views-page h2.block-title, .page-user h2.block-title {
+  font-size: 1.5rem;
+  color: #FE7500;
+}
+/* line 358, sources/partials/_portal.scss */
+.page-portal .view-id-pum_portal_directory .views-exposed-form, .section-portal .view-id-pum_portal_directory .views-exposed-form, .section-tags .view-id-pum_portal_directory .views-exposed-form, .views-page .view-id-pum_portal_directory .views-exposed-form, .page-user .view-id-pum_portal_directory .views-exposed-form {
+  float: none;
+  width: 100%;
+  left: 0;
+}
+/* line 362, sources/partials/_portal.scss */
+.page-portal .view-id-pum_portal_directory .views-exposed-form button, .section-portal .view-id-pum_portal_directory .views-exposed-form button, .section-tags .view-id-pum_portal_directory .views-exposed-form button, .views-page .view-id-pum_portal_directory .views-exposed-form button, .page-user .view-id-pum_portal_directory .views-exposed-form button {
+  margin-top: 1.5rem;
+  padding: .6rem;
+}
+/* line 367, sources/partials/_portal.scss */
+.page-portal .view-id-pum_portal_directory td, .section-portal .view-id-pum_portal_directory td, .section-tags .view-id-pum_portal_directory td, .views-page .view-id-pum_portal_directory td, .page-user .view-id-pum_portal_directory td {
+  padding-left: 0;
+  padding-right: 10px;
+}
+/* line 370, sources/partials/_portal.scss */
+.page-portal .view-id-pum_portal_directory td img, .section-portal .view-id-pum_portal_directory td img, .section-tags .view-id-pum_portal_directory td img, .views-page .view-id-pum_portal_directory td img, .page-user .view-id-pum_portal_directory td img {
+  width: 120px;
+  height: auto;
+}
+/* line 374, sources/partials/_portal.scss */
+.page-portal .view-id-pum_portal_directory td .views-field-mail, .section-portal .view-id-pum_portal_directory td .views-field-mail, .section-tags .view-id-pum_portal_directory td .views-field-mail, .views-page .view-id-pum_portal_directory td .views-field-mail, .page-user .view-id-pum_portal_directory td .views-field-mail {
+  display: inline-block;
+  width: 100px;
+  overflow: hidden;
+}
+/* line 383, sources/partials/_portal.scss */
+.page-portal .view-portal-my-communities .views-field, .section-portal .view-portal-my-communities .views-field, .section-tags .view-portal-my-communities .views-field, .views-page .view-portal-my-communities .views-field, .page-user .view-portal-my-communities .views-field {
+  padding: .5rem 0;
+  border-bottom: 1px solid #ededed;
+}
+/* line 386, sources/partials/_portal.scss */
+.page-portal .view-portal-my-communities .views-field .views-label, .section-portal .view-portal-my-communities .views-field .views-label, .section-tags .view-portal-my-communities .views-field .views-label, .views-page .view-portal-my-communities .views-field .views-label, .page-user .view-portal-my-communities .views-field .views-label {
+  display: inline-block;
+  width: 125px;
+}
+/* line 387, sources/partials/_portal.scss */
+.page-portal .view-portal-my-communities .views-field .field-content, .section-portal .view-portal-my-communities .views-field .field-content, .section-tags .view-portal-my-communities .views-field .field-content, .views-page .view-portal-my-communities .views-field .field-content, .page-user .view-portal-my-communities .views-field .field-content {
+  display: inline-block;
+}
+/* line 391, sources/partials/_portal.scss */
+.page-portal .flag-outer a, .section-portal .flag-outer a, .section-tags .flag-outer a, .views-page .flag-outer a, .page-user .flag-outer a {
+  padding: 12px;
+  margin-top: 1.5rem;
+  color: #fff;
+}
+/* line 398, sources/partials/_portal.scss */
+.page-portal .view-pum-portal-blog-subscribe .views-field-ops a, .section-portal .view-pum-portal-blog-subscribe .views-field-ops a, .section-tags .view-pum-portal-blog-subscribe .views-field-ops a, .views-page .view-pum-portal-blog-subscribe .views-field-ops a, .page-user .view-pum-portal-blog-subscribe .views-field-ops a {
+  padding: 12px;
+  margin-top: 1rem;
+  color: #fff;
+}
+/* line 406, sources/partials/_portal.scss */
+.page-portal .field-name-field-document-file table, .section-portal .field-name-field-document-file table, .section-tags .field-name-field-document-file table, .views-page .field-name-field-document-file table, .page-user .field-name-field-document-file table {
+  width: 100%;
+}
+/* line 408, sources/partials/_portal.scss */
+.page-portal .field-name-field-document-file table span.file, .section-portal .field-name-field-document-file table span.file, .section-tags .field-name-field-document-file table span.file, .views-page .field-name-field-document-file table span.file, .page-user .field-name-field-document-file table span.file {
+  border: 1px solid #483493;
+  padding: 5px;
+}
+/* line 416, sources/partials/_portal.scss */
+.page-portal .block-pum-portal-custom-pum-term-subscription label, .section-portal .block-pum-portal-custom-pum-term-subscription label, .section-tags .block-pum-portal-custom-pum-term-subscription label, .views-page .block-pum-portal-custom-pum-term-subscription label, .page-user .block-pum-portal-custom-pum-term-subscription label {
+  width: 77px;
+}
+/* line 419, sources/partials/_portal.scss */
+.page-portal .block-pum-portal-custom-pum-term-subscription input[type="checkbox"], .section-portal .block-pum-portal-custom-pum-term-subscription input[type="checkbox"], .section-tags .block-pum-portal-custom-pum-term-subscription input[type="checkbox"], .views-page .block-pum-portal-custom-pum-term-subscription input[type="checkbox"], .page-user .block-pum-portal-custom-pum-term-subscription input[type="checkbox"] {
+  margin: 0;
+  vertical-align: top;
+}
+/* line 426, sources/partials/_portal.scss */
+.page-portal .view-project-details-for-expert- .views-field, .section-portal .view-project-details-for-expert- .views-field, .section-tags .view-project-details-for-expert- .views-field, .views-page .view-project-details-for-expert- .views-field, .page-user .view-project-details-for-expert- .views-field {
+  margin-bottom: 2rem;
+}
+/* line 428, sources/partials/_portal.scss */
+.page-portal .view-project-details-for-expert- .views-field.views-field-start-date, .section-portal .view-project-details-for-expert- .views-field.views-field-start-date, .section-tags .view-project-details-for-expert- .views-field.views-field-start-date, .views-page .view-project-details-for-expert- .views-field.views-field-start-date, .page-user .view-project-details-for-expert- .views-field.views-field-start-date {
+  margin-bottom: 0;
+}
+/* line 431, sources/partials/_portal.scss */
+.page-portal .view-project-details-for-expert- .views-field h3, .section-portal .view-project-details-for-expert- .views-field h3, .section-tags .view-project-details-for-expert- .views-field h3, .views-page .view-project-details-for-expert- .views-field h3, .page-user .view-project-details-for-expert- .views-field h3 {
+  margin-bottom: .5rem;
+  font-size: 1.1rem;
+  font-family: Times, "Times New Roman", "Helvetica Neue", arial, sans-serif;
+  font-weight: bold;
+}
+/* line 440, sources/partials/_portal.scss */
+.page-portal .view-id-expert_customer_info table, .section-portal .view-id-expert_customer_info table, .section-tags .view-id-expert_customer_info table, .views-page .view-id-expert_customer_info table, .page-user .view-id-expert_customer_info table {
+  width: 100%;
+}
+/* line 442, sources/partials/_portal.scss */
+.page-portal .view-id-expert_customer_info table td, .section-portal .view-id-expert_customer_info table td, .section-tags .view-id-expert_customer_info table td, .views-page .view-id-expert_customer_info table td, .page-user .view-id-expert_customer_info table td {
+  width: 900px;
+}
+/* line 444, sources/partials/_portal.scss */
+.page-portal .view-id-expert_customer_info table td .views-field, .section-portal .view-id-expert_customer_info table td .views-field, .section-tags .view-id-expert_customer_info table td .views-field, .views-page .view-id-expert_customer_info table td .views-field, .page-user .view-id-expert_customer_info table td .views-field {
+  padding: 3px 0;
+}
+/* line 446, sources/partials/_portal.scss */
+.page-portal .view-id-expert_customer_info table td .views-field span.views-label, .section-portal .view-id-expert_customer_info table td .views-field span.views-label, .section-tags .view-id-expert_customer_info table td .views-field span.views-label, .views-page .view-id-expert_customer_info table td .views-field span.views-label, .page-user .view-id-expert_customer_info table td .views-field span.views-label {
+  font-family: Times, "Times New Roman", "Helvetica Neue", arial, sans-serif;
+  font-weight: bold;
+  display: inline-block;
+  width: 225px;
+  margin-right: 20px;
+  vertical-align: top;
+}
+/* line 454, sources/partials/_portal.scss */
+.page-portal .view-id-expert_customer_info table td .views-field span.field-content, .section-portal .view-id-expert_customer_info table td .views-field span.field-content, .section-tags .view-id-expert_customer_info table td .views-field span.field-content, .views-page .view-id-expert_customer_info table td .views-field span.field-content, .page-user .view-id-expert_customer_info table td .views-field span.field-content {
+  width: 350px;
+  vertical-align: top;
+  display: inline-block;
+}
+/* line 459, sources/partials/_portal.scss */
+.page-portal .view-id-expert_customer_info table td .views-field h2.views-label, .section-portal .view-id-expert_customer_info table td .views-field h2.views-label, .section-tags .view-id-expert_customer_info table td .views-field h2.views-label, .views-page .view-id-expert_customer_info table td .views-field h2.views-label, .page-user .view-id-expert_customer_info table td .views-field h2.views-label {
+  font-family: Times, "Times New Roman", "Helvetica Neue", arial, sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  width: auto;
+}
+/* line 466, sources/partials/_portal.scss */
+.page-portal .view-id-expert_customer_info table td table, .section-portal .view-id-expert_customer_info table td table, .section-tags .view-id-expert_customer_info table td table, .views-page .view-id-expert_customer_info table td table, .page-user .view-id-expert_customer_info table td table {
+  width: 810px;
+}
+/* line 469, sources/partials/_portal.scss */
+.page-portal .view-id-expert_customer_info table td .views-row, .section-portal .view-id-expert_customer_info table td .views-row, .section-tags .view-id-expert_customer_info table td .views-row, .views-page .view-id-expert_customer_info table td .views-row, .page-user .view-id-expert_customer_info table td .views-row {
+  width: 810px;
+}
+
+/* line 477, sources/partials/_portal.scss */
+form ul.token-input-list {
+  height: 38px !important;
+}
+/* line 479, sources/partials/_portal.scss */
+form ul.token-input-list input {
+  outline: none !important;
+  box-shadow: none !important;
+  background: #fff !important;
+}
+
+/* line 486, sources/partials/_portal.scss */
+code.help div {
+  background: #fff;
+  border: 1px solid #483493;
+  color: #000;
+  font-family: Times, "Times New Roman", "Helvetica Neue", arial, sans-serif;
+  font-weight: normal;
+  min-width: 250px;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.25);
+  padding: 10px 25px 10px 10px;
+  z-index: 9;
+}
+/* line 496, sources/partials/_portal.scss */
+code.help div span.close {
+  text-indent: -9999px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: transparent url(../images/icon-close.png) left top no-repeat;
+  right: 5px;
+  top: 5px;
+}
+
+/* line 509, sources/partials/_portal.scss */
+.page-user #crm-container .crm-section {
+  border-bottom: 1px solid #ededed;
+}
+/* line 511, sources/partials/_portal.scss */
+.page-user #crm-container .crm-section .label {
+  background: transparent;
+  font-size: .9rem;
+  font-family: Times, "Times New Roman", "Helvetica Neue", arial, sans-serif;
+  font-weight: bold;
+  text-align: left;
+  color: #000;
+  width: 20%;
+}
+/* line 522, sources/partials/_portal.scss */
+.page-user #user-page-contact {
+  display: block;
+  margin-bottom: .75rem;
+}
+
+/* line 529, sources/partials/_portal.scss */
+.communities-overview .pane-content ul {
+  margin: 0;
+  padding: 0;
+  display: block;
+  text-align: center;
+}
+/* line 535, sources/partials/_portal.scss */
+.communities-overview .pane-content ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 1rem 0 0;
+  padding: 0;
+  vertical-align: top;
+}
+/* line 542, sources/partials/_portal.scss */
+.communities-overview .pane-content ul li a {
+  display: block;
+  width: 140px;
+  height: 140px;
+  background: #483493;
+  text-indent: -9999px;
+}
+/* line 549, sources/partials/_portal.scss */
+.communities-overview .pane-content ul li a.country-community {
+  background: transparent url(../images/icon-community-country.png) left top no-repeat;
+}
+/* line 550, sources/partials/_portal.scss */
+.communities-overview .pane-content ul li a.general-community {
+  background: transparent url(../images/icon-community-general.png) left top no-repeat;
+}
+/* line 551, sources/partials/_portal.scss */
+.communities-overview .pane-content ul li a.sector-community {
+  background: transparent url(../images/icon-community-sector.png) left top no-repeat;
+}
+
+/*# sourceMappingURL=style.css.map */

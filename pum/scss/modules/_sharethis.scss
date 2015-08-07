@@ -3,21 +3,25 @@
 	z-index: 20;
 	left: 0;
 	top: 225px;
-	span {
+	a {
 		display: block;
 		width: 35px;
 		height: 35px;
-		background: blue;
+		background: #ccc;
 		margin-bottom: 1px;
 		cursor: pointer;
-		&.st_facebook_custom {
+		text-indent: -9999px;
+		&.fb {
 			background: transparent url(../images/icon-fb-sharethis.png) left top no-repeat;
 		}
-		&.st_twitter_custom {
+		&.tw {
 			background: transparent url(../images/icon-tw-sharethis.png) left top no-repeat;
 		}
-		&.st_linkedin_custom {
+		&.li {
 			background: transparent url(../images/icon-li-sharethis.png) left top no-repeat;
-		}		
+		}
+		&.go {
+			background: transparent url(../images/icon-go-sharethis.png) left top no-repeat;
+		}
 	}
 }

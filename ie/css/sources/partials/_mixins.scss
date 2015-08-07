@@ -1,0 +1,51 @@
+@mixin clearfix {
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+@function calculateRem($size) {
+    $remSize: $size / 18px;
+    @return $remSize * 1rem;
+}
+
+@mixin rem($size) {
+    font-size: $size;
+    font-size: calculateRem($size);
+}
+
+@mixin transition($prop: all, $time: 0.2, $easing: ease){
+    -webkit-transition:$prop $time+s $easing;
+    -moz-transition:$prop $time+s $easing;
+    -o-transition:$prop $time+s $easing;
+    transition:$prop $time+s $easing;
+}
+
+@mixin translateX($transform) {
+    -webkit-transform: translateX($transform);
+    -moz-transform: translateX($transform);
+    -o-transform: translateX($transform);
+    -ms-transform: translateX($transform);
+    transform: translateX($transform);
+}
+
+@mixin translateY($transform) {
+    -webkit-transform: translateY($transform);
+    -moz-transform: translateY($transform);
+    -o-transform: translateY($transform);
+    -ms-transform: translateY($transform);
+    transform: translateY($transform);
+}
+
+@mixin bg-gradient($color1, $color2) {
+    background: $color1; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  $color1 0%, $color2 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,$color1), color-stop(100%,$color2)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(-45deg,  $color1 0%,$color2 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(-45deg,  $color1 0%,$color2 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(-45deg,  $color1 0%,$color2 100%); /* IE10+ */
+    background: linear-gradient(135deg,  $color1 0%,$color2 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f8ff', endColorstr='#bee1ff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}

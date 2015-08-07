@@ -16,6 +16,17 @@
   });
 </script>
 
+<script type="text/javascript">
+    var title = document.title;
+    var url = document.URL;
+    document.write('<div class="sharethis">');
+    document.write('<a class="fb" href="https://www.facebook.com/sharer/sharer.php?u='+url+'">Share on Facebook</a>');
+    document.write('<a class="tw" href="https://twitter.com/home?status='+url+'">Share on Twitter</a>');
+    document.write('<a class="go" href="https://plus.google.com/share?url='+url+'">Share on Google+</a>');
+    document.write('<a class="li" href="https://www.linkedin.com/shareArticle?mini=true&url='+url+'&title='+title+'&summary=&source=">Share on LinkedIn</a>');
+    document.write('</div>');
+</script>
+
 <!-- Get the values used on the frontpage -->
 <?php
   $intro_text = field_get_items('node', $node, 'field_front_intro_text')[0]['value'];
@@ -55,13 +66,13 @@
   $text_align_business = field_get_items('node', $node, 'field_text_align_business')[0]['value'];
   $text_align_expert = field_get_items('node', $node, 'field_text_align_expert')[0]['value'];
   $text_align_partner = field_get_items('node', $node, 'field_text_align_partner')[0]['value'];
- 
+
   $text_business = field_get_items('node', $node, 'field_text_business')[0]['value'];
   $text_expert = field_get_items('node', $node, 'field_text_expert')[0]['value'];
   $text_partner = field_get_items('node', $node, 'field_text_partner')[0]['value'];
-  
+
   $title_newsletter = field_get_items('node', $node, 'field_front_title_newsletter')[0]['value'];
-  $text_newsletter = field_get_items('node', $node, 'field_front_text_newsletter')[0]['value']; 
+  $text_newsletter = field_get_items('node', $node, 'field_front_text_newsletter')[0]['value'];
   $url_button_newsletter = field_get_items('node', $node, 'field_front_link_newsletter')[0]['url'];
   $title_button_newsletter = field_get_items('node', $node, 'field_front_link_newsletter')[0]['title'];
 ?>
@@ -270,11 +281,11 @@
   <!--/.main-->
 
   <?php if (!empty($page['maps_front'])): ?>
-    <div class="under-bar-front">
+    <div class="under-bar-front" id="underbar">
       <?php print render($page['maps_front']); ?>
     </div>
   <?php endif; ?>
-  
+
   <?php if ($title_newsletter != '' && $text_newsletter != ''): ?>
     <div class="newsletter">
         <div class="row">
