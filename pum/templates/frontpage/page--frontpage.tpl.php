@@ -27,6 +27,26 @@
     document.write('</div>');
 </script>
 
+<?php
+drupal_add_library('system', 'jquery.cookie');
+
+if(!isset($_COOKIE['pum_cookies'])) {
+?>
+	<div id="popup-message-window">
+		<h1 class="popup-message-title">
+			<?=theme_get_setting('pum_cookie_title');?>
+		</h1>
+		<div id="popup-message-content">
+			<?=theme_get_setting('pum_cookie_text');?>
+		</div>
+		<div id="popup-message-buttons">
+			<a id="pum-cookie-message-accept" onclick="jQuery.cookie('pum_cookies', '1'); jQuery('#popup-message-window').hide();" class="pum_button">I Agree</a> - <a id="pum-cookie-message-deny" onclick="jQuery.cookie('pum_cookies', '0'); jQuery('#popup-message-window').hide();" class="pum_button">I Disagree</a>
+		</div>
+	</div>
+<?php
+}
+?>
+
 <!-- Get the values used on the frontpage -->
 <?php
   $intro_text = field_get_items('node', $node, 'field_front_intro_text')[0]['value'];
