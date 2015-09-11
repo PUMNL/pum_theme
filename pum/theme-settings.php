@@ -21,6 +21,13 @@ function pum_form_system_theme_settings_alter(&$form, &$form_state) {
       '#collapsible' => TRUE,
     );
     
+    $form['zurb_foundation']['pum_cookies']['pum_cookie_messageactive'] = array(
+		'#type' => 'checkbox', 
+		'#title' => t('Display cookie message'),
+		'#description' => t('You can choose whether the cookie message should be displayed or not.'),
+		'#default_value' => theme_get_setting('pum_cookie_messageactive'),
+	);
+    
     $form['zurb_foundation']['pum_cookies']['pum_cookie_title'] = array(
       '#type' => 'textfield',
       '#title' => t('Cookie Title'),

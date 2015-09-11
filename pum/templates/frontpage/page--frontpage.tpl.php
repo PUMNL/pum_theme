@@ -28,9 +28,11 @@
 </script>
 
 <?php
-drupal_add_library('system', 'jquery.cookie');
+$cookie_message_active = theme_get_setting('pum_cookie_messageactive');
+if($cookie_message_active == '1') {
+	drupal_add_library('system', 'jquery.cookie');
 
-if(!isset($_COOKIE['pum_cookies'])) {
+	if(!isset($_COOKIE['pum_cookies'])) {
 ?>
 	<div id="popup-message-window">
 		<h1 class="popup-message-title">
@@ -44,8 +46,10 @@ if(!isset($_COOKIE['pum_cookies'])) {
 		</div>
 	</div>
 <?php
+	}
 }
 ?>
+
 
 <!-- Get the values used on the frontpage -->
 <?php

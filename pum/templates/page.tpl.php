@@ -28,15 +28,17 @@
 </script>
 
 <?php
-drupal_add_library('system', 'jquery.cookie');
+$cookie_message_active = theme_get_setting('pum_cookie_messageactive');
+if($cookie_message_active == '1') {
+	drupal_add_library('system', 'jquery.cookie');
 
-if(!isset($_COOKIE['pum_cookies'])) {
+	if(!isset($_COOKIE['pum_cookies'])) {
 ?>
 	<div id="popup-message-window">
 		<h1 class="popup-message-title">
 			<?=theme_get_setting('pum_cookie_title');?>
 		</h1>
-		<div id='popup-message-content'>
+		<div id="popup-message-content">
 			<?=theme_get_setting('pum_cookie_text');?>
 		</div>
 		<div id="popup-message-buttons">
@@ -44,6 +46,7 @@ if(!isset($_COOKIE['pum_cookies'])) {
 		</div>
 	</div>
 <?php
+	}
 }
 ?>
 
