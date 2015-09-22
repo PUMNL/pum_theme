@@ -15,7 +15,7 @@
   $raw_lower = strtolower($raw_link);
   $fulltrail=str_replace(" ","-",$raw_lower);
 ?>
-
+<?php if(user_is_logged_in() == FALSE) { ?>
 <script type="text/javascript">
     var title = document.title;
     var url = document.URL;
@@ -26,8 +26,9 @@
     document.write('<a class="li" href="https://www.linkedin.com/shareArticle?mini=true&url='+url+'&title='+title+'&summary=&source=">Share on LinkedIn</a>');
     document.write('</div>');
 </script>
-
 <?php
+}
+
 $cookie_message_active = theme_get_setting('pum_cookie_messageactive');
 if($cookie_message_active == '1') {
 	drupal_add_library('system', 'jquery.cookie');

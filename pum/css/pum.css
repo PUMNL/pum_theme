@@ -23406,3 +23406,24 @@ a#pum-cookie-message-accept, a#pum-cookie-message-deny{
 	background-color: #CB5E00;
 	color: #FE7500;
 }
+
+
+/* DSA Details (expert) View Labels */
+span.views-label.views-label-php.dsa-details-label,
+span.views-label.views-label-php-1.dsa-details-label,
+span.views-label.views-label-php-2.dsa-details-label,
+span.views-label.views-label-php-3.dsa-details-label,
+span.views-label.views-label-php-4.dsa-details-label,
+span.views-label.views-label-php-5.dsa-details-label,
+span.views-label.views-label-php-6.dsa-details-label,
+span.views-label.views-label-php-7.dsa-details-label,
+span.views-label.views-label-php-8.dsa-details-label,
+span.views-label.views-label-php-9.dsa-details-label {
+	width: 200px;
+}
+span.dsa-details-label.total {
+	padding-top: 10px;
+}
+span.field-content.dsa-details-label.total {
+	border-top: #000000 3px solid;
+}
