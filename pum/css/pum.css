@@ -23371,3 +23371,76 @@ aside.partner-with-us ul, aside.partner-with-us ul li a {
   font-weight: bold;
   padding-right: 20px;
 }
+
+/* Cookie message */
+#popup-message-window {
+	color: #FE7500; /* #000000; */
+	background: #FFFFFF;
+	z-index: 499;
+	margin: auto;
+	width: 100%;
+	border-top: 3px solid #FE7500;
+	border-bottom: 3px solid #FE7500;
+	height: auto;
+	padding-bottom: 30px;	
+}
+
+.popup-message-title {
+	color: #000000; /* #FE7500; */
+	text-align: center;
+}
+
+a#pum-cookie-message-accept, a#pum-cookie-message-deny{
+	font-size: 11px;
+	color: #FFFFFF;
+	width: 100px;
+	height: 100px;
+}
+
+#popup-message-content {
+	color: #000000;
+	text-align: center;
+}
+
+#popup-message-background {
+	height: 100px;
+}
+
+#popup-message-buttons {
+	margin-top:20px;
+	text-align: center;
+}
+.pum_button  {
+    border: 10px solid #FE7500;
+    background-color: #FE7500;
+    color: #FFFFFF;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.pum_button:hover, .pum_button a:hover{
+	border: 10px solid #CB5E00;
+	background-color: #CB5E00;
+	color: #FE7500;
+}
+
+
+/* DSA Details (expert) View Labels */
+span.views-label.views-label-php.dsa-details-label,
+span.views-label.views-label-php-1.dsa-details-label,
+span.views-label.views-label-php-2.dsa-details-label,
+span.views-label.views-label-php-3.dsa-details-label,
+span.views-label.views-label-php-4.dsa-details-label,
+span.views-label.views-label-php-5.dsa-details-label,
+span.views-label.views-label-php-6.dsa-details-label,
+span.views-label.views-label-php-7.dsa-details-label,
+span.views-label.views-label-php-8.dsa-details-label,
+span.views-label.views-label-php-9.dsa-details-label {
+	width: 200px;
+}
+span.dsa-details-label.total {
+	padding-top: 10px;
+}
+span.field-content.dsa-details-label.total {
+	border-top: #000000 3px solid;
+}
