@@ -23362,12 +23362,21 @@ aside.partner-with-us ul, aside.partner-with-us ul li a {
 }
 
 /* line 2, ../scss/modules/_responsivegrid.scss */
+.views-responsive-grid .views-row {
+  border-bottom: 3px solid #ccc;
+  margin-bottom: 20px;
+}
+/* line 6, ../scss/modules/_responsivegrid.scss */
 .views-responsive-grid .views-field {
   padding: 5px 0;
   border-bottom: 1px solid #eee;
 }
-/* line 6, ../scss/modules/_responsivegrid.scss */
+/* line 10, ../scss/modules/_responsivegrid.scss */
 .views-responsive-grid .views-label {
+  padding: 3px;
+  background: #666;
+  margin-right: 30px;
+  color: #fff;
   font-weight: bold;
   padding-right: 20px;
 }
