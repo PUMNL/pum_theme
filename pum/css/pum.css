@@ -9577,7 +9577,7 @@ em, i {
   /* line 21, ../scss/contenttypes/_countries.scss */
   .node-type-country .group-coordinator-officer .data, .node-type-country .group-representative .data {
     display: inline-block;
-    width: 50%;
+    width: 100%;
     line-height: 1.6;
   }
   /* line 27, ../scss/contenttypes/_countries.scss */
@@ -9609,22 +9609,22 @@ em, i {
   .node-type-country .group-coordinator-officer li h3, .node-type-country .group-representative li h3 {
     position: relative;
     left: -2rem;
-    background: transparent url(../images/icons/icon-country-region.png) left center no-repeat;
     font-family: "MuseoSansRounded-700";
     font-size: 1.3rem;
     margin-bottom: .5rem;
     padding: .5rem 0 .5rem 2rem;
   }
-  /* line 56, ../scss/contenttypes/_countries.scss */
+  /* line 55, ../scss/contenttypes/_countries.scss */
   .node-type-country .group-coordinator-officer li .views-row, .node-type-country .group-representative li .views-row {
     margin-bottom: 1.5rem;
   }
-  /* line 58, ../scss/contenttypes/_countries.scss */
+  /* line 57, ../scss/contenttypes/_countries.scss */
   .node-type-country .group-coordinator-officer li .views-row .field-name-field-repres-person, .node-type-country .group-representative li .views-row .field-name-field-repres-person {
     font-family: "merriweatherbold", "Times New Roman", Times, serif;
   }
-  /* line 66, ../scss/contenttypes/_countries.scss */
+  /* line 65, ../scss/contenttypes/_countries.scss */
   .node-type-country .block-views-countries-number-projects {
+    display: none;
     text-align: center;
   }
   /* line 68, ../scss/contenttypes/_countries.scss */
@@ -9675,6 +9675,22 @@ em, i {
     display: inline-block;
     margin-left: -10px;
     font-size: 18px;
+  }
+}
+@media only screen and (min-width: 741px) {
+  /* line 119, ../scss/contenttypes/_countries.scss */
+  .node-type-country .group-coordinator-officer li h3, .node-type-country .group-representative li h3 {
+    background: transparent url(../images/icons/icon-country-region.png) left center no-repeat;
+  }
+
+  /* line 122, ../scss/contenttypes/_countries.scss */
+  .node-type-country .group-coordinator-officer .data, .node-type-country .group-representative .data {
+    width: 50%;
+  }
+
+  /* line 125, ../scss/contenttypes/_countries.scss */
+  .node-type-country .block-views-countries-number-projects {
+    display: block;
   }
 }
 @media only screen {

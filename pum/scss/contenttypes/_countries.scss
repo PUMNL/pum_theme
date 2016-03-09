@@ -2,68 +2,68 @@
     .node-type-country {
         aside ul li ul {display: none;}
     }
-    
+
     .node-type-country {
         .intro-text p {
             font-family: $body-font-family-bold;
             margin-bottom: 1rem;
-        }    
-        
+        }
+
         .group-coordinator-officer, .group-representative {
             background: #ccc;
             display: block;
             width: 100%;
             padding: 25px 22px;
             border-bottom: 1px solid #fff;
-            
+
             a {color: $body-font-color;}
-            
+
             .data {
                 display: inline-block;
-                width: 50%;
+                width: 100%;
                 line-height: 1.6;
             }
-            
+
             .label-above {
                 font-family: $rounded-font-700;
                 font-size: 1.5rem;
-                margin-bottom: .75rem;              
-            }   
-            
+                margin-bottom: .75rem;
+            }
+
             .field-name-field-country-user-name {
                 font-family: $body-font-family-bold;
                 line-height: 1.6;
-            }    
-                
+            }
+
             .field-name-field-country-user-email {font-size: .9rem;}
-            
+
             ul {margin-left: 0;}
             li {
                 list-style: none;
-                margin: 0; 
+                margin: 0;
                 padding: 0;
-                
+
                 h3 {
                     position: relative;
                     left: -2rem;
-                    background: transparent url(../images/icons/icon-country-region.png) left center no-repeat;   
                     font-family: $rounded-font-700;
                     font-size: 1.3rem;
                     margin-bottom: .5rem;
-                    padding: .5rem 0 .5rem 2rem;          
-                }  
-                
+                    padding: .5rem 0 .5rem 2rem;
+                }
+
                 .views-row {
                     margin-bottom: 1.5rem;
                     .field-name-field-repres-person {
                         font-family: $body-font-family-bold;
                     }
                 }
-            
+
             } // ./li
         } // ./ group-coordinator-officer / group-representative
-        
+
         .block-views-countries-number-projects {
+            display: none;
             text-align: center;
             .view-header {
                 position: relative;
@@ -89,9 +89,9 @@
                         font-size: 75px;
                     }
                     .bar {
-                        max-height: 140px; 
-                        width: 140px; 
-                        background: $primary-color; 
+                        max-height: 140px;
+                        width: 140px;
+                        background: $primary-color;
                         display: inline-block;
                         position: absolute;
                         bottom: 75px;
@@ -109,8 +109,20 @@
                 }
             }
         }
-        
-        
-    } // ./ node-type-country    
-    
+
+
+    } // ./ node-type-country
+
 } // ./ small-up
+
+@media #{$medium-up} {
+    .node-type-country .group-coordinator-officer li h3, .node-type-country .group-representative li h3 {
+        background: transparent url(../images/icons/icon-country-region.png) left center no-repeat;
+    }
+    .node-type-country .group-coordinator-officer .data, .node-type-country .group-representative .data {
+        width: 50%;
+    }
+    .node-type-country .block-views-countries-number-projects {
+        display: block;
+    }
+}
