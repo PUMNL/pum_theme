@@ -9699,33 +9699,40 @@ em, i {
   .node-type-sector aside ul li ul {
     display: none;
   }
+
+  /* line 8, ../scss/contenttypes/_sectors.scss */
+  .view-display-id-cluster_sector_list .views-row a {
+    display: block;
+    padding: 5px;
+    border-bottom: 1px solid #ededed;
+  }
 }
 @media only screen and (min-width: 741px) {
-  /* line 10, ../scss/contenttypes/_sectors.scss */
+  /* line 19, ../scss/contenttypes/_sectors.scss */
   .node-type-cluster .l-banner, .node-type-sector .l-banner {
     height: 130px;
     margin-bottom: 4rem;
   }
 
-  /* line 13, ../scss/contenttypes/_sectors.scss */
+  /* line 22, ../scss/contenttypes/_sectors.scss */
   .parent-title {
     width: 960px;
     margin: 0 auto;
     padding: 1rem 0;
   }
-  /* line 18, ../scss/contenttypes/_sectors.scss */
+  /* line 27, ../scss/contenttypes/_sectors.scss */
   .parent-title .views-field-field-icon {
     display: inline-block;
     margin-right: 1rem;
   }
-  /* line 23, ../scss/contenttypes/_sectors.scss */
+  /* line 32, ../scss/contenttypes/_sectors.scss */
   .parent-title .views-field-title {
     display: inline-block;
     font-family: "MuseoSansRounded-700";
   }
 }
 @media only screen and (min-width: 1221px) {
-  /* line 35, ../scss/contenttypes/_sectors.scss */
+  /* line 44, ../scss/contenttypes/_sectors.scss */
   .parent-title {
     width: 1200px;
   }
