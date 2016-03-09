@@ -2,6 +2,19 @@
     display: none;
 }
 
+table {
+    border: 0;
+    background: transparent;
+    tr, tbody {
+        border: 0;
+        background: transparent !important;
+        td {
+            border: 0;
+            background: transparent;
+        }
+    }
+}
+
 .section-portal, .section-tags, .views-page, .page-user {
     .inner {
         width: 100%;

@@ -4,8 +4,17 @@
             height: 200px;
             overflow: hidden;
             margin-bottom: 45px;
+            .background {
+                height: 200px;
+            }
+        }
+        &.country-view {
+            .inner-content {
+                height: 320px;
+            }
         }
     } // ./ l-banner
+
 } // ./ small-up
 
 @media #{$medium-up} {
@@ -14,7 +23,12 @@
         border-top: 15px solid;
         margin-bottom: 20px;
 
-        .inner-content {height: 295px;}
+        .inner-content {
+            height: 295px;
+            .background {
+                height: 295px;
+            }
+        }
     } // ./ l-banner
 
     .front .l-banner {border-top: 0; margin-bottom: 0;}
@@ -34,4 +48,3 @@
 @media #{$xxlarge-up} {
 
 } // ./ xxlarge-up
-

@@ -32,12 +32,6 @@ function pum_form_alter(&$form, &$form_state, $form_id) {
   }
 }
 
-function pum_html_head_alter(&$head_elements) {
-  if (isset($head_elements['system_meta_generator'])) {
-    unset($head_elements['system_meta_generator']);
-  }
-}
-
 /**
  * Implements template_preprocess_node
  *

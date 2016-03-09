@@ -1,8 +1,14 @@
 .sharethis {
-	position: fixed;
+	position: absolute;
 	z-index: 20;
-	left: 0;
-	top: 225px;
+	right: 10px;
+	top: 65px;
+	@media #{$medium-up} {
+		position: fixed;
+		left: 0;
+		right: auto;
+		top: 225px;
+	}
 	a {
 		display: block;
 		width: 35px;
