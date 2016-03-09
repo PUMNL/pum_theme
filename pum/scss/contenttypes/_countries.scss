@@ -1,6 +1,10 @@
 @media #{$small-up} {
     .node-type-country {
         aside ul li ul {display: none;}
+        
+        .l-banner {
+            display: none;
+        }
     }
 
     .node-type-country {
@@ -63,7 +67,6 @@
         } // ./ group-coordinator-officer / group-representative
 
         .block-views-countries-number-projects {
-            display: none;
             text-align: center;
             .view-header {
                 position: relative;
@@ -122,7 +125,7 @@
     .node-type-country .group-coordinator-officer .data, .node-type-country .group-representative .data {
         width: 50%;
     }
-    .node-type-country .block-views-countries-number-projects {
+    .node-type-country .l-banner {
         display: block;
     }
 }

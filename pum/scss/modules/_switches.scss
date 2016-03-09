@@ -1,14 +1,19 @@
 @media #{$small-only} {
     .sector-icons {
+        padding-top: 75px;
         .view {text-align: center;}
+    }
+
+    .view-display-id-sector_list {
+        padding-top: 75px;
     }
 
     .switch-buttons {
         display: block;
         border-top: 1px solid $pum-color-dark;
-        
+
         p {margin: 0;}
-        
+
         a.switch {
             display: inline-block;
             width: 50%;
@@ -27,7 +32,7 @@
         right: 15%;
         margin-top: 15px;
         z-index: 99;
-    
+
         a {
             display: inline-block;
             padding: 0 .5rem 0 2rem;
@@ -52,28 +57,28 @@
             }
         }
     } // ./ switch-buttons
-    
+
     .country-list {
         width: 100%;
         margin: 0 auto;
         position: relative;
-        
+
         .cc-label {
             font-family: $rounded-font-700;
             border-bottom: 1px solid $pum-color-dark;
             display: block;
         }
-        
+
         a {
             display: block;
             padding: .25rem;
             font-family: $rounded-font-300;
             color: $body-font-color;
             cursor: pointer;
-            
+
             &:hover {font-family: $rounded-font-700;}
         }
-        
+
         .continent {
             display: block;
             padding: .25rem;
@@ -82,11 +87,11 @@
             cursor: pointer;
             position: relative;
             left: 0;
-            z-index: 5;            
-            
+            z-index: 5;
+
             &:hover {font-family: $rounded-font-700;}
         }
-        
+
         .list-per-continent {
             position: relative;
             left: 0;
@@ -94,18 +99,18 @@
             z-index: 6;
         }
     } // ./ country-list
-    
+
     .sector-icons {
         width: 100%;
         margin: 0 auto;
-    
+
         .group {
             display: inline-block;
             width: 100px;
             height: 100px;
-            
+
             .title {display: none;}
-            
+
             .all-views-row {
                 display: none;
                 position: absolute;
@@ -125,7 +130,7 @@
                         font-size: 1.1rem;
                     }
                 }
-                
+
                 .close-popup {
                     display: block;
                     width: 10px;
@@ -136,7 +141,7 @@
                     top: 5px;
                     cursor: pointer;
                 }
-                
+
                 .views-row {
 	                a {
 	                    color: $body-font-color;
@@ -145,32 +150,32 @@
 	                    display: block;
 	                    border-bottom: 1px solid $pum-color-dark;
 	                }
-	                
+
 	                &.views-row-last {
 	                   a {border: 0;}
 	                }
                 } // ./views-row
-                
+
             }
-            
+
         } // ./ group
     } // ./ sector-icons (all circles)
-    
+
     .sector-list {
         width: 960px;
         margin: 0 auto;
         position: relative;
-        
+
         a {
             display: block;
             padding: .25rem;
             font-family: $rounded-font-300;
             color: $body-font-color;
             cursor: pointer;
-            
+
             &:hover {font-family: $rounded-font-700;}
         }
-        
+
         .sector {
             display: block;
             padding: .25rem;
@@ -180,10 +185,10 @@
             position: relative;
             left: 0;
             z-index: 5;
-            
+
             &:hover {font-family: $rounded-font-700;}
         }
-        
+
         .list-per-sector {
             position: relative;
             left: 0;
@@ -196,21 +201,21 @@
 @media #{$medium-up} {
     .country-list {
         width: 960px;
-        margin: 4rem auto 2rem auto; 
-        
+        margin: 4rem auto 2rem auto;
+
         .view-content {margin-top: 1rem;}
-        
+
         .continent-label {
             width: 35%;
         }
-        
+
         .country-label {
             position: absolute;
             left: 40%;
             margin-top: -15px;
             width: 60%;
-        }   
-        
+        }
+
         .list-per-continent {
             @extend .country-label;
             margin-top: 2rem;
@@ -221,34 +226,34 @@
         width: 960px;
         margin: 4rem auto 0 auto;
     }
-    
+
     .sector-list {
         width: 960px;
-        margin: 4rem auto 2rem auto; 
-        
+        margin: 4rem auto 2rem auto;
+
         .view-content {margin-top: 1rem;}
-        
+
         .continent-label {
             width: 35%;
         }
-        
+
         .country-label {
             position: absolute;
             left: 40%;
             margin-top: -15px;
             width: 60%;
-        }   
-        
+        }
+
         .list-per-continent {
             @extend .country-label;
             margin-top: 2rem;
         }
-        
+
         .list-per-sector {
             position: absolute;
             left: 40%;
         }
-        
+
     } // ./  sector-list
 
 } // ./ meidum-up
@@ -256,7 +261,3 @@
 @media #{$xlarge-up} {
     .country-list, .sector-icons, .sector-list {width: 1200px;}
 }
-
-
-
-

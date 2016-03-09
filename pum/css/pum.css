@@ -9556,13 +9556,17 @@ em, i {
   .node-type-country aside ul li ul {
     display: none;
   }
+  /* line 5, ../scss/contenttypes/_countries.scss */
+  .node-type-country .l-banner {
+    display: none;
+  }
 
-  /* line 7, ../scss/contenttypes/_countries.scss */
+  /* line 11, ../scss/contenttypes/_countries.scss */
   .node-type-country .intro-text p {
     font-family: "merriweatherbold", "Times New Roman", Times, serif;
     margin-bottom: 1rem;
   }
-  /* line 12, ../scss/contenttypes/_countries.scss */
+  /* line 16, ../scss/contenttypes/_countries.scss */
   .node-type-country .group-coordinator-officer, .node-type-country .group-representative {
     background: #ccc;
     display: block;
@@ -9570,42 +9574,42 @@ em, i {
     padding: 25px 22px;
     border-bottom: 1px solid #fff;
   }
-  /* line 19, ../scss/contenttypes/_countries.scss */
+  /* line 23, ../scss/contenttypes/_countries.scss */
   .node-type-country .group-coordinator-officer a, .node-type-country .group-representative a {
     color: #444444;
   }
-  /* line 21, ../scss/contenttypes/_countries.scss */
+  /* line 25, ../scss/contenttypes/_countries.scss */
   .node-type-country .group-coordinator-officer .data, .node-type-country .group-representative .data {
     display: inline-block;
     width: 100%;
     line-height: 1.6;
   }
-  /* line 27, ../scss/contenttypes/_countries.scss */
+  /* line 31, ../scss/contenttypes/_countries.scss */
   .node-type-country .group-coordinator-officer .label-above, .node-type-country .group-representative .label-above {
     font-family: "MuseoSansRounded-700";
     font-size: 1.5rem;
     margin-bottom: .75rem;
   }
-  /* line 33, ../scss/contenttypes/_countries.scss */
+  /* line 37, ../scss/contenttypes/_countries.scss */
   .node-type-country .group-coordinator-officer .field-name-field-country-user-name, .node-type-country .group-representative .field-name-field-country-user-name {
     font-family: "merriweatherbold", "Times New Roman", Times, serif;
     line-height: 1.6;
   }
-  /* line 38, ../scss/contenttypes/_countries.scss */
+  /* line 42, ../scss/contenttypes/_countries.scss */
   .node-type-country .group-coordinator-officer .field-name-field-country-user-email, .node-type-country .group-representative .field-name-field-country-user-email {
     font-size: .9rem;
   }
-  /* line 40, ../scss/contenttypes/_countries.scss */
+  /* line 44, ../scss/contenttypes/_countries.scss */
   .node-type-country .group-coordinator-officer ul, .node-type-country .group-representative ul {
     margin-left: 0;
   }
-  /* line 41, ../scss/contenttypes/_countries.scss */
+  /* line 45, ../scss/contenttypes/_countries.scss */
   .node-type-country .group-coordinator-officer li, .node-type-country .group-representative li {
     list-style: none;
     margin: 0;
     padding: 0;
   }
-  /* line 46, ../scss/contenttypes/_countries.scss */
+  /* line 50, ../scss/contenttypes/_countries.scss */
   .node-type-country .group-coordinator-officer li h3, .node-type-country .group-representative li h3 {
     position: relative;
     left: -2rem;
@@ -9614,30 +9618,29 @@ em, i {
     margin-bottom: .5rem;
     padding: .5rem 0 .5rem 2rem;
   }
-  /* line 55, ../scss/contenttypes/_countries.scss */
+  /* line 59, ../scss/contenttypes/_countries.scss */
   .node-type-country .group-coordinator-officer li .views-row, .node-type-country .group-representative li .views-row {
     margin-bottom: 1.5rem;
   }
-  /* line 57, ../scss/contenttypes/_countries.scss */
+  /* line 61, ../scss/contenttypes/_countries.scss */
   .node-type-country .group-coordinator-officer li .views-row .field-name-field-repres-person, .node-type-country .group-representative li .views-row .field-name-field-repres-person {
     font-family: "merriweatherbold", "Times New Roman", Times, serif;
   }
-  /* line 65, ../scss/contenttypes/_countries.scss */
+  /* line 69, ../scss/contenttypes/_countries.scss */
   .node-type-country .block-views-countries-number-projects {
-    display: none;
     text-align: center;
   }
-  /* line 68, ../scss/contenttypes/_countries.scss */
+  /* line 71, ../scss/contenttypes/_countries.scss */
   .node-type-country .block-views-countries-number-projects .view-header {
     position: relative;
     top: 30px;
   }
-  /* line 72, ../scss/contenttypes/_countries.scss */
+  /* line 75, ../scss/contenttypes/_countries.scss */
   .node-type-country .block-views-countries-number-projects .views-row {
     width: 33%;
     float: left;
   }
-  /* line 75, ../scss/contenttypes/_countries.scss */
+  /* line 78, ../scss/contenttypes/_countries.scss */
   .node-type-country .block-views-countries-number-projects .views-row .project-per-year {
     width: 100%;
     display: block;
@@ -9645,7 +9648,7 @@ em, i {
     position: relative;
     height: 260px;
   }
-  /* line 81, ../scss/contenttypes/_countries.scss */
+  /* line 84, ../scss/contenttypes/_countries.scss */
   .node-type-country .block-views-countries-number-projects .views-row .project-per-year .number h2 {
     color: #fff;
     position: absolute;
@@ -9656,7 +9659,7 @@ em, i {
     margin-left: -60px;
     font-size: 75px;
   }
-  /* line 91, ../scss/contenttypes/_countries.scss */
+  /* line 94, ../scss/contenttypes/_countries.scss */
   .node-type-country .block-views-countries-number-projects .views-row .project-per-year .bar {
     max-height: 140px;
     width: 140px;
@@ -9666,7 +9669,7 @@ em, i {
     bottom: 75px;
     margin-left: -60px;
   }
-  /* line 100, ../scss/contenttypes/_countries.scss */
+  /* line 103, ../scss/contenttypes/_countries.scss */
   .node-type-country .block-views-countries-number-projects .views-row .project-per-year .year {
     font-family: "MuseoSansRounded-100";
     color: #000;
@@ -9678,18 +9681,18 @@ em, i {
   }
 }
 @media only screen and (min-width: 741px) {
-  /* line 119, ../scss/contenttypes/_countries.scss */
+  /* line 122, ../scss/contenttypes/_countries.scss */
   .node-type-country .group-coordinator-officer li h3, .node-type-country .group-representative li h3 {
     background: transparent url(../images/icons/icon-country-region.png) left center no-repeat;
   }
 
-  /* line 122, ../scss/contenttypes/_countries.scss */
+  /* line 125, ../scss/contenttypes/_countries.scss */
   .node-type-country .group-coordinator-officer .data, .node-type-country .group-representative .data {
     width: 50%;
   }
 
-  /* line 125, ../scss/contenttypes/_countries.scss */
-  .node-type-country .block-views-countries-number-projects {
+  /* line 128, ../scss/contenttypes/_countries.scss */
+  .node-type-country .l-banner {
     display: block;
   }
 }
@@ -10848,21 +10851,30 @@ aside.partner-with-us ul, aside.partner-with-us ul li a {
 }
 
 @media only screen and (max-width: 740px) {
-  /* line 3, ../scss/modules/_switches.scss */
+  /* line 2, ../scss/modules/_switches.scss */
+  .sector-icons {
+    padding-top: 75px;
+  }
+  /* line 4, ../scss/modules/_switches.scss */
   .sector-icons .view {
     text-align: center;
   }
 
-  /* line 6, ../scss/modules/_switches.scss */
+  /* line 7, ../scss/modules/_switches.scss */
+  .view-display-id-sector_list {
+    padding-top: 75px;
+  }
+
+  /* line 11, ../scss/modules/_switches.scss */
   .switch-buttons {
     display: block;
     border-top: 1px solid #222222;
   }
-  /* line 10, ../scss/modules/_switches.scss */
+  /* line 15, ../scss/modules/_switches.scss */
   .switch-buttons p {
     margin: 0;
   }
-  /* line 12, ../scss/modules/_switches.scss */
+  /* line 17, ../scss/modules/_switches.scss */
   .switch-buttons a.switch {
     display: inline-block;
     width: 50%;
@@ -10872,19 +10884,19 @@ aside.partner-with-us ul, aside.partner-with-us ul li a {
   }
 }
 @media only screen {
-  /* line 23, ../scss/modules/_switches.scss */
+  /* line 28, ../scss/modules/_switches.scss */
   .l-banner.sector-view .inner-content {
     height: auto;
   }
 
-  /* line 25, ../scss/modules/_switches.scss */
+  /* line 30, ../scss/modules/_switches.scss */
   .switch-buttons {
     position: absolute;
     right: 15%;
     margin-top: 15px;
     z-index: 99;
   }
-  /* line 31, ../scss/modules/_switches.scss */
+  /* line 36, ../scss/modules/_switches.scss */
   .switch-buttons a {
     display: inline-block;
     padding: 0 .5rem 0 2rem;
@@ -10894,38 +10906,38 @@ aside.partner-with-us ul, aside.partner-with-us ul li a {
     color: #222222;
     font-size: .9rem;
   }
-  /* line 39, ../scss/modules/_switches.scss */
+  /* line 44, ../scss/modules/_switches.scss */
   .switch-buttons a.icon {
     background: white url(../images/icon-switch-icon-normal.png) 5px center no-repeat;
   }
-  /* line 41, ../scss/modules/_switches.scss */
+  /* line 46, ../scss/modules/_switches.scss */
   .switch-buttons a.icon:hover {
     background: black url(../images/icon-switch-icon-hover.png) 5px center no-repeat;
     color: #fff;
   }
-  /* line 46, ../scss/modules/_switches.scss */
+  /* line 51, ../scss/modules/_switches.scss */
   .switch-buttons a.list {
     background: white url(../images/icon-switch-list-normal.png) 5px center no-repeat;
   }
-  /* line 48, ../scss/modules/_switches.scss */
+  /* line 53, ../scss/modules/_switches.scss */
   .switch-buttons a.list:hover {
     background: black url(../images/icon-switch-list-hover.png) 5px center no-repeat;
     color: #fff;
   }
 
-  /* line 56, ../scss/modules/_switches.scss */
+  /* line 61, ../scss/modules/_switches.scss */
   .country-list {
     width: 100%;
     margin: 0 auto;
     position: relative;
   }
-  /* line 61, ../scss/modules/_switches.scss */
+  /* line 66, ../scss/modules/_switches.scss */
   .country-list .cc-label {
     font-family: "MuseoSansRounded-700";
     border-bottom: 1px solid #222222;
     display: block;
   }
-  /* line 67, ../scss/modules/_switches.scss */
+  /* line 72, ../scss/modules/_switches.scss */
   .country-list a {
     display: block;
     padding: .25rem;
@@ -10933,11 +10945,11 @@ aside.partner-with-us ul, aside.partner-with-us ul li a {
     color: #444444;
     cursor: pointer;
   }
-  /* line 74, ../scss/modules/_switches.scss */
+  /* line 79, ../scss/modules/_switches.scss */
   .country-list a:hover {
     font-family: "MuseoSansRounded-700";
   }
-  /* line 77, ../scss/modules/_switches.scss */
+  /* line 82, ../scss/modules/_switches.scss */
   .country-list .continent {
     display: block;
     padding: .25rem;
@@ -10948,11 +10960,11 @@ aside.partner-with-us ul, aside.partner-with-us ul li a {
     left: 0;
     z-index: 5;
   }
-  /* line 87, ../scss/modules/_switches.scss */
+  /* line 92, ../scss/modules/_switches.scss */
   .country-list .continent:hover {
     font-family: "MuseoSansRounded-700";
   }
-  /* line 90, ../scss/modules/_switches.scss */
+  /* line 95, ../scss/modules/_switches.scss */
   .country-list .list-per-continent {
     position: relative;
     left: 0;
@@ -10960,22 +10972,22 @@ aside.partner-with-us ul, aside.partner-with-us ul li a {
     z-index: 6;
   }
 
-  /* line 98, ../scss/modules/_switches.scss */
+  /* line 103, ../scss/modules/_switches.scss */
   .sector-icons {
     width: 100%;
     margin: 0 auto;
   }
-  /* line 102, ../scss/modules/_switches.scss */
+  /* line 107, ../scss/modules/_switches.scss */
   .sector-icons .group {
     display: inline-block;
     width: 100px;
     height: 100px;
   }
-  /* line 107, ../scss/modules/_switches.scss */
+  /* line 112, ../scss/modules/_switches.scss */
   .sector-icons .group .title {
     display: none;
   }
-  /* line 109, ../scss/modules/_switches.scss */
+  /* line 114, ../scss/modules/_switches.scss */
   .sector-icons .group .all-views-row {
     display: none;
     position: absolute;
@@ -10984,15 +10996,15 @@ aside.partner-with-us ul, aside.partner-with-us ul li a {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     z-index: 20;
   }
-  /* line 117, ../scss/modules/_switches.scss */
+  /* line 122, ../scss/modules/_switches.scss */
   .sector-icons .group .all-views-row img {
     display: none;
   }
-  /* line 118, ../scss/modules/_switches.scss */
+  /* line 123, ../scss/modules/_switches.scss */
   .sector-icons .group .all-views-row .title {
     display: block;
   }
-  /* line 120, ../scss/modules/_switches.scss */
+  /* line 125, ../scss/modules/_switches.scss */
   .sector-icons .group .all-views-row .title a {
     font-family: "MuseoSansRounded-700";
     color: #444444;
@@ -11000,7 +11012,7 @@ aside.partner-with-us ul, aside.partner-with-us ul li a {
     display: block;
     font-size: 1.1rem;
   }
-  /* line 129, ../scss/modules/_switches.scss */
+  /* line 134, ../scss/modules/_switches.scss */
   .sector-icons .group .all-views-row .close-popup {
     display: block;
     width: 10px;
@@ -11011,7 +11023,7 @@ aside.partner-with-us ul, aside.partner-with-us ul li a {
     top: 5px;
     cursor: pointer;
   }
-  /* line 141, ../scss/modules/_switches.scss */
+  /* line 146, ../scss/modules/_switches.scss */
   .sector-icons .group .all-views-row .views-row a {
     color: #444444;
     font-family: "MuseoSansRounded-300";
@@ -11019,18 +11031,18 @@ aside.partner-with-us ul, aside.partner-with-us ul li a {
     display: block;
     border-bottom: 1px solid #222222;
   }
-  /* line 150, ../scss/modules/_switches.scss */
+  /* line 155, ../scss/modules/_switches.scss */
   .sector-icons .group .all-views-row .views-row.views-row-last a {
     border: 0;
   }
 
-  /* line 159, ../scss/modules/_switches.scss */
+  /* line 164, ../scss/modules/_switches.scss */
   .sector-list {
     width: 960px;
     margin: 0 auto;
     position: relative;
   }
-  /* line 164, ../scss/modules/_switches.scss */
+  /* line 169, ../scss/modules/_switches.scss */
   .sector-list a {
     display: block;
     padding: .25rem;
@@ -11038,11 +11050,11 @@ aside.partner-with-us ul, aside.partner-with-us ul li a {
     color: #444444;
     cursor: pointer;
   }
-  /* line 171, ../scss/modules/_switches.scss */
+  /* line 176, ../scss/modules/_switches.scss */
   .sector-list a:hover {
     font-family: "MuseoSansRounded-700";
   }
-  /* line 174, ../scss/modules/_switches.scss */
+  /* line 179, ../scss/modules/_switches.scss */
   .sector-list .sector {
     display: block;
     padding: .25rem;
@@ -11053,11 +11065,11 @@ aside.partner-with-us ul, aside.partner-with-us ul li a {
     left: 0;
     z-index: 5;
   }
-  /* line 184, ../scss/modules/_switches.scss */
+  /* line 189, ../scss/modules/_switches.scss */
   .sector-list .sector:hover {
     font-family: "MuseoSansRounded-700";
   }
-  /* line 187, ../scss/modules/_switches.scss */
+  /* line 192, ../scss/modules/_switches.scss */
   .sector-list .list-per-sector {
     position: relative;
     left: 0;
@@ -11066,69 +11078,69 @@ aside.partner-with-us ul, aside.partner-with-us ul li a {
   }
 }
 @media only screen and (min-width: 741px) {
-  /* line 197, ../scss/modules/_switches.scss */
+  /* line 202, ../scss/modules/_switches.scss */
   .country-list {
     width: 960px;
     margin: 4rem auto 2rem auto;
   }
-  /* line 201, ../scss/modules/_switches.scss */
+  /* line 206, ../scss/modules/_switches.scss */
   .country-list .view-content {
     margin-top: 1rem;
   }
-  /* line 203, ../scss/modules/_switches.scss */
+  /* line 208, ../scss/modules/_switches.scss */
   .country-list .continent-label {
     width: 35%;
   }
-  /* line 207, ../scss/modules/_switches.scss */
+  /* line 212, ../scss/modules/_switches.scss */
   .country-list .country-label, .country-list .list-per-continent {
     position: absolute;
     left: 40%;
     margin-top: -15px;
     width: 60%;
   }
-  /* line 214, ../scss/modules/_switches.scss */
+  /* line 219, ../scss/modules/_switches.scss */
   .country-list .list-per-continent {
     margin-top: 2rem;
   }
 
-  /* line 220, ../scss/modules/_switches.scss */
+  /* line 225, ../scss/modules/_switches.scss */
   .sector-icons {
     width: 960px;
     margin: 4rem auto 0 auto;
   }
 
-  /* line 225, ../scss/modules/_switches.scss */
+  /* line 230, ../scss/modules/_switches.scss */
   .sector-list {
     width: 960px;
     margin: 4rem auto 2rem auto;
   }
-  /* line 229, ../scss/modules/_switches.scss */
+  /* line 234, ../scss/modules/_switches.scss */
   .sector-list .view-content {
     margin-top: 1rem;
   }
-  /* line 231, ../scss/modules/_switches.scss */
+  /* line 236, ../scss/modules/_switches.scss */
   .sector-list .continent-label {
     width: 35%;
   }
-  /* line 235, ../scss/modules/_switches.scss */
+  /* line 240, ../scss/modules/_switches.scss */
   .sector-list .country-label, .sector-list .list-per-continent {
     position: absolute;
     left: 40%;
     margin-top: -15px;
     width: 60%;
   }
-  /* line 242, ../scss/modules/_switches.scss */
+  /* line 247, ../scss/modules/_switches.scss */
   .sector-list .list-per-continent {
     margin-top: 2rem;
   }
-  /* line 247, ../scss/modules/_switches.scss */
+  /* line 252, ../scss/modules/_switches.scss */
   .sector-list .list-per-sector {
     position: absolute;
     left: 40%;
   }
 }
 @media only screen and (min-width: 1221px) {
-  /* line 257, ../scss/modules/_switches.scss */
+  /* line 262, ../scss/modules/_switches.scss */
   .country-list, .sector-icons, .sector-list {
     width: 1200px;
   }
