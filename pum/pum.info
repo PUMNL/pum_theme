@@ -37,6 +37,9 @@ stylesheets-conditional[IE 8][all][] = css/ie8.css
 ; not exist or be blank in your subtheme. See https://drupal.org/node/263967
 stylesheets[all][] = css/foundation.min.css
 
+; PRINT
+stylesheets[print][] = css/print.css
+
 ; Foundation JavaScript.
 
 ; Modernizr acts as a shim for HTML5 elements for older browsers

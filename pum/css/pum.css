@@ -10214,7 +10214,8 @@ table tr td, table tbody td {
   background: #fff;
 }
 /* line 354, ../scss/contenttypes/_portal.scss */
-.section-portal h2.block-title, .section-tags h2.block-title, .views-page h2.block-title, .page-user h2.block-title {
+.section-portal h2.block-title, .section-tags h2.block-title, .views-page h2.block-title, .page-user h2.block-title,
+.section-portal h3.block-title, .section-tags h3.block-title, .views-page h3.block-title, .page-user h3.block-title {
   font-size: 1.5rem;
   color: #fe7500;
 }
