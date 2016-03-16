@@ -1,8 +1,12 @@
 <script type="text/javascript">
 jQuery(document).ready(function() {
+  jQuery('.group-representative').find('.view-grouping').addClass('dontsplit');
+
   var width = jQuery(window).width();
   if (width > 720) {
-    jQuery(".group-representative ul").columnize({columns:2});
+    jQuery(".group-representative ul").columnize({
+      columns:2
+    });
   }
 });
 </script>
