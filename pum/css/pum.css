@@ -22366,10 +22366,10 @@ aside.partner-with-us ul, aside.partner-with-us ul li a {
 }
 /* line 2, ../scss/modules/_bannerimage.scss */
 .view-display-id-banner .background {
-  -webkit-background-size: auto 100%;
-  -moz-background-size: auto 100%;
-  -o-background-size: auto 100%;
-  background-size: auto 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   width: 100%;
   background-repeat: no-repeat;
 }
