@@ -6,7 +6,7 @@
 } // ./ small-only
 
 @media #{$small-up} {
-    .ccc-icon {
+    #ccc-icon.ccc-triangle {
         display: block !important;
         button {
             margin: 0;

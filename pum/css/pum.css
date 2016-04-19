@@ -20429,11 +20429,11 @@ em, i {
 }
 @media only screen {
   /* line 9, ../scss/layout/_main.scss */
-  .ccc-icon {
+  #ccc-icon.ccc-triangle {
     display: block !important;
   }
   /* line 11, ../scss/layout/_main.scss */
-  .ccc-icon button {
+  #ccc-icon.ccc-triangle button {
     margin: 0;
   }
 }
