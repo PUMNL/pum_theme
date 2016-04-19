@@ -20427,25 +20427,35 @@ em, i {
     padding-right: 1.07143rem;
   }
 }
+@media only screen {
+  /* line 9, ../scss/layout/_main.scss */
+  .ccc-icon {
+    display: block !important;
+  }
+  /* line 11, ../scss/layout/_main.scss */
+  .ccc-icon button {
+    margin: 0;
+  }
+}
 @media only screen and (min-width: 741px) {
-  /* line 15, ../scss/layout/_main.scss */
+  /* line 20, ../scss/layout/_main.scss */
   .views-page .l-main .inner {
     width: 100%;
   }
 
-  /* line 20, ../scss/layout/_main.scss */
+  /* line 25, ../scss/layout/_main.scss */
   .l-main .inner {
     width: 506px;
   }
 }
 @media only screen and (min-width: 961px) {
-  /* line 28, ../scss/layout/_main.scss */
+  /* line 33, ../scss/layout/_main.scss */
   .l-main .inner {
     width: 620px;
   }
 }
 @media only screen and (min-width: 1221px) {
-  /* line 36, ../scss/layout/_main.scss */
+  /* line 41, ../scss/layout/_main.scss */
   .l-main .inner {
     width: 792px;
   }

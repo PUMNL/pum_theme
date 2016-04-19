@@ -2,11 +2,16 @@
     .main .zf-1col, h1#page-title, .l-undermain {
         padding-left: 1.07143rem;
         padding-right: 1.07143rem;
-    }    
+    }
 } // ./ small-only
 
 @media #{$small-up} {
-    
+    .ccc-icon {
+        display: block !important;
+        button {
+            margin: 0;
+        }
+    }
 } // ./ small-up
 
 @media #{$medium-up} {
@@ -20,7 +25,7 @@
         .inner {
             width: 506px;
         }
-    } // ./ l-main    
+    } // ./ l-main
 } // ./ medium-up
 
 @media #{$large-up} {
