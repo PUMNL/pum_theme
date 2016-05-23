@@ -23435,3 +23435,6 @@ aside.partner-with-us ul, aside.partner-with-us ul li a {
   font-weight: normal;
   font-family: "MuseoSansRounded-700";
 }
+.ccc-widget button {
+  padding: 0px;
+}
