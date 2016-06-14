@@ -26,6 +26,7 @@
     print $q;
   ?>
 <?php endif; ?>
+
 <div class="views-exposed-form">
   <div class="views-exposed-widgets clearfix">
     <?php foreach ($widgets as $id => $widget): ?>

@@ -23039,34 +23039,19 @@ aside.partner-with-us ul, aside.partner-with-us ul li a {
 }
 @media only screen {
   /* line 2, ../scss/modules/_publicationsviews.scss */
-  .view-publications {
-    margin-top: 20px;
-  }
-  /* line 5, ../scss/modules/_publicationsviews.scss */
-  .view-publications h3 {
-    font-size: 1rem;
-    font-family: "MuseoSansRounded-700";
-    border-bottom: 2px solid #222;
-    padding-bottom: 10px;
-  }
-  /* line 12, ../scss/modules/_publicationsviews.scss */
   .view-publications .views-row {
-    display: block;
-    vertical-align: top;
-    margin-right: 0;
-    margin-bottom: 4px;
-    cursor: pointer;
-  }
-  /* line 19, ../scss/modules/_publicationsviews.scss */
-  .view-publications .views-row .node {
+    margin-right: 10px;
+    width: 220px;
     height: 280px;
-    width: 100%;
-    margin: 0;
-    background: #FE7500;
+    background: #443A94;
+    color: #fff;
   }
-  /* line 25, ../scss/modules/_publicationsviews.scss */
-  .view-publications .views-row .node img {
-    display: none;
+  .view-publications .views-row .views-field {
+    margin: 10px;
+  }
+  .view-publications .views-row h4,
+  .view-publications .views-row a {
+    color: #fff;
   }
   /* line 27, ../scss/modules/_publicationsviews.scss */
   .view-publications .views-row .node p {
@@ -23113,16 +23098,17 @@ aside.partner-with-us ul, aside.partner-with-us ul li a {
   /* line 72, ../scss/modules/_publicationsviews.scss */
   .view-publications .views-row {
     margin-right: 10px;
-    margin-bottom: 10px;
-    display: inline-block;
-  }
-  /* line 77, ../scss/modules/_publicationsviews.scss */
-  .view-publications .views-row .node {
     width: 220px;
+    height: 280px;
+    background: #443A94;
+    color: #fff;
   }
-  /* line 80, ../scss/modules/_publicationsviews.scss */
-  .view-publications .views-row .node img {
-    display: inherit;
+  .view-publications .views-row .views-field {
+    margin: 10px;
+  }
+  .view-publications .views-row h4,
+  .view-publications .views-row a {
+    color: #fff;
   }
 
   /* line 89, ../scss/modules/_publicationsviews.scss */
@@ -23147,6 +23133,17 @@ aside.partner-with-us ul, aside.partner-with-us ul li a {
   /* line 108, ../scss/modules/_publicationsviews.scss */
   .view-publications .views-row {
     margin-right: 80px;
+    width: 220px;
+    height: 280px;
+    background: #443A94;
+    color: #fff;
+  }
+  .view-publications .views-row .views-field {
+    margin: 10px;
+  }
+  .view-publications .views-row h4,
+  .view-publications .views-row a {
+    color: #fff;
   }
   /* line 110, ../scss/modules/_publicationsviews.scss */
   .view-publications .views-exposed-form {
