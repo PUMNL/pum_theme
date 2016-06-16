@@ -23043,22 +23043,34 @@ aside.partner-with-us ul, aside.partner-with-us ul li a {
     margin-right: 10px;
     width: 220px;
     height: 280px;
-    background: #443A94;
+    background: #FE7500;
     color: #fff;
+    margin-bottom: 10px;
+    float: left;
+    cursor: pointer;
   }
-  .view-publications .views-row .views-field {
-    margin: 10px;
-  }
-  .view-publications .views-row h4,
   .view-publications .views-row a {
     color: #fff;
   }
-  /* line 27, ../scss/modules/_publicationsviews.scss */
-  .view-publications .views-row .node p {
-    font-family: "MuseoSansRounded-300";
-    color: #fff;
-    margin: 0;
+  .view-publications .views-row .node-publication.view-mode-teaser {
     padding: 10px;
+    padding-bottom: 0px;
+  }
+  .view-publications .views-row .node-publication.view-mode-teaser .field {
+    margin-bottom: 10px;
+  }
+  .node-publication.view-mode-full .field {
+    margin: 10px 0px;
+  }
+  .node-publication.view-mode-full .field .label-above {
+    font-weight: bold;
+  }
+  .node-publication.view-mode-full .field-name-field-publication-link a {
+    background-color: #FE7500;
+    color: #fff;
+    display: block;
+    padding: 15px;
+    width: 220px;
   }
   /* line 37, ../scss/modules/_publicationsviews.scss */
   .view-publications .views-exposed-form {
@@ -23096,16 +23108,18 @@ aside.partner-with-us ul, aside.partner-with-us ul li a {
 }
 @media only screen and (min-width: 741px) {
   /* line 72, ../scss/modules/_publicationsviews.scss */
-  .view-publications .views-row {
+  /*.view-publications .views-row {
     margin-right: 10px;
     width: 220px;
     height: 280px;
     background: #443A94;
     color: #fff;
+    margin-bottom: 10px;
+    display: inline-block;
   }
   .view-publications .views-row .views-field {
     margin: 10px;
-  }
+  }*/
   .view-publications .views-row h4,
   .view-publications .views-row a {
     color: #fff;
@@ -23133,14 +23147,16 @@ aside.partner-with-us ul, aside.partner-with-us ul li a {
   /* line 108, ../scss/modules/_publicationsviews.scss */
   .view-publications .views-row {
     margin-right: 80px;
-    width: 220px;
+    /*width: 220px;
     height: 280px;
     background: #443A94;
     color: #fff;
+    margin-bottom: 10px;
+    display: inline-block;*/
   }
-  .view-publications .views-row .views-field {
+  /*.view-publications .views-row .views-field {
     margin: 10px;
-  }
+  }*/
   .view-publications .views-row h4,
   .view-publications .views-row a {
     color: #fff;
