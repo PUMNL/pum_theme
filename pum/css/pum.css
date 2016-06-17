@@ -23054,6 +23054,8 @@ aside.partner-with-us ul, aside.partner-with-us ul li a {
   }
   .view-publications .views-row .node-publication.view-mode-teaser {
     padding-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
   .view-publications .views-row .node-publication.view-mode-teaser .field {
     margin: 0px 10px 5px 10px;
