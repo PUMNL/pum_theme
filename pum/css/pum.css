@@ -23053,17 +23053,32 @@ aside.partner-with-us ul, aside.partner-with-us ul li a {
     color: #fff;
   }
   .view-publications .views-row .node-publication.view-mode-teaser {
-    padding: 10px;
     padding-bottom: 0px;
   }
   .view-publications .views-row .node-publication.view-mode-teaser .field {
-    margin-bottom: 10px;
+    margin: 0px 10px 5px 10px;
+    font-family: "MuseoSansRounded-100";
+    font-size: 1.6rem;
+    line-height: 1;
+  }
+  .view-publications .views-row .node-publication.view-mode-teaser .field-name-field-cover {
+    margin: 0px 0px 10px 0px;
+  }
+  .view-publications .views-row .node-publication.view-mode-teaser .field-name-field-publication-date {
+    font-size: 1.1rem;
   }
   .node-publication.view-mode-full .field {
     margin: 10px 0px;
   }
   .node-publication.view-mode-full .field .label-above {
     font-weight: bold;
+  }
+  .node-publication.view-mode-full .field-name-field-cover {
+    float: left;
+    margin-right: 80px;
+  }
+  .node-publication.view-mode-full .group-info {
+    float: left;
   }
   .node-publication.view-mode-full .field-name-field-publication-link a {
     background-color: #FE7500;
