@@ -4,7 +4,7 @@
   $title = $fields['title']->content;
   $link = $fields['view_node']->content;
   $date = $fields['field_single_date_day']->content;
-  $intro = $fields['field_news_intro']->content;
+  $intro = $fields['body']->content;
 ?>
 
 <div class="<?php echo strtolower($news_media);?>">
