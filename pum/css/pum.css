@@ -23039,6 +23039,9 @@ aside.partner-with-us ul, aside.partner-with-us ul li a {
 }
 @media only screen {
   /* line 2, ../scss/modules/_publicationsviews.scss */
+  .view-publications .view-content {
+    padding-right: 285px;
+  }
   .view-publications .views-row {
     margin-right: 10px;
     width: 220px;
@@ -23163,7 +23166,7 @@ aside.partner-with-us ul, aside.partner-with-us ul li a {
 @media only screen and (min-width: 1221px) {
   /* line 108, ../scss/modules/_publicationsviews.scss */
   .view-publications .views-row {
-    margin-right: 80px;
+    margin-right: 75px;
     /*width: 220px;
     height: 280px;
     background: #443A94;
