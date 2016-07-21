@@ -22067,6 +22067,7 @@ code.help div span.close {
   background: #483493;
   padding: 5px;
   margin-top: 20px;
+  margin-bottom: 1.42857rem;
 }
 /* line 26, ../scss/contenttypes/_search.scss */
 .page-search .node .file a {
@@ -22100,6 +22101,13 @@ code.help div span.close {
 .search-results h2 {
   font-family: "MuseoSansRounded-700";
   font-size: 1.25rem;
+}
+.search-results .field-name-search-snippet {
+  color: #999;
+}
+.field-group-fieldset .field-group-fieldset strong {
+  display: block;
+  margin-bottom: 1.42857rem;
 }
 
 /* line 1, ../scss/modules/_block.scss */
