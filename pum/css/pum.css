@@ -22072,6 +22072,11 @@ code.help div span.close {
   border-bottom: 2px solid #FE7500;
   padding-bottom: 2px;
 }
+.page-search .block-facetapi .facetapi-limit-link {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
 .page-search .block-facetapi li .facetapi-checkbox {
   margin-right: 5px;
 }
@@ -22115,7 +22120,6 @@ code.help div span.close {
   background: #483493;
   padding: 5px;
   margin-top: 20px;
-  margin-bottom: 1.42857rem;
 }
 /* line 26, ../scss/contenttypes/_search.scss */
 .page-search .node .file a {
@@ -22152,6 +22156,9 @@ code.help div span.close {
 }
 .search-results .field-name-search-snippet {
   color: #999;
+}
+.search-results .group-found-in {
+  margin-top: 20px;
 }
 .field-group-fieldset .field-group-fieldset strong {
   display: block;
