@@ -22039,13 +22039,20 @@ code.help div span.close {
 }
 
 /* line 2, ../scss/contenttypes/_search.scss */
+.page-search.section-portal .search-form,
 .page-search .search-form {
   margin-bottom: 0px;
 }
+.page-search.section-portal .search-form  .form-submit,
 .page-search .search-form  .form-submit {
-  margin-top: 25px;
+  margin-top: 35px;
   margin-bottom: 0px;
+  padding-top: 0.71429rem;
+  padding-right: 1.42857rem;
+  padding-bottom: 0.78571rem;
+  padding-left: 1.42857rem;
 }
+.page-search.section-portal .search-form .form-item-keys,
 .page-search .search-form .form-item-keys {
   float: left;
   width: 600px;
@@ -22057,12 +22064,19 @@ code.help div span.close {
   padding: 20px 10px;
   border-bottom: 2px solid #FE7500;
 }
+.page-search.section-portal .node {
+  padding: 20px 10px;
+  border-bottom: 2px solid #483493;
+}
+.page-search.section-portal .block-facetapi ul,
 .page-search .block-facetapi ul {
   list-style-type: none;
 }
+.page-search.section-portal .block-facetapi li,
 .page-search .block-facetapi li {
   margin-left: 0px;
 }
+.page-search.section-portal .block-facetapi,
 .page-search .block-facetapi {
   margin-bottom: 25px;
   background-color: #ededed;
@@ -22072,35 +22086,49 @@ code.help div span.close {
   border-bottom: 2px solid #FE7500;
   padding-bottom: 2px;
 }
+.page-search.section-portal .block-facetapi .block-title {
+  border-bottom: 2px solid #483493;
+  padding-bottom: 2px;
+  color: #483493;
+}
+.page-search.section-portal .block-facetapi .facetapi-limit-link,
 .page-search .block-facetapi .facetapi-limit-link {
   display: block;
   margin-top: 20px;
   font-weight: bold;
 }
+.page-search.section-portal .block-facetapi li .facetapi-checkbox,
 .page-search .block-facetapi li .facetapi-checkbox {
   margin-right: 5px;
 }
+.page-search.section-portal .no-search-results li,
 .page-search .no-search-results li {
   margin-bottom: 0px;
 }
+.page-search.section-portal .spelling-suggestions,
 .page-search .spelling-suggestions {
   clear: both;
   margin-bottom: 25px;
 }
+.page-search.section-portal .spelling-suggestions dl,
 .page-search .spelling-suggestions dl {
   font-size: 1.1rem;
   margin-top: 0px;
   margin-bottom: 0px;
 }
+.page-search.section-portal .spelling-suggestions dl dt,
+.page-search.section-portal .spelling-suggestions dl dd,
 .page-search .spelling-suggestions dl dt,
 .page-search .spelling-suggestions dl dd {
   margin-bottom: 0px;
 }
 /* line 5, ../scss/contenttypes/_search.scss */
+.page-search.section-portal .node:nth-child(odd),
 .page-search .node:nth-child(odd) {
   background: #ededed;
 }
 /* line 8, ../scss/contenttypes/_search.scss */
+.page-search.section-portal .node .field-name-post-date,
 .page-search .node .field-name-post-date {
   font-family: "merriweatherbold", "Times New Roman", Times, serif;
   font-weight: normal;
@@ -22109,12 +22137,14 @@ code.help div span.close {
   text-rendering: optimizeLegibility;
 }
 /* line 16, ../scss/contenttypes/_search.scss */
+.page-search.section-portal .node .field-name-field-blog-image, .page-search.section-portal .node .field-name-field-story-image-thumbnail,
 .page-search .node .field-name-field-blog-image, .page-search .node .field-name-field-story-image-thumbnail {
   float: left;
   min-height: 150px;
   margin-right: 20px;
 }
 /* line 21, ../scss/contenttypes/_search.scss */
+.page-search.section-portal .node .file,
 .page-search .node .file {
   display: inline-block;
   background: #483493;
@@ -22122,23 +22152,28 @@ code.help div span.close {
   margin-top: 20px;
 }
 /* line 26, ../scss/contenttypes/_search.scss */
+.page-search.section-portal .node .file a,
 .page-search .node .file a {
   color: #fff;
 }
 /* line 31, ../scss/contenttypes/_search.scss */
+.page-search.section-portal .node.node-country .views-row,
 .page-search .node.node-country .views-row {
   margin-bottom: 1.5rem;
 }
 /* line 33, ../scss/contenttypes/_search.scss */
+.page-search.section-portal .node.node-country .views-row .views-field,
 .page-search .node.node-country .views-row .views-field {
   display: block;
   padding: .25rem 0;
 }
 /* line 37, ../scss/contenttypes/_search.scss */
+.page-search.section-portal .node.node-country .views-row .field-name-field-repres-person,
 .page-search .node.node-country .views-row .field-name-field-repres-person {
   font-family: "merriweatherbold", "Times New Roman", Times, serif;
 }
 /* line 41, ../scss/contenttypes/_search.scss */
+.page-search.section-portal .node.node-country .field-label, .page-search.section-portal .node.node-country .label-above,
 .page-search .node.node-country .field-label, .page-search .node.node-country .label-above {
   font-family: "MuseoSansRounded-700";
   font-size: 1.5rem;
@@ -22146,18 +22181,22 @@ code.help div span.close {
 }
 
 /* line 50, ../scss/contenttypes/_search.scss */
-.search-results {
+.page-search.section-portal,
+.page-search {
   margin-top: 2rem;
 }
 /* line 52, ../scss/contenttypes/_search.scss */
-.search-results h2 {
+.page-search.section-portal .node h2,
+.page-search .node h2 {
   font-family: "MuseoSansRounded-700";
   font-size: 1.25rem;
 }
-.search-results .field-name-search-snippet {
+.page-search.section-portal .field-name-search-snippet,
+.page-search .field-name-search-snippet {
   color: #999;
 }
-.search-results .group-found-in {
+.page-search.section-portal .group-found-in,
+.page-search .group-found-in {
   margin-top: 20px;
 }
 .field-group-fieldset .field-group-fieldset strong {

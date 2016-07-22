@@ -26,6 +26,16 @@ function pum_preprocess_page(&$vars, $hook) {
   }
 }
 
+function pum_preprocess_html(&$vars) {
+  if (isset($vars['classes_array'])) {
+    if (in_array('section-search', $vars['classes_array']) && in_array('page-search-portal', $vars['classes_array'])) {
+      $key = array_search('section-search', $vars['classes_array']);
+      unset($vars['classes_array'][$key]);
+      $vars['classes_array'][] = 'section-portal';
+    }
+  }
+}
+
 function pum_form_alter(&$form, &$form_state, $form_id) {
   if (!empty($form['actions']) && !empty($form['actions']['submit'])) {
     $form['actions']['submit']['#attributes'] = array('class' => array('button'));
