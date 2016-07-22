@@ -22085,11 +22085,12 @@ code.help div span.close {
 .page-search .block-facetapi .block-title {
   border-bottom: 2px solid #FE7500;
   padding-bottom: 2px;
+  font-size: 1.92857rem;
 }
 .page-search.section-portal .block-facetapi .block-title {
   border-bottom: 2px solid #483493;
   padding-bottom: 2px;
-  color: #483493;
+  color: #FE7500;
 }
 .page-search.section-portal .block-facetapi .facetapi-limit-link,
 .page-search .block-facetapi .facetapi-limit-link {
