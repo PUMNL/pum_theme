@@ -22057,6 +22057,24 @@ code.help div span.close {
   padding: 20px 10px;
   border-bottom: 2px solid #FE7500;
 }
+.page-search .block-facetapi ul {
+  list-style-type: none;
+}
+.page-search .block-facetapi li {
+  margin-left: 0px;
+}
+.page-search .block-facetapi {
+  margin-bottom: 25px;
+  background-color: #ededed;
+  padding: 20px 10px
+}
+.page-search .block-facetapi .block-title {
+  border-bottom: 2px solid #FE7500;
+  padding-bottom: 2px;
+}
+.page-search .block-facetapi li .facetapi-checkbox {
+  margin-right: 5px;
+}
 .page-search .no-search-results li {
   margin-bottom: 0px;
 }
