@@ -22039,9 +22039,39 @@ code.help div span.close {
 }
 
 /* line 2, ../scss/contenttypes/_search.scss */
+.page-search .search-form {
+  margin-bottom: 0px;
+}
+.page-search .search-form  .form-submit {
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+.page-search .search-form .form-item-keys {
+  float: left;
+  width: 600px;
+  display: block;
+  margin-right: 10px;
+  margin-bottom: 0px;
+}
 .page-search .node {
   padding: 20px 10px;
   border-bottom: 2px solid #FE7500;
+}
+.page-search .no-search-results li {
+  margin-bottom: 0px;
+}
+.page-search .spelling-suggestions {
+  clear: both;
+  margin-bottom: 25px;
+}
+.page-search .spelling-suggestions dl {
+  font-size: 1.1rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.page-search .spelling-suggestions dl dt,
+.page-search .spelling-suggestions dl dd {
+  margin-bottom: 0px;
 }
 /* line 5, ../scss/contenttypes/_search.scss */
 .page-search .node:nth-child(odd) {

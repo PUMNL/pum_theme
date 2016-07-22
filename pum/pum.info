@@ -2,7 +2,7 @@ name = PUM | ZURB Foundation Sub-theme 5
 description = Custom sub-theme based on the the Zurb Foundation base theme.
 screenshot = images/screenshot.png
 
-version = 7.x-1.15-1
+version = 7.x-1.15-2
 core = 7.x
 engine = phptemplate
 base theme = zurb_foundation
