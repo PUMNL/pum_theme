@@ -22051,6 +22051,8 @@ code.help div span.close {
   padding-right: 1.42857rem;
   padding-bottom: 0.78571rem;
   padding-left: 1.42857rem;
+  font-size: 0.78571rem;
+  line-height: normal;
 }
 .page-search.section-portal .search-form .form-item-keys,
 .page-search .search-form .form-item-keys {
