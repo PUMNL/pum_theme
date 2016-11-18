@@ -97,6 +97,10 @@ if($cookie_message_active == '1') {
   $text_expert = field_get_items('node', $node, 'field_text_expert')[0]['value'];
   $text_partner = field_get_items('node', $node, 'field_text_partner')[0]['value'];
 
+  $url_business = field_get_items('node', $node, 'field_url_business')[0]['value'];
+  $url_expert = field_get_items('node', $node, 'field_url_expert')[0]['value'];
+  $url_partner = field_get_items('node', $node, 'field_url_partner')[0]['value'];
+
   $title_newsletter = field_get_items('node', $node, 'field_front_title_newsletter')[0]['value'];
   $text_newsletter = field_get_items('node', $node, 'field_front_text_newsletter')[0]['value'];
   $url_button_newsletter = field_get_items('node', $node, 'field_front_link_newsletter')[0]['url'];
@@ -155,17 +159,17 @@ if($cookie_message_active == '1') {
           <li>
             <div class="border"></div>
             <div class="text <?php echo $text_align_business; ?>"><div class="inner-content"><?php echo $text_business ?></div></div>
-            <img src="<?php echo $image_business; ?>" alt="slide business" />
+            <a href="<?php echo $url_business; ?>"><img src="<?php echo $image_business; ?>" alt="slide business" /></a>
           </li>
           <li>
             <div class="border"></div>
             <div class="text <?php echo $text_align_expert; ?>"><div class="inner-content"><?php echo $text_expert ?></div></div>
-            <img src="<?php echo $image_experts; ?>" alt="slide expert" />
+            <a href="<?php echo $url_expert; ?>"><img src="<?php echo $image_experts; ?>" alt="slide expert" /></a>
           </li>
           <li>
             <div class="border"></div>
             <div class="text <?php echo $text_align_partner; ?>"><div class="inner-content"><?php echo $text_partner ?></div></div>
-            <img src="<?php echo $image_partners; ?>" alt="slide partner" />
+            <a href="<?php echo $url_partner; ?>"><img src="<?php echo $image_partners; ?>" alt="slide partner" /></a>
           </li>
         </ul>
       </div>
