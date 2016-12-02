@@ -97,9 +97,14 @@ if($cookie_message_active == '1') {
   $text_expert = field_get_items('node', $node, 'field_text_expert')[0]['value'];
   $text_partner = field_get_items('node', $node, 'field_text_partner')[0]['value'];
 
-  $url_business = field_get_items('node', $node, 'field_url_business')[0]['value'];
-  $url_expert = field_get_items('node', $node, 'field_url_expert')[0]['value'];
-  $url_partner = field_get_items('node', $node, 'field_url_partner')[0]['value'];
+  $url_business = field_get_items('node', $node, 'field_url_business')[0]['url'];
+  $url_business_target = field_get_items('node', $node, 'field_url_business')[0]['attributes']['target'];
+
+  $url_expert = field_get_items('node', $node, 'field_url_expert')[0]['url'];
+  $url_expert_target = field_get_items('node', $node, 'field_url_expert')[0]['attributes']['target'];
+
+  $url_partner = field_get_items('node', $node, 'field_url_partner')[0]['url'];
+  $url_partner_target = field_get_items('node', $node, 'field_url_partner')[0]['attributes']['target'];
 
   $title_newsletter = field_get_items('node', $node, 'field_front_title_newsletter')[0]['value'];
   $text_newsletter = field_get_items('node', $node, 'field_front_text_newsletter')[0]['value'];
@@ -159,17 +164,17 @@ if($cookie_message_active == '1') {
           <li>
             <div class="border"></div>
             <div class="text <?php echo $text_align_business; ?>"><div class="inner-content"><?php echo $text_business ?></div></div>
-            <a href="<?php echo $url_business; ?>"><img src="<?php echo $image_business; ?>" alt="slide business" /></a>
+            <a href="<?php echo $url_business; ?>" target="<?php echo $url_business_target; ?>"><img src="<?php echo $image_business; ?>" alt="slide business" /></a>
           </li>
           <li>
             <div class="border"></div>
             <div class="text <?php echo $text_align_expert; ?>"><div class="inner-content"><?php echo $text_expert ?></div></div>
-            <a href="<?php echo $url_expert; ?>"><img src="<?php echo $image_experts; ?>" alt="slide expert" /></a>
+            <a href="<?php echo $url_expert; ?>" target="<?php echo $url_expert_target; ?>"><img src="<?php echo $image_experts; ?>" alt="slide expert" /></a>
           </li>
           <li>
             <div class="border"></div>
             <div class="text <?php echo $text_align_partner; ?>"><div class="inner-content"><?php echo $text_partner ?></div></div>
-            <a href="<?php echo $url_partner; ?>"><img src="<?php echo $image_partners; ?>" alt="slide partner" /></a>
+            <a href="<?php echo $url_partner; ?>" target="<?php echo $url_partner_target; ?>"><img src="<?php echo $image_partners; ?>" alt="slide partner" /></a>
           </li>
         </ul>
       </div>
