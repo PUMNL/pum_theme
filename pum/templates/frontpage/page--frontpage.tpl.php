@@ -98,13 +98,13 @@ if($cookie_message_active == '1') {
   $text_partner = field_get_items('node', $node, 'field_text_partner')[0]['value'];
 
   $url_business = field_get_items('node', $node, 'field_url_business')[0]['url'];
-  $url_business_target = field_get_items('node', $node, 'field_url_business')[0]['attributes']['target'];
+  $url_business_target = !empty(field_get_items('node', $node, 'field_url_business')[0]['attributes']['target'])?field_get_items('node', $node, 'field_url_business')[0]['attributes']['target']:'';
 
   $url_expert = field_get_items('node', $node, 'field_url_expert')[0]['url'];
-  $url_expert_target = field_get_items('node', $node, 'field_url_expert')[0]['attributes']['target'];
+  $url_expert_target = !empty(field_get_items('node', $node, 'field_url_expert')[0]['attributes']['target'])?field_get_items('node', $node, 'field_url_expert')[0]['attributes']['target']:'';
 
   $url_partner = field_get_items('node', $node, 'field_url_partner')[0]['url'];
-  $url_partner_target = field_get_items('node', $node, 'field_url_partner')[0]['attributes']['target'];
+  $url_partner_target = !empty(field_get_items('node', $node, 'field_url_partner')[0]['attributes']['target'])?field_get_items('node', $node, 'field_url_partner')[0]['attributes']['target']:'';
 
   $title_newsletter = field_get_items('node', $node, 'field_front_title_newsletter')[0]['value'];
   $text_newsletter = field_get_items('node', $node, 'field_front_text_newsletter')[0]['value'];
