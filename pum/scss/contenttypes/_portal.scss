@@ -67,7 +67,7 @@ table {
         margin-bottom: 35px;
     }
     .panel-pane table, .all-topics table {width: 100%;}
-    .panel-pane {margin-bottom: 3rem;}
+    .panel-pane {margin-bottom: 6rem;}
     .panel-pane.pane-no-margin {margin: 0;}
 
     ////////
@@ -98,9 +98,15 @@ table {
         margin-bottom: 1rem;
     }
 
-    .more-link a {
+    .panel-pane.pane-views .view-footer a {
+        @include button($button-tny);
+        background: $pum-color-primary;
+        float: left;
+    }
+    .panel-pane.pane-views .more-link a {
         @include button($button-tny);
         background: $pum-color-pumnet;
+        float: right;
     }
 
     .group-tags {
@@ -120,58 +126,317 @@ table {
     }
 
     &.two-col-panel {
+        table {
+          tr, tbody {
+      	   width: 100%;
+          }
+        }
+        .views-table {
+          overflow: hidden;
+        }
         tr.sticky {
-            background-image: url(../images/icon-pin.png);
-            background-repeat: no-repeat;
-            background-position: 95% center;
+          background-image: url(/sites/all/themes/pum/images/icon-pin.png);
+          background-repeat: no-repeat;
+          background-position: right 5px top 5px;
         }
         td {
             overflow: hidden;
             font-size: .9rem;
-            height: 54px;
         }
         .view-pum-portal-latest-forum-topics {
-            .views-field-display-name {
-                width: 30%;
+            .view-content {
+              display: block;
+              min-height: 340px;
             }
-            .views-field-title { //inclusief date
-                width: 65%;
-                color: #999;
+            .view-empty {
+              display: block;
+              min-height: 340px;
+              clear:both;
+
+              a {
+                float:left;
+                display: block;
+                margin: auto;
+                left: 0;
+                bottom: 0;
+                position: relative;
+              }
+              .more-link {
+                float:right;
+                display: block;
+                margin: auto;
+                right: 0;
+                bottom: 0;
+                position: relative;
+              }
+            }
+            .views-field-title {
+                width: 100%;
+                padding-bottom: -10px !important;
+                word-break: break-all;
+            }
+            .views-field-display-name {
+                color: rgb(153, 153, 153);
                 font-size: .8rem;
-                a {
-                    font-size: .9rem;
-                }
+                width: 55%;
+                float:left;
+            }
+            .views-field-changed {
+                color: rgb(153, 153, 153);
+                font-size: .8rem;
+                width: 48%;
+                float:right;
+            }
+            td.views-field.views-field-title {
+              float: right;
+              width: 100%;
+              height: 45px;
+              overflow: hidden;
+            }
+            td.views-field.views-field-display-name {
+              float: left;
+              width: 55%;
+              padding-top: 0px;
+              padding-bottom: 0px;
+              display: inline-block;
+            }
+            td.views-field.views-field-comment-count {
+              width: 10%;
+              padding: 0px;
+              text-align: right;
+              color: rgb(153, 153, 153);
+              font-size: .8rem;
+              display: inline-block;
+              text-align: right;
+            }
+            td.views-field.views-field-changed.updated_date {
+              width: 32%;
+              padding-top: 0px;
+              padding-bottom: 0px;
+              display: inline-block;
+              text-align: right;
             }
         }
         .view-id-latest_portal_blogs {
-            .views-field-display-name {
-                width: 30%;
+            .view-content {
+              display: block;
+              min-height: 340px;
             }
-            .views-field-title { //inclusief date
-                width: 65%;
-                color: #999;
+            .view-empty {
+              display: block;
+              min-height: 340px;
+              clear:both;
+
+              a {
+                float:left;
+                display: block;
+                margin: auto;
+                left: 0;
+                bottom: 0;
+                position: relative;
+              }
+              .more-link {
+                float:right;
+                display: block;
+                margin: auto;
+                right: 0;
+                bottom: 0;
+                position: relative;
+              }
+            }
+            .views-field-title {
+                width: 100%;
+                padding-bottom: -10px !important;
+                word-break: break-all;
+            }
+            .views-field-display-name {
+                color: rgb(153, 153, 153);
                 font-size: .8rem;
-                a {
-                    font-size: .9rem;
-                }
+                width: 55%;
+                float:left;
+            }
+            .views-field-changed {
+                color: rgb(153, 153, 153);
+                font-size: .8rem;
+                width: 48%;
+                float:right;
+            }
+            td.views-field.views-field-title {
+              float: right;
+              width: 100%;
+              height: 45px;
+              overflow: hidden;
+            }
+            td.views-field.views-field-display-name {
+              float: left;
+              width: 55%;
+              padding-top: 0px;
+              padding-bottom: 0px;
+              display: inline-block;
+            }
+            td.views-field.views-field-comment-count {
+              width: 10%;
+              padding: 0px;
+              text-align: right;
+              color: rgb(153, 153, 153);
+              font-size: .8rem;
+              display: inline-block;
+              text-align: right;
+            }
+            td.views-field.views-field-changed.updated_date {
+              width: 32%;
+              padding-top: 0px;
+              padding-bottom: 0px;
+              display: inline-block;
+              text-align: right;
             }
         }
         .view-id-latest_portal_news {
+            .view-content {
+              display: block;
+              min-height: 340px;
+            }
+            .view-empty {
+              display: block;
+              min-height: 340px;
+              clear:both;
+
+              a {
+                float:left;
+                display: block;
+                margin: auto;
+                left: 0;
+                bottom: 0;
+                position: relative;
+              }
+              .more-link {
+                float:right;
+                display: block;
+                margin: auto;
+                right: 0;
+                bottom: 0;
+                position: relative;
+              }
+            }
             .views-field-title {
                 width: 100%;
-                color: #999;
+                padding-bottom: -10px !important;
+                word-break: break-all;
+            }
+            .views-field-display-name {
+                color: rgb(153, 153, 153);
                 font-size: .8rem;
-                a {
-                    font-size: .9rem;
-                }
+                width: 55%;
+                float:left;
+            }
+            .views-field-changed {
+                color: rgb(153, 153, 153);
+                font-size: .8rem;
+                width: 48%;
+                float:right;
+            }
+            td.views-field.views-field-title {
+              float: right;
+              width: 100%;
+              height: 45px;
+              overflow: hidden;
+            }
+            td.views-field.views-field-display-name {
+              float: left;
+              width: 55%;
+              padding-top: 0px;
+              padding-bottom: 0px;
+              display: inline-block;
+            }
+            td.views-field.views-field-comment-count {
+              width: 10% !important;
+              padding: 0px;
+              text-align: right;
+              color: rgb(153, 153, 153);
+              font-size: .8rem;
+              display: inline-block;
+              text-align: right;
+            }
+            td.views-field.views-field-changed.updated_date {
+              width: 32%;
+              padding-top: 0px;
+              padding-bottom: 0px;
+              display: inline-block;
+              text-align: right;
             }
         }
         .view-id-latest_portal_documents {
-            .views-field-field-document-file {
-                width: 55%;
+            .view-content {
+              display: block;
+              min-height: 340px;
+            }
+            .view-empty {
+              display: block;
+              min-height: 340px;
+              clear:both;
+
+              a {
+                float:left;
+                display: block;
+                margin: auto;
+                left: 0;
+                bottom: 0;
+                position: relative;
+              }
+              .more-link {
+                float:right;
+                display: block;
+                margin: auto;
+                right: 0;
+                bottom: 0;
+                position: relative;
+              }
             }
             .views-field-title {
-                width: 43%;
+                width: 100%;
+                padding-bottom: -10px !important;
+                word-break: break-all;
+            }
+            .views-field-display-name {
+                color: rgb(153, 153, 153);
+                font-size: .8rem;
+                width: 55%;
+                float:left;
+            }
+            .views-field-changed {
+                color: rgb(153, 153, 153);
+                font-size: .8rem;
+                width: 48%;
+                float:right;
+            }
+            td.views-field.views-field-title {
+              float: right;
+              width: 100%;
+              height: 45px;
+              overflow: hidden;
+            }
+            td.views-field.views-field-display-name {
+              float: left;
+              width: 55%;
+              padding-top: 0px;
+              padding-bottom: 0px;
+              display: inline-block;
+            }
+            td.views-field.views-field-comment-count {
+              width: 10%;
+              padding: 0px;
+              text-align: right;
+              color: rgb(153, 153, 153);
+              font-size: .8rem;
+              display: inline-block;
+              text-align: right;
+            }
+            td.views-field.views-field-changed.updated_date {
+              width: 32%;
+              padding-top: 0px;
+              padding-bottom: 0px;
+              display: inline-block;
+              text-align: right;
             }
         }
     } // two-col-panel
@@ -187,7 +452,7 @@ table {
                 width: 70%;
             }
             .views-field-comment-count {
-                width: 5%;
+                width: 8%;
             }
             /* excluded from display
             .views-field-term-node-tid {
@@ -195,40 +460,29 @@ table {
             }
             */
         }
-        &.view-id-pum_portal_latest_forum_topics {
-            .views-field-php {
-                width: 5%;
-            }
-            .views-field-created {
-                width: 15%;
-            }
+        &.view-id-pum_portal_latest_forum_topics, &.view-id-my_latest_forum_topics_test, &.view-id-portal_my_latest_news, &.view-id-my_documents {
             .views-field-title {
-                width: 65%;
+                float:left;
+                width: 72%;
             }
             .views-field-comment-count {
-                width: 5%;
+                display: inline-block;
+                width: 8%;
             }
-            /* excluded from display
-            .views-field-term-node-tid {
-                width: 35%;
+            .views-field-changed {
+                width: 18.9%;
+                text-align: left;
             }
-            */
         }
         &.view-id-latest_portal_blogs, &.view-id-my_blog {
-            .views-field-php {
+            .views-field-created {
                 width: 20%;
             }
             .views-field-title {
-                width: 60%;
-                color: #999;
-                font-size: .8rem;
-                a {
-                    font-size: 1.1rem;
-                    margin-right: 1rem;
-                }
+                width: 70%;
             }
-            .views-field-field-blog-image {
-                width: 20%;
+            .views-field-comment-count {
+                width: 8%;
             }
             /* excluded from display
             .views-field-term-node-tid {
@@ -237,12 +491,26 @@ table {
             */
         }
         &.view-id-latest_portal_documents  {
+            /* excluded from display
             .views-field-field-document-file {
                 width: 55%;
                 overflow: hidden;
-            }
+            }*/
             .views-field-title {
-                width: 45%;
+                width: 72%;
+                text-align: left;
+            }
+            .views-field-comment-count {
+                width: 8%;
+            }
+            /* excluded from display
+            .views-field-display-name {
+                width: 20%;
+                text-align: left;
+            }*/
+            .views-field-changed {
+                width: 18.9%;
+                text-align: left;
             }
             /* excluded from display
             .views-field-term-node-tid {
