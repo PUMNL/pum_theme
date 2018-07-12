@@ -49,6 +49,26 @@ function pum_html_head_alter(&$head_elements) {
 }
 
 /**
+ * Implements hook preprocess_views_view_table
+ *
+ * This function adds the sticky class when a node is marked as sticky
+ */
+function pum_preprocess_views_view_table(&$vars) {
+  if( $vars['view']->name == 'latest_portal_blogs' |
+      $vars['view']->name == 'latest_portal_documents' |
+      $vars['view']->name == 'latest_portal_news' |
+      $vars['view']->name == 'pum_portal_latest_forum_topics') {
+    foreach ($vars['rows'] as $id => $row) {
+      if ($vars['view']->result[$id]->node_sticky == 1) {
+        $vars['row_classes'][$id][] = 'sticky';
+      }
+      if ($vars['view']->result[$id]->node_sticky == 0) {
+        $vars['row_classes'][$id][] = 'not-sticky';
+      }
+    }
+  }
+}
+/**
  * Implements template_preprocess_node
  *
  */
