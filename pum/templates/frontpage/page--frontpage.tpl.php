@@ -30,88 +30,64 @@
 <?php
 }
 
-$cookie_message_active = theme_get_setting('pum_cookie_messageactive');
-if($cookie_message_active == '1') {
-	drupal_add_library('system', 'jquery.cookie');
+  $frontpage_fields = node_load($node->nid);
 
-	if(!isset($_COOKIE['pum_cookies'])) {
-?>
-	<div id="popup-message-window">
-		<h1 class="popup-message-title">
-			<?=theme_get_setting('pum_cookie_title');?>
-		</h1>
-		<div id="popup-message-content">
-			<?=theme_get_setting('pum_cookie_text');?>
-		</div>
-		<div id="popup-message-buttons">
-			<a id="pum-cookie-message-accept" onclick="jQuery.cookie('pum_cookies', '1'); jQuery('#popup-message-window').hide();" class="pum_button">I Agree</a> - <a id="pum-cookie-message-deny" onclick="jQuery.cookie('pum_cookies', '0'); jQuery('#popup-message-window').hide();" class="pum_button">I Disagree</a>
-		</div>
-	</div>
-<?php
-	}
-}
-?>
+  // Get the values used on the frontpage
+  $intro_text = $frontpage_fields->field_front_intro_text['und'][0]['value'];
 
+  $business_text = $frontpage_fields->field_front_business_text['und'][0]['value'];
+  $expert_text = $frontpage_fields->field_front_expert_text['und'][0]['value'];
+  $partner_text = $frontpage_fields->field_front_partner_text['und'][0]['value'];
+  $business_title = $frontpage_fields->field_front_business_link['und'][0]['title'];
+  $business_link = $frontpage_fields->field_front_business_link['und'][0]['url'];
+  $expert_title = $frontpage_fields->field_front_expert_link['und'][0]['title'];
+  $expert_link = $frontpage_fields->field_front_expert_link['und'][0]['url'];
+  $partner_title = $frontpage_fields->field_front_partner_link['und'][0]['title'];
+  $partner_link = $frontpage_fields->field_front_partner_link['und'][0]['url'];
+  $title_facts = $frontpage_fields->field_front_facts_title['und'][0]['value'];
+  $number_projects = $frontpage_fields->field_front_facts_no_projects['und'][0]['value'];
+  $number_projects_title = $frontpage_fields->field_front_facts_projects_title['und'][0]['value'];
+  $number_projects_text = $frontpage_fields->field_front_facts_text_projects['und'][0]['value'];
+  $number_experts = $frontpage_fields->field_front_facts_no_experts['und'][0]['value'];
+  $number_expert_title = $frontpage_fields->field_front_fact_experts_title['und'][0]['value'];
+  $number_experts_text = $frontpage_fields->field_front_facts_text_experts['und'][0]['value'];
+  $number_years = $frontpage_fields->field_front_facts_no_years['und'][0]['value'];
+  $number_years_title = $frontpage_fields->field_front_fact_years_title['und'][0]['value'];
+  $number_years_text = $frontpage_fields->field_front_facts_text_years['und'][0]['value'];
+  $read_more_title = $frontpage_fields->field_front_link_of_read_more['und'][0]['title'];
+  $read_more_link = $frontpage_fields->field_front_link_of_read_more['und'][0]['url'];
 
-<!-- Get the values used on the frontpage -->
-<?php
-  $intro_text = field_get_items('node', $node, 'field_front_intro_text')[0]['value'];
-
-  $business_text = field_get_items('node', $node, 'field_front_business_text')[0]['value'];
-  $expert_text = field_get_items('node', $node, 'field_front_expert_text')[0]['value'];
-  $partner_text = field_get_items('node', $node, 'field_front_partner_text')[0]['value'];
-  $business_title = field_get_items('node', $node, 'field_front_business_link')[0]['title'];
-  $business_link = field_get_items('node', $node, 'field_front_business_link')[0]['url'];
-  $expert_title = field_get_items('node', $node, 'field_front_expert_link')[0]['title'];
-  $expert_link = field_get_items('node', $node, 'field_front_expert_link')[0]['url'];
-  $partner_title = field_get_items('node', $node, 'field_front_partner_link')[0]['title'];
-  $partner_link = field_get_items('node', $node, 'field_front_partner_link')[0]['url'];
-
-  $title_facts = field_get_items('node', $node, 'field_front_facts_title')[0]['value'];
-  $number_projects = field_get_items('node', $node, 'field_front_facts_no_projects')[0]['value'];
-  $number_projects_title = field_get_items('node', $node, 'field_front_facts_projects_title')[0]['value'];
-  $number_projects_text = field_get_items('node', $node, 'field_front_facts_text_projects')[0]['value'];
-  $number_experts = field_get_items('node', $node, 'field_front_facts_no_experts')[0]['value'];
-  $number_expert_title = field_get_items('node', $node, 'field_front_fact_experts_title')[0]['value'];
-  $number_experts_text = field_get_items('node', $node, 'field_front_facts_text_experts')[0]['value'];
-  $number_years = field_get_items('node', $node, 'field_front_facts_no_years')[0]['value'];
-  $number_years_title = field_get_items('node', $node, 'field_front_fact_years_title')[0]['value'];
-  $number_years_text = field_get_items('node', $node, 'field_front_facts_text_years')[0]['value'];
-  $read_more_title = field_get_items('node', $node, 'field_front_link_of_read_more')[0]['title'];
-  $read_more_link = field_get_items('node', $node, 'field_front_link_of_read_more')[0]['url'];
-
-  $image_business_uri = field_get_items('node', $node, 'field_slide_image_business')[0]['uri'];
+  $image_business_uri = $frontpage_fields->field_slide_image_business['und'][0]['uri'];
   $image_business = image_style_url('epsa_slider', $image_business_uri);
 
-  $image_experts_uri = field_get_items('node', $node, 'field_slide_image_expert')[0]['uri'];
+  $image_experts_uri = $frontpage_fields->field_slide_image_expert['und'][0]['uri'];
   $image_experts = image_style_url('epsa_slider', $image_experts_uri);
 
-  $image_partners_uri = field_get_items('node', $node, 'field_slide_image_partner')[0]['uri'];
-  $image_partners= image_style_url('epsa_slider', $image_partners_uri);
+  $image_partners_uri = $frontpage_fields->field_slide_image_partner['und'][0]['uri'];
+  $image_partners = image_style_url('epsa_slider', $image_partners_uri);
 
-  $text_align_business = field_get_items('node', $node, 'field_text_align_business')[0]['value'];
-  $text_align_expert = field_get_items('node', $node, 'field_text_align_expert')[0]['value'];
-  $text_align_partner = field_get_items('node', $node, 'field_text_align_partner')[0]['value'];
+  $text_align_business = $frontpage_fields->field_text_align_business['und'][0]['value'];
+  $text_align_expert = $frontpage_fields->field_text_align_expert['und'][0]['value'];
+  $text_align_partner = $frontpage_fields->field_text_align_partner['und'][0]['value'];
 
-  $text_business = field_get_items('node', $node, 'field_text_business')[0]['value'];
-  $text_expert = field_get_items('node', $node, 'field_text_expert')[0]['value'];
-  $text_partner = field_get_items('node', $node, 'field_text_partner')[0]['value'];
+  $text_business = $frontpage_fields->field_text_business['und'][0]['value'];
+  $text_expert = $frontpage_fields->field_text_expert['und'][0]['value'];
+  $text_partner = $frontpage_fields->field_text_partner['und'][0]['value'];
 
-  $url_business = field_get_items('node', $node, 'field_url_business')[0]['url'];
-  $url_business_target = !empty(field_get_items('node', $node, 'field_url_business')[0]['attributes']['target'])?field_get_items('node', $node, 'field_url_business')[0]['attributes']['target']:'';
+  $url_business = !empty($frontpage_fields->field_url_business['und'][0]['url'])?$frontpage_fields->field_url_business['und'][0]['url']:'';
+  $url_business_target = !empty($frontpage_fields->field_url_business['und'][0]['attributes']['target'])?$frontpage_fields->field_url_business['und'][0]['attributes']['target']:'';
 
-  $url_expert = field_get_items('node', $node, 'field_url_expert')[0]['url'];
-  $url_expert_target = !empty(field_get_items('node', $node, 'field_url_expert')[0]['attributes']['target'])?field_get_items('node', $node, 'field_url_expert')[0]['attributes']['target']:'';
+  $url_expert = !empty($frontpage_fields->field_url_expert['und'][0]['url'])?$frontpage_fields->field_url_expert['und'][0]['url']:'';
+  $url_expert_target = !empty($frontpage_fields->field_url_expert['und'][0]['attributes']['target'])?$frontpage_fields->field_url_expert['und'][0]['attributes']['target']:'';
 
-  $url_partner = field_get_items('node', $node, 'field_url_partner')[0]['url'];
-  $url_partner_target = !empty(field_get_items('node', $node, 'field_url_partner')[0]['attributes']['target'])?field_get_items('node', $node, 'field_url_partner')[0]['attributes']['target']:'';
+  $url_partner = !empty($frontpage_fields->field_url_partner['und'][0]['url'])?$frontpage_fields->field_url_expert['und'][0]['url']:'';
+  $url_partner_target = !empty($frontpage_fields->field_url_partner['und'][0]['attributes']['target'])?$frontpage_fields->field_url_partner['und'][0]['attributes']['target']:'';
 
-  $title_newsletter = field_get_items('node', $node, 'field_front_title_newsletter')[0]['value'];
-  $text_newsletter = field_get_items('node', $node, 'field_front_text_newsletter')[0]['value'];
-  $url_button_newsletter = field_get_items('node', $node, 'field_front_link_newsletter')[0]['url'];
-  $title_button_newsletter = field_get_items('node', $node, 'field_front_link_newsletter')[0]['title'];
+  $title_newsletter = $frontpage_fields->field_front_title_newsletter['und'][0]['value'];
+  $text_newsletter = $frontpage_fields->field_front_text_newsletter['und'][0]['value'];
+  $url_button_newsletter = $frontpage_fields->field_front_link_newsletter['und'][0]['url'];
+  $title_button_newsletter = $frontpage_fields->field_front_link_newsletter['und'][0]['title'];
 ?>
-<!-- /Get the values used on the frontpage -->
 
 <!--.page -->
 <div role="document" class="page">

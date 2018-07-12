@@ -149,5 +149,3 @@ settings[zurb_foundation_disable_core_css] = 0
 settings[zurb_foundation_html_tags] = 1
 settings[zurb_foundation_messages_modal] = 0
 settings[zurb_foundation_pager_center] = 1
-settings[zurb_foundation_pum_cookies_title] = www.pum.nl uses cookies
-settings[zurb_foundation_pum_cookies_text] = www.pum.nl uses cookies to analyze our site usage using Google Analytics.<br/>Below, you can choose to agree or disagree that www.pum.nl will place cookies on your computer.<br /><br /><a id="pum-cookie-message-accept" onclick="jQuery.cookie('pum_cookies', '1'); popup_message_disable_popup();" class="pum_button">I Agree</a> - <a id="pum-cookie-message-deny" onclick="jQuery.cookie('pum_cookies', '0'); popup_message_disable_popup();" class="pum_button">I Disagree</a>
