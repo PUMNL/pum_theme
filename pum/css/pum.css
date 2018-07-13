@@ -14895,6 +14895,20 @@ table {
   .section-portal .view-id-pum_portal_directory .views-exposed-form button, .section-tags .view-id-pum_portal_directory .views-exposed-form button, .views-page .view-id-pum_portal_directory .views-exposed-form button, .page-user .view-id-pum_portal_directory .views-exposed-form button {
     margin-top: 1.5rem;
     padding: .6rem; }
+  .section-portal .view-id-pum_portal_directory .views-exposed-form .views-widget-filter-display_name, .section-tags .view-id-pum_portal_directory .views-exposed-form .views-widget-filter-display_name, .views-page .view-id-pum_portal_directory .views-exposed-form .views-widget-filter-display_name, .page-user .view-id-pum_portal_directory .views-exposed-form .views-widget-filter-display_name {
+    width: 100%; }
+  .section-portal .view-id-pum_portal_directory .views-exposed-form .views-widget-filter-field_pum_user_sector_tid, .section-tags .view-id-pum_portal_directory .views-exposed-form .views-widget-filter-field_pum_user_sector_tid, .views-page .view-id-pum_portal_directory .views-exposed-form .views-widget-filter-field_pum_user_sector_tid, .page-user .view-id-pum_portal_directory .views-exposed-form .views-widget-filter-field_pum_user_sector_tid {
+    width: 48%;
+    margin-right: 2%;
+    float: left; }
+  .section-portal .view-id-pum_portal_directory .views-exposed-form .views-widget-filter-country, .section-tags .view-id-pum_portal_directory .views-exposed-form .views-widget-filter-country, .views-page .view-id-pum_portal_directory .views-exposed-form .views-widget-filter-country, .page-user .view-id-pum_portal_directory .views-exposed-form .views-widget-filter-country {
+    width: 50%;
+    float: right; }
+    .section-portal .view-id-pum_portal_directory .views-exposed-form .views-widget-filter-country .edit_country_chosen, .section-tags .view-id-pum_portal_directory .views-exposed-form .views-widget-filter-country .edit_country_chosen, .views-page .view-id-pum_portal_directory .views-exposed-form .views-widget-filter-country .edit_country_chosen, .page-user .view-id-pum_portal_directory .views-exposed-form .views-widget-filter-country .edit_country_chosen {
+      width: 100%; }
+  .section-portal .view-id-pum_portal_directory .views-exposed-form .views-submit-button, .section-tags .view-id-pum_portal_directory .views-exposed-form .views-submit-button, .views-page .view-id-pum_portal_directory .views-exposed-form .views-submit-button, .page-user .view-id-pum_portal_directory .views-exposed-form .views-submit-button {
+    width: 100%;
+    float: left; }
 .section-portal .view-id-pum_portal_directory table, .section-tags .view-id-pum_portal_directory table, .views-page .view-id-pum_portal_directory table, .page-user .view-id-pum_portal_directory table {
   width: 100%; }
 .section-portal .view-id-pum_portal_directory td, .section-tags .view-id-pum_portal_directory td, .views-page .view-id-pum_portal_directory td, .page-user .view-id-pum_portal_directory td {

@@ -635,6 +635,27 @@ table {
                 margin-top: 1.5rem;
                 padding: .6rem;
             }
+
+            .views-widget-filter-display_name {
+              width: 100%;
+            }
+            .views-widget-filter-field_pum_user_sector_tid {
+              width: 48%;
+              margin-right: 2%;
+              float: left;
+            }
+            .views-widget-filter-country {
+              width: 50%;
+              float: right;
+
+              .edit_country_chosen {
+                width: 100%;
+              }
+            }
+            .views-submit-button {
+              width: 100%;
+              float: left;
+            }
         }
         table {
             width: 100%;
