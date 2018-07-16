@@ -1,7 +1,7 @@
 @media #{$small-up} {
     .node-type-country {
         aside ul li ul {display: none;}
-        
+
         .l-banner {
             display: none;
         }
@@ -9,16 +9,17 @@
 
     .node-type-country {
         .intro-text p {
-            font-family: $body-font-family-bold;
             margin-bottom: 1rem;
         }
 
         .group-coordinator-officer, .group-representative {
-            background: #ccc;
             display: block;
             width: 100%;
+            margin-left: auto;
+            margin-right: auto;
             padding: 25px 22px;
             border-bottom: 1px solid #fff;
+            font-size: .9rem;
 
             a {color: $body-font-color;}
 
@@ -33,13 +34,6 @@
                 font-size: 1.5rem;
                 margin-bottom: .75rem;
             }
-
-            .field-name-field-country-user-name {
-                font-family: $body-font-family-bold;
-                line-height: 1.6;
-            }
-
-            .field-name-field-country-user-email {font-size: .9rem;}
 
             ul {margin-left: 0;}
             li {
@@ -56,6 +50,10 @@
                     padding: .5rem 0 .5rem 2rem;
                 }
 
+                .views-table {
+                  width: 100%;
+                }
+
                 .views-row {
                     margin-bottom: 1.5rem;
                     .field-name-field-repres-person {
@@ -65,6 +63,12 @@
 
             } // ./li
         } // ./ group-coordinator-officer / group-representative
+
+        .group-coordinator-officer {
+          td {
+            width: 50%;
+          }
+        }
 
         .block-views-countries-number-projects {
             text-align: center;
@@ -123,7 +127,12 @@
         background: transparent url(../images/icons/icon-country-region.png) left center no-repeat;
     }
     .node-type-country .group-coordinator-officer .data, .node-type-country .group-representative .data {
-        width: 50%;
+        width: 100%;
+
+        .view-id-site_country_experts .views-table {
+          width: 100%;
+          background-color: #ccc;
+        }
     }
     .node-type-country .l-banner {
         display: block;
