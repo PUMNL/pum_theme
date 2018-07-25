@@ -13,41 +13,20 @@
   }
 
   $raw_lower = strtolower($raw_link);
-  $fulltrail=str_replace(" ","-",$raw_lower);
+  $fulltrail = str_replace(" ","-",$raw_lower);
 ?>
 <?php if(user_is_logged_in() == FALSE) { ?>
 <script type="text/javascript">
-    var title = document.title;
-    var url = document.URL;
-    document.write('<div class="sharethis">');
-    document.write('<a class="fb" href="https://www.facebook.com/sharer/sharer.php?u='+url+'">Share on Facebook</a>');
-    document.write('<a class="tw" href="https://twitter.com/home?status='+url+'">Share on Twitter</a>');
-    document.write('<a class="go" href="https://plus.google.com/share?url='+url+'">Share on Google+</a>');
-    document.write('<a class="li" href="https://www.linkedin.com/shareArticle?mini=true&url='+url+'&title='+title+'&summary=&source=">Share on LinkedIn</a>');
-    document.write('</div>');
+  var title = document.title;
+  var url = document.URL;
+  document.write('<div class="sharethis">');
+  document.write('<a class="fb" href="https://www.facebook.com/sharer/sharer.php?u='+url+'">Share on Facebook</a>');
+  document.write('<a class="tw" href="https://twitter.com/home?status='+url+'">Share on Twitter</a>');
+  document.write('<a class="go" href="https://plus.google.com/share?url='+url+'">Share on Google+</a>');
+  document.write('<a class="li" href="https://www.linkedin.com/shareArticle?mini=true&url='+url+'&title='+title+'&summary=&source=">Share on LinkedIn</a>');
+  document.write('</div>');
 </script>
 <?php
-}
-
-$cookie_message_active = theme_get_setting('pum_cookie_messageactive');
-if($cookie_message_active == '1') {
-	drupal_add_library('system', 'jquery.cookie');
-
-	if(!isset($_COOKIE['pum_cookies'])) {
-?>
-	<div id="popup-message-window">
-		<h1 class="popup-message-title">
-			<?=theme_get_setting('pum_cookie_title');?>
-		</h1>
-		<div id="popup-message-content">
-			<?=theme_get_setting('pum_cookie_text');?>
-		</div>
-		<div id="popup-message-buttons">
-			<a id="pum-cookie-message-accept" onclick="jQuery.cookie('pum_cookies', '1'); jQuery('#popup-message-window').hide();" class="pum_button">I Agree</a> - <a id="pum-cookie-message-deny" onclick="jQuery.cookie('pum_cookies', '0'); jQuery('#popup-message-window').hide();" class="pum_button">I Disagree</a>
-		</div>
-	</div>
-<?php
-	}
 }
 ?>
 
