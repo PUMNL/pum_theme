@@ -13665,7 +13665,9 @@ em, i {
   .l-header-region #logo {
     width: 100%;
     text-align: center;
-    padding: 4rem; } }
+    padding: 4rem; }
+  .l-header-region .block-pum-portal-custom-pum-knowledge-portal {
+    display: none; } }
 @media only screen and (min-width: 741px) {
   .l-header-region {
     height: 95px; }
@@ -13688,6 +13690,8 @@ em, i {
           border-bottom: 15px solid #222; }
       .l-header-region .main-menu li.last a {
         margin-right: 0; }
+    .l-header-region .block-pum-portal-custom-pum-knowledge-portal {
+      display: none; }
     .l-header-region .portal-menu {
       float: right;
       position: relative;
@@ -13744,6 +13748,8 @@ em, i {
     top: 57px; }
     .l-header-region .main-menu a {
       font-size: 24px; }
+  .l-header-region .block-pum-portal-custom-pum-knowledge-portal {
+    display: none; }
 
   .i18n-fr .l-header-region .main-menu, .i18n-es .l-header-region .main-menu {
     top: 62px; }
@@ -13751,7 +13757,16 @@ em, i {
       font-size: 21px; } }
 @media only screen and (min-width: 1221px) {
   .l-header-region .main-menu a:hover, .l-header-region .main-menu a.active, .l-header-region .main-menu a.active-trail {
-    border-bottom: 15px solid #222; } }
+    border-bottom: 15px solid #222; }
+  .l-header-region .block-pum-portal-custom-pum-knowledge-portal {
+    display: inline-block;
+    width: auto;
+    vertical-align: bottom; } }
+@media only screen and (min-width: 1920px) {
+  .l-header-region .block-pum-portal-custom-pum-knowledge-portal {
+    display: inline-block;
+    width: auto;
+    vertical-align: bottom; } }
 @media only screen {
   .l-banner .inner-content {
     height: 200px;

@@ -5,6 +5,10 @@
             text-align: center;
             padding: 4rem;
         }
+
+        .block-pum-portal-custom-pum-knowledge-portal {
+            display: none;
+        }
     }
 
 } // ./ small-up
@@ -41,6 +45,10 @@
             li.last a {margin-right: 0;}
 
         } // ./ main-menu
+
+        .block-pum-portal-custom-pum-knowledge-portal {
+            display: none;
+        }
 
         .portal-menu {
             float: right;
@@ -107,6 +115,10 @@
             top: 57px;
             a {font-size: 24px;}
         } // ./ main-menu
+
+        .block-pum-portal-custom-pum-knowledge-portal {
+            display: none;
+        }
     } // ./ l-header
 
     .i18n-fr, .i18n-es {
@@ -130,9 +142,21 @@
                 }
             }
         } // ./ main-menu
+
+        .block-pum-portal-custom-pum-knowledge-portal {
+            display: inline-block;
+            width: auto;
+            vertical-align: bottom;
+        }
     } // ./ l-header
 } // ./ xlarge-up
 
 @media #{$xxlarge-up} {
-
+    .l-header-region {
+        .block-pum-portal-custom-pum-knowledge-portal {
+            display: inline-block;
+            width: auto;
+            vertical-align: bottom;
+        }
+    }
 } // ./ xxlarge-up

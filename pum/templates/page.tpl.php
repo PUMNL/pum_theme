@@ -63,6 +63,7 @@
     <section class="l-header-region row">
       <div class="large-12">
         <div id="logo"><?php if ($linked_logo): print $linked_logo; endif; ?></div>
+        <?php print render($page['pum_knowledge_portal']); ?>
         <?php print render($page['header']); ?>
       </div>
     </section>

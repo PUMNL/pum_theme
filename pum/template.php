@@ -130,13 +130,6 @@ function pum_preprocess_views_view_table(&$vars) {
 //}
 
 /**
- * Implements template_preprocess_views_views_fields().
- *
- */
-//function pum_preprocess_views_view_fields(&$variables) {
-//}
-
-/**
  * Implements theme_form_element_label()
  * Use foundation tooltips
  */
