@@ -68,6 +68,7 @@ function pum_preprocess_views_view_table(&$vars) {
     }
   }
 }
+
 /**
  * Implements template_preprocess_node
  *

@@ -34,6 +34,9 @@
             }
         }
     }
+    .block-pum-portal-custom-socialmedia-icons {
+      display: none;
+    }
 }
 
 @media #{$medium-up} {
@@ -56,7 +59,7 @@
             float: left;
             position: relative;
             top: 6px;
-
+            width: 50%;
             a {
                 margin-right: 25px;
                 padding-bottom: 12px;
@@ -66,7 +69,6 @@
         } // ./ top-left-menu
         .low-bandwidth {
             float: right;
-            right: 85px;
             vertical-align: top;
             width: 100px;
             padding-top: 6px;
@@ -78,7 +80,6 @@
             width: 50px;
             margin-left: 15px;
             padding-top: 9px;
-            right: 85px;
             position: relative;
             select {
                 background: transparent url(../images/arrow-down-language.png) 25px 4px no-repeat;
@@ -98,9 +99,8 @@
             float: right;
             vertical-align: top;
             width: 140px;
-            position: relative;
             padding-top: 5px;
-            right: 85px;
+            right: 20px;
             position: relative;
             input[type="text"] {
                 height: 25px;
@@ -157,11 +157,18 @@
             }
 
             &.logout {
-                position: absolute;
-                right: 0;
+                position: relative;
+                float: right;
             }
 
         } // ./ pumnet-block
+
+        .block-pum-portal-custom-socialmedia-icons {
+          position: relative;
+          display: block;
+          float: right;
+          right: 40px;
+        }
     }
 }
 

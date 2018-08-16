@@ -16,19 +16,7 @@
   });
 </script>
 
-<?php if(user_is_logged_in() == FALSE) { ?>
-<script type="text/javascript">
-    var title = document.title;
-    var url = document.URL;
-    document.write('<div class="sharethis">');
-    document.write('<a class="fb" href="https://www.facebook.com/sharer/sharer.php?u='+url+'">Share on Facebook</a>');
-    document.write('<a class="tw" href="https://twitter.com/home?status='+url+'">Share on Twitter</a>');
-    document.write('<a class="go" href="https://plus.google.com/share?url='+url+'">Share on Google+</a>');
-    document.write('<a class="li" href="https://www.linkedin.com/shareArticle?mini=true&url='+url+'&title='+title+'&summary=&source=">Share on LinkedIn</a>');
-    document.write('</div>');
-</script>
 <?php
-}
 
   $frontpage_fields = node_load($node->nid);
 

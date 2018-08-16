@@ -13556,7 +13556,10 @@ em, i {
         .top-bar .main-menu-mobile ul li a, .top-bar .top-menu-left ul li a, .top-bar.expanded .main-menu-mobile ul li a, .top-bar.expanded .top-menu-left ul li a, .top-bar.expanded .title-area .main-menu-mobile ul li a, .top-bar.expanded .title-area .top-menu-left ul li a, .top-bar .title-area .main-menu-mobile ul li a, .top-bar .title-area .top-menu-left ul li a {
           border-bottom: 1px solid #fff;
           padding: 5px;
-          display: block; } }
+          display: block; }
+
+  .block-pum-portal-custom-socialmedia-icons {
+    display: none; } }
 @media only screen and (min-width: 741px) {
   .l-topbar {
     clear: both;
@@ -13575,7 +13578,8 @@ em, i {
       vertical-align: top;
       float: left;
       position: relative;
-      top: 6px; }
+      top: 6px;
+      width: 50%; }
       .l-topbar .top-left-menu a {
         margin-right: 25px;
         padding-bottom: 12px; }
@@ -13583,7 +13587,6 @@ em, i {
           border-bottom: 3px solid #FE7500; }
     .l-topbar .low-bandwidth {
       float: right;
-      right: 85px;
       vertical-align: top;
       width: 100px;
       padding-top: 6px;
@@ -13594,7 +13597,6 @@ em, i {
       width: 50px;
       margin-left: 15px;
       padding-top: 9px;
-      right: 85px;
       position: relative; }
       .l-topbar .language-dropdown select {
         background: transparent url(../images/arrow-down-language.png) 25px 4px no-repeat;
@@ -13613,9 +13615,8 @@ em, i {
       float: right;
       vertical-align: top;
       width: 140px;
-      position: relative;
       padding-top: 5px;
-      right: 85px;
+      right: 20px;
       position: relative; }
       .l-topbar .block-search input[type="text"] {
         height: 25px;
@@ -13659,8 +13660,13 @@ em, i {
         right: 0;
         position: absolute; }
       .l-topbar .pumnet-block.logout {
-        position: absolute;
-        right: 0; } }
+        position: relative;
+        float: right; }
+    .l-topbar .block-pum-portal-custom-socialmedia-icons {
+      position: relative;
+      display: block;
+      float: right;
+      right: 40px; } }
 @media only screen {
   .l-header-region #logo {
     width: 100%;
@@ -15987,13 +15993,41 @@ aside.partner-with-us ul, aside.partner-with-us ul li a {
     cursor: pointer;
     text-indent: -9999px; }
     .sharethis a.fb {
-      background: transparent url(../images/icon-fb-sharethis.png) left top no-repeat; }
+      background: transparent url(../images/icon-socialmedia.png) 0 0 no-repeat; }
     .sharethis a.tw {
-      background: transparent url(../images/icon-tw-sharethis.png) left top no-repeat; }
+      background: transparent url(../images/icon-socialmedia.png) -35px 0 no-repeat; }
     .sharethis a.li {
-      background: transparent url(../images/icon-li-sharethis.png) left top no-repeat; }
-    .sharethis a.go {
-      background: transparent url(../images/icon-go-sharethis.png) left top no-repeat; }
+      background: transparent url(../images/icon-socialmedia.png) -70px 0 no-repeat; }
+    .sharethis a.in {
+      background: transparent url(../images/icon-socialmedia.png) -105px 0 no-repeat; }
+    .sharethis a.yt {
+      background: transparent url(../images/icon-socialmedia.png) -140px 0 no-repeat; }
+
+@media only screen and (min-width: 1221px) {
+  .socialmedia {
+    display: inline-block;
+    position: relative;
+    z-index: 20;
+    float: right; }
+    .socialmedia a {
+      display: inline-block;
+      width: 35px;
+      height: 35px;
+      background: #ccc;
+      margin-bottom: 1px;
+      cursor: pointer;
+      text-indent: -9999px;
+      margin-left: 5px; }
+      .socialmedia a.fb {
+        background: transparent url(../images/icon-socialmedia.png) 0 0 no-repeat; }
+      .socialmedia a.tw {
+        background: transparent url(../images/icon-socialmedia.png) -35px 0 no-repeat; }
+      .socialmedia a.li {
+        background: transparent url(../images/icon-socialmedia.png) -70px 0 no-repeat; }
+      .socialmedia a.in {
+        background: transparent url(../images/icon-socialmedia.png) -105px 0 no-repeat; }
+      .socialmedia a.yt {
+        background: transparent url(../images/icon-socialmedia.png) -140px 0 no-repeat; } }
 
 .pagination-centered {
   width: 69%; }

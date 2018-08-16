@@ -18,16 +18,53 @@
 		cursor: pointer;
 		text-indent: -9999px;
 		&.fb {
-			background: transparent url(../images/icon-fb-sharethis.png) left top no-repeat;
+			background: transparent url(../images/icon-socialmedia.png) 0 0 no-repeat;
 		}
 		&.tw {
-			background: transparent url(../images/icon-tw-sharethis.png) left top no-repeat;
+			background: transparent url(../images/icon-socialmedia.png) -35px 0 no-repeat;
 		}
 		&.li {
-			background: transparent url(../images/icon-li-sharethis.png) left top no-repeat;
+			background: transparent url(../images/icon-socialmedia.png) -70px 0 no-repeat;
 		}
-		&.go {
-			background: transparent url(../images/icon-go-sharethis.png) left top no-repeat;
+		&.in {
+			background: transparent url(../images/icon-socialmedia.png) -105px 0 no-repeat;
+		}
+    &.yt {
+			background: transparent url(../images/icon-socialmedia.png) -140px 0 no-repeat;
 		}
 	}
+}
+
+.socialmedia {
+  @media #{$screen} and (min-width:#{lower-bound($xlarge-range)}) {
+    display: inline-block;
+  	position: relative;
+  	z-index: 20;
+    float: right;
+  	a {
+  		display: inline-block;
+  		width: 35px;
+  		height: 35px;
+  		background: #ccc;
+  		margin-bottom: 1px;
+  		cursor: pointer;
+  		text-indent: -9999px;
+      margin-left: 5px;
+  		&.fb {
+  			background: transparent url(../images/icon-socialmedia.png) 0 0 no-repeat;
+  		}
+  		&.tw {
+  			background: transparent url(../images/icon-socialmedia.png) -35px 0 no-repeat;
+  		}
+  		&.li {
+  			background: transparent url(../images/icon-socialmedia.png) -70px 0 no-repeat;
+  		}
+  		&.in {
+  			background: transparent url(../images/icon-socialmedia.png) -105px 0 no-repeat;
+  		}
+      &.yt {
+  			background: transparent url(../images/icon-socialmedia.png) -140px 0 no-repeat;
+  		}
+  	}
+  }
 }
