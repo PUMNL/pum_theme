@@ -1,4 +1,7 @@
 @media #{$small-only} {
+  .block-pum-portal-custom-socialmedia-icons {
+    display: none;
+  }
 }
 
 @media #{$small-up} {
@@ -33,9 +36,6 @@
                 }
             }
         }
-    }
-    .block-pum-portal-custom-socialmedia-icons {
-      display: none;
     }
 }
 
@@ -126,9 +126,9 @@
             }
         } // ./ block-search
         .pumnet-block {
-            position: absolute;
+            position: relative;
+            float: right;
             padding-top: 5px;
-            right: 0;
 
             .button {
                 padding: 0;
@@ -161,13 +161,6 @@
             }
 
         } // ./ pumnet-block
-
-        .block-pum-portal-custom-socialmedia-icons {
-          position: relative;
-          display: block;
-          float: right;
-          right: 40px;
-        }
     }
 }
 

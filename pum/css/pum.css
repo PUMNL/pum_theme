@@ -13534,6 +13534,9 @@ em, i {
   font-size: .8rem;
   color: #fff; }
 
+@media only screen and (max-width: 740px) {
+  .block-pum-portal-custom-socialmedia-icons {
+    display: none; } }
 @media only screen {
   .top-bar, .top-bar.expanded, .top-bar.expanded .title-area, .top-bar .title-area {
     background: #FE7500; }
@@ -13556,10 +13559,7 @@ em, i {
         .top-bar .main-menu-mobile ul li a, .top-bar .top-menu-left ul li a, .top-bar.expanded .main-menu-mobile ul li a, .top-bar.expanded .top-menu-left ul li a, .top-bar.expanded .title-area .main-menu-mobile ul li a, .top-bar.expanded .title-area .top-menu-left ul li a, .top-bar .title-area .main-menu-mobile ul li a, .top-bar .title-area .top-menu-left ul li a {
           border-bottom: 1px solid #fff;
           padding: 5px;
-          display: block; }
-
-  .block-pum-portal-custom-socialmedia-icons {
-    display: none; } }
+          display: block; } }
 @media only screen and (min-width: 741px) {
   .l-topbar {
     clear: both;
@@ -13638,9 +13638,9 @@ em, i {
         width: 22px;
         text-indent: -9999px; }
     .l-topbar .pumnet-block {
-      position: absolute;
-      padding-top: 5px;
-      right: 0; }
+      position: relative;
+      float: right;
+      padding-top: 5px; }
       .l-topbar .pumnet-block .button {
         padding: 0;
         height: 25px;
@@ -13660,12 +13660,7 @@ em, i {
         position: absolute; }
       .l-topbar .pumnet-block.logout {
         position: relative;
-        float: right; }
-    .l-topbar .block-pum-portal-custom-socialmedia-icons {
-      position: relative;
-      display: block;
-      float: right;
-      right: 40px; } }
+        float: right; } }
 @media only screen {
   .l-header-region #logo {
     width: 100%;
@@ -16003,12 +15998,13 @@ aside.partner-with-us ul, aside.partner-with-us ul li a {
       background: transparent url(../images/icon-socialmedia.png) -140px 0 no-repeat; }
 
 @media only screen and (min-width: 1221px) {
-  .socialmedia {
+  .socialmedia_top {
     display: inline-block;
     position: relative;
     z-index: 20;
+    margin-right: 25px;
     float: right; }
-    .socialmedia a {
+    .socialmedia_top a {
       display: inline-block;
       width: 35px;
       height: 35px;
@@ -16016,16 +16012,71 @@ aside.partner-with-us ul, aside.partner-with-us ul li a {
       margin-bottom: 1px;
       cursor: pointer;
       text-indent: -9999px;
-      margin-left: 5px; }
-      .socialmedia a.fb {
+      margin-right: 5px; }
+      .socialmedia_top a.fb {
         background: transparent url(../images/icon-socialmedia.png) 0 0 no-repeat; }
-      .socialmedia a.tw {
+      .socialmedia_top a.tw {
         background: transparent url(../images/icon-socialmedia.png) -35px 0 no-repeat; }
-      .socialmedia a.li {
+      .socialmedia_top a.li {
         background: transparent url(../images/icon-socialmedia.png) -70px 0 no-repeat; }
-      .socialmedia a.in {
+      .socialmedia_top a.in {
         background: transparent url(../images/icon-socialmedia.png) -105px 0 no-repeat; }
-      .socialmedia a.yt {
+      .socialmedia_top a.yt {
+        background: transparent url(../images/icon-socialmedia.png) -140px 0 no-repeat; } }
+
+@media only screen and (min-width: 960px) {
+  .socialmedia_bottom {
+    display: inline-block;
+    position: relative;
+    z-index: 20;
+    margin-left: 10px; }
+    .socialmedia_bottom a {
+      display: inline-block;
+      width: 35px;
+      height: 35px;
+      background: #ccc;
+      margin-bottom: 1px;
+      cursor: pointer;
+      text-indent: -9999px;
+      margin-right: 10px; }
+      .socialmedia_bottom a.fb {
+        background: transparent url(../images/icon-socialmedia.png) 0 0 no-repeat; }
+      .socialmedia_bottom a.tw {
+        background: transparent url(../images/icon-socialmedia.png) -35px 0 no-repeat; }
+      .socialmedia_bottom a.li {
+        background: transparent url(../images/icon-socialmedia.png) -70px 0 no-repeat; }
+      .socialmedia_bottom a.in {
+        background: transparent url(../images/icon-socialmedia.png) -105px 0 no-repeat; }
+      .socialmedia_bottom a.yt {
+        background: transparent url(../images/icon-socialmedia.png) -140px 0 no-repeat; } }
+@media only screen and (max-width: 960px) {
+  .socialmedia_bottom {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    display: inline-block;
+    position: relative;
+    z-index: 20;
+    margin-left: 10px; }
+    .socialmedia_bottom a {
+      display: inline-block;
+      width: 35px;
+      height: 35px;
+      background: #ccc;
+      margin-bottom: 1px;
+      cursor: pointer;
+      text-indent: -9999px;
+      margin-right: 10px;
+      margin-top: 10px; }
+      .socialmedia_bottom a.fb {
+        background: transparent url(../images/icon-socialmedia.png) 0 0 no-repeat; }
+      .socialmedia_bottom a.tw {
+        background: transparent url(../images/icon-socialmedia.png) -35px 0 no-repeat; }
+      .socialmedia_bottom a.li {
+        background: transparent url(../images/icon-socialmedia.png) -70px 0 no-repeat; }
+      .socialmedia_bottom a.in {
+        background: transparent url(../images/icon-socialmedia.png) -105px 0 no-repeat; }
+      .socialmedia_bottom a.yt {
         background: transparent url(../images/icon-socialmedia.png) -140px 0 no-repeat; } }
 
 .pagination-centered {
