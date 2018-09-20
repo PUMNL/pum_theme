@@ -459,6 +459,23 @@ table {
                 width: 35%;
             }
             */
+
+            .views-exposed-form {
+                float: none;
+                width: 100%;
+                display: block;
+                left: 0;
+                button {
+                    margin-top: 1.3rem;
+                    padding: .75rem 1rem;
+                    background-color: $pum-color-pumnet;
+                    border-color: $pum-color-pumnet;
+                }
+
+                .views-widget-filter-tid, .views-widget-filter-field_pum_sector_tid {
+                  width: 100%;
+                }
+            }
         }
         &.view-id-pum_portal_latest_forum_topics, &.view-id-my_latest_forum_topics_test, &.view-id-portal_my_latest_news, &.view-id-my_documents {
             .views-field-title {
