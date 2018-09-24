@@ -680,14 +680,18 @@ table {
         td {
             padding-left: 0;
             padding-right: 10px;
-            img {
-                width: 120px;
-                height: auto;
-            }
             .views-field-mail {
                 display: inline-block;
                 width: 100px;
                 overflow: hidden;
+            }
+
+            img {
+              max-width: 100px;
+              max-height: 100px;
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
             }
         }
     }

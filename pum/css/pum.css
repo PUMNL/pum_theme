@@ -14944,13 +14944,16 @@ table {
 .section-portal .view-id-pum_portal_directory td, .section-tags .view-id-pum_portal_directory td, .views-page .view-id-pum_portal_directory td, .page-user .view-id-pum_portal_directory td {
   padding-left: 0;
   padding-right: 10px; }
-  .section-portal .view-id-pum_portal_directory td img, .section-tags .view-id-pum_portal_directory td img, .views-page .view-id-pum_portal_directory td img, .page-user .view-id-pum_portal_directory td img {
-    width: 120px;
-    height: auto; }
   .section-portal .view-id-pum_portal_directory td .views-field-mail, .section-tags .view-id-pum_portal_directory td .views-field-mail, .views-page .view-id-pum_portal_directory td .views-field-mail, .page-user .view-id-pum_portal_directory td .views-field-mail {
     display: inline-block;
     width: 100px;
     overflow: hidden; }
+  .section-portal .view-id-pum_portal_directory td img, .section-tags .view-id-pum_portal_directory td img, .views-page .view-id-pum_portal_directory td img, .page-user .view-id-pum_portal_directory td img {
+    max-width: 100px;
+    max-height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
 .section-portal .view-portal-my-communities .views-field, .section-tags .view-portal-my-communities .views-field, .views-page .view-portal-my-communities .views-field, .page-user .view-portal-my-communities .views-field {
   padding: .5rem 0;
   border-bottom: 1px solid #ededed; }
