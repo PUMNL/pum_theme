@@ -37,11 +37,15 @@
 
 .socialmedia_top {
   @media #{$screen} and (min-width:#{lower-bound($xlarge-range)}) {
+    .share-this-article {
+      float: right;
+    }
+
     display: inline-block;
     position: relative;
     z-index: 20;
-    margin-right: 25px;
     float: right;
+    padding-right: 5px;
 
     a {
       display: inline-block;

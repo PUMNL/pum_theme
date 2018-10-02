@@ -102,7 +102,6 @@ regions[maps_front]          = Maps Region Front
 regions[sidebar_first]       = Left Sidebar
 regions[sidebar_second]      = Right Sidebar
 regions[footer]              = Footer
-regions[sharethis]			 = Sharethis
 
 ; Various page elements output by the theme can be toggled on and off. The
 ; "features" control which of these check boxes display on the

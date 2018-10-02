@@ -61,7 +61,7 @@
             top: 6px;
             width: 50%;
             a {
-                margin-right: 25px;
+                margin-right: 20px;
                 padding-bottom: 12px;
 
                 &:hover, &.active, &.active-trail {border-bottom: 3px solid $pum-color-primary;}
@@ -77,7 +77,7 @@
         .language-dropdown {
             float: right;
             vertical-align: top;
-            width: 50px;
+            width: 40px;
             padding-top: 9px;
             position: relative;
             select {
@@ -99,7 +99,7 @@
             vertical-align: top;
             width: 140px;
             padding-top: 5px;
-            right: 20px;
+            right: 5px;
             position: relative;
             input[type="text"] {
                 height: 25px;

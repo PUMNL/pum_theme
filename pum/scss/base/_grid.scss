@@ -6,7 +6,7 @@
 
 @media #{$medium-up} {
     .row {
-        @include row-width(720px);
+        @include row-width(100%);
     }
 } // ./ medium-up
 
