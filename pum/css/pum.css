@@ -13579,9 +13579,9 @@ em, i {
       float: left;
       position: relative;
       top: 6px;
-      width: 50%; }
+      width: 48%; }
       .l-topbar .top-left-menu a {
-        margin-right: 20px;
+        margin-right: 19px;
         padding-bottom: 12px; }
         .l-topbar .top-left-menu a:hover, .l-topbar .top-left-menu a.active, .l-topbar .top-left-menu a.active-trail {
           border-bottom: 3px solid #FE7500; }
