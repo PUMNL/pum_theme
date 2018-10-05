@@ -242,7 +242,7 @@
 
       <div class="group-row-three">
         <div class="row">
-          <div class="large-12 columns title"><h2><?php echo $title_facts; ?></h2></div>
+          <div class="large-12 columns"><h2><?php echo $title_facts; ?></h2></div>
           <div class="large-4 medium-4 small-12 columns data first">
             <div class="number"><?php echo $number_projects;?></div>
             <div class="subnumber"><?php echo $number_projects_title; ?></div>
