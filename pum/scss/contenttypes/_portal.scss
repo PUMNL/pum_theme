@@ -477,7 +477,7 @@ table {
                 }
             }
         }
-        &.view-id-pum_portal_latest_forum_topics, &.view-id-my_latest_forum_topics_test, &.view-id-portal_my_latest_news, &.view-id-my_documents {
+        &.view-id-pum_portal_latest_forum_topics, &.view-id-my_latest_forum_topics_test, &.view-id-portal_my_latest_news, &.view-id-my_documents, &.view-id-policies {
             .views-field-title {
                 float:left;
                 width: 72%;
@@ -489,6 +489,10 @@ table {
             .views-field-changed {
                 width: 18.9%;
                 text-align: left;
+            }
+            caption {
+              font-size: 14px;
+              text-align: left;
             }
         }
         &.view-id-latest_portal_blogs, &.view-id-my_blog {
@@ -535,7 +539,25 @@ table {
             }
             */
         }
-
+        &.view-id-policies  {
+            .views-exposed-form {
+                float: none;
+                width: 100%;
+                display: block;
+                left: 0;
+                button {
+                    background-color: $pum-color-pumnet;
+                    border-color: $pum-color-pumnet;
+                    margin-top: 0;
+                }
+                .views-widget-filter-field_pum_generic_tid, .views-widget-filter-field_pum_private_tid {
+                  width: 100%;
+                }
+                .views-submit-button {
+                  width: 100%;
+                }
+            }
+        }
         .views-field-term-node-tid {
             li {
                 list-style: none;
