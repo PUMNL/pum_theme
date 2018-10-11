@@ -37,10 +37,6 @@
 
 .socialmedia_top {
   @media #{$screen} and (min-width:#{lower-bound($xlarge-range)}) {
-    .share-this-article {
-      float: right;
-    }
-
     display: inline-block;
     position: relative;
     z-index: 20;

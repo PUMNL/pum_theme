@@ -13827,49 +13827,7 @@ em, i {
     width: 620px; } }
 @media only screen and (min-width: 1221px) {
   .l-main .inner {
-    width: 792px; }
-
-  .share-this-article {
-    width: auto;
-    float: right;
-    clear: left;
-    text-align: right;
-    margin-top: -5px; }
-    .share-this-article a {
-      display: inline-block;
-      margin-bottom: 1px;
-      cursor: pointer;
-      text-indent: -9999px;
-      margin-right: 5px;
-      float: right; }
-      .share-this-article a.fb {
-        background: transparent url(../images/icon-socialmedia.png) 0 0 no-repeat;
-        width: 35px;
-        height: 35px; }
-      .share-this-article a.tw {
-        background: transparent url(../images/icon-socialmedia.png) -35px 0 no-repeat;
-        width: 35px;
-        height: 35px; }
-      .share-this-article a.li {
-        background: transparent url(../images/icon-socialmedia.png) -70px 0 no-repeat;
-        width: 35px;
-        height: 35px; }
-      .share-this-article a.in {
-        background: transparent url(../images/icon-socialmedia.png) -105px 0 no-repeat;
-        width: 35px;
-        height: 35px; }
-      .share-this-article a.yt {
-        background: transparent url(../images/icon-socialmedia.png) -140px 0 no-repeat;
-        width: 35px;
-        height: 35px; }
-    .share-this-article .contextual-links-wrapper {
-      font-size: 10px;
-      color: #000; }
-
-  .share-this-article-title {
-    font-size: 12px;
-    text-align: right;
-    padding-right: 5px; } }
+    width: 792px; } }
 @media only screen and (min-width: 741px) {
   aside.sidebar-second .inner {
     width: 183px; } }
@@ -16077,8 +16035,6 @@ aside.partner-with-us ul, aside.partner-with-us ul li a {
     z-index: 20;
     float: right;
     padding-right: 5px; }
-    .socialmedia_top .share-this-article {
-      float: right; }
     .socialmedia_top a {
       display: inline-block;
       width: 35px;

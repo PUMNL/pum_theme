@@ -138,23 +138,6 @@
             <div class="row">
               <div id="title_wrap">
                 <h1 id="page-title" class="title">
-                  <div id="share-this-article" class="share-this-article">
-                  <?php
-                    $node = node_load(arg(1)); // cached
-                    if ($node->type == 'page' | $node->type == 'news' | $node->type == 'story_customer' | $node->type == 'story_expert'| $node->type == 'story_partner' | $node->type == 'story_regular') {
-                      $social_media_links_content = "
-                        <script type=\"text/javascript\">
-                          var title = document.title.replace(/[^a-zA-Z0-9-_ ]/g, '');
-                          var url = document.URL;
-                          document.write('<a class=\"li\" href=\"https://www.linkedin.com/shareArticle?mini=true&url='+url+'&title='+title+'&summary=&source=\" target=\"_blank\" title=\"'+title+'\"></a>');
-                          document.write('<a class=\"tw\" href=\"https://twitter.com/home?status='+url+'\" target=\"_blank\" title=\"'+title+'\"></a>');
-                          document.write('<a class=\"fb\" href=\"https://www.facebook.com/sharer/sharer.php?u='+url+'\" target=\"_blank\" title=\"'+title+'\"></a>');
-                        </script>";
-
-                      echo '<div id="share-this-article-title" class="share-this-article-title">Share this article</div><div class="socialmedia_content">'.$social_media_links_content.'</div>';
-                    }
-                  ?>
-                  </div>
                   <?php print $title; ?>
                 </h1>
               </div>
