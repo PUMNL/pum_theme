@@ -15162,7 +15162,8 @@ code.help div {
     display: inline-block;
     background: #483493;
     padding: 5px;
-    margin-top: 20px; }
+    margin-top: 20px;
+    margin-bottom: 20px; }
     .page-search .node .file a {
       color: #fff; }
   .page-search .node.node-country .views-row {
@@ -15176,12 +15177,65 @@ code.help div {
     font-family: "MuseoSansRounded-700";
     font-size: 1.5rem;
     margin-bottom: .75rem; }
-
-.search-results {
-  margin-top: 2rem; }
-  .search-results h2 {
-    font-family: "MuseoSansRounded-700";
+.page-search h2 {
+  font-family: "MuseoSansRounded-700";
+  font-size: 1.25rem; }
+.page-search .search-results .sidebar {
+  float: left !important; }
+.page-search .search-results .main {
+  float: right !important; }
+.page-search .search-results .block-facetapi {
+  margin-bottom: 25px;
+  background-color: #ededed;
+  padding: 20px 10px; }
+  .page-search .search-results .block-facetapi h2.block-title {
+    border-bottom: 2px solid #FE7500;
+    padding-bottom: 2px;
+    color: #444;
     font-size: 1.25rem; }
+  .page-search .search-results .block-facetapi ul {
+    list-style-type: none; }
+  .page-search .search-results .block-facetapi ul li {
+    margin: 0; }
+  .page-search .search-results .block-facetapi ul li a {
+    padding-left: 5px; }
+.page-search .search-results .section-portal .block-facetapi .block-title {
+  border-bottom: 2px solid #FE7500;
+  padding-bottom: 2px;
+  color: #444;
+  font-size: 1.25rem; }
+.page-search .search-results h1#page-title {
+  display: none; }
+.page-search .pumnet-search .sidebar {
+  float: left !important; }
+.page-search .pumnet-search .main {
+  float: right !important; }
+.page-search .pumnet-search .node {
+  border-bottom: 2px solid #483493; }
+.page-search .pumnet-search .block-facetapi {
+  margin-bottom: 25px;
+  background-color: #ededed;
+  padding: 20px 10px; }
+  .page-search .pumnet-search .block-facetapi h2.block-title {
+    border-bottom: 2px solid #483493;
+    padding-bottom: 2px;
+    color: #444;
+    font-size: 1.25rem; }
+  .page-search .pumnet-search .block-facetapi ul {
+    list-style-type: none; }
+  .page-search .pumnet-search .block-facetapi ul li {
+    margin: 0; }
+  .page-search .pumnet-search .block-facetapi ul li a {
+    padding-left: 5px; }
+.page-search .pumnet-search .section-portal .block-facetapi .block-title {
+  border-bottom: 2px solid #483493;
+  padding-bottom: 2px;
+  color: #444;
+  font-size: 1.25rem; }
+.page-search .pumnet-search h1#page-title {
+  display: none; }
+.page-search .page .pumnet-search .large-9 section .block-facetapi {
+  background-color: #ededed; }
 
 .type-block {
   background: #FE7500;
