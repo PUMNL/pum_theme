@@ -472,8 +472,13 @@ table {
                     border-color: $pum-color-pumnet;
                 }
 
-                .views-widget-filter-tid, .views-widget-filter-field_pum_sector_tid {
-                  width: 100%;
+                .views-exposed-widget {
+                  float:left;
+                  width: 50%;
+                }
+                .views-widget-filter-tid {
+                  float:left !important;
+                  width: 100% !important;
                 }
             }
         }
@@ -538,6 +543,20 @@ table {
                 width: 35%;
             }
             */
+
+            .views-exposed-form {
+                .views-exposed-widget {
+                  float:left;
+                  width: 50%;
+                }
+                .views-widget-filter-tid {
+                  float:left !important;
+                  width: 100% !important;
+                }
+                #edit-tid_chosen {
+                  width: 100%;
+                }
+            }
         }
         &.view-id-policies  {
             .views-exposed-form {

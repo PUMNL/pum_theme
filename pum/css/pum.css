@@ -14796,8 +14796,12 @@ table {
       padding: .75rem 1rem;
       background-color: #483493;
       border-color: #483493; }
-    .section-portal .all-topics.view-id-latest_portal_news .views-exposed-form .views-widget-filter-tid, .section-portal .all-topics.view-id-latest_portal_news .views-exposed-form .views-widget-filter-field_pum_sector_tid, .section-tags .all-topics.view-id-latest_portal_news .views-exposed-form .views-widget-filter-tid, .section-tags .all-topics.view-id-latest_portal_news .views-exposed-form .views-widget-filter-field_pum_sector_tid, .views-page .all-topics.view-id-latest_portal_news .views-exposed-form .views-widget-filter-tid, .views-page .all-topics.view-id-latest_portal_news .views-exposed-form .views-widget-filter-field_pum_sector_tid, .page-user .all-topics.view-id-latest_portal_news .views-exposed-form .views-widget-filter-tid, .page-user .all-topics.view-id-latest_portal_news .views-exposed-form .views-widget-filter-field_pum_sector_tid {
-      width: 100%; }
+    .section-portal .all-topics.view-id-latest_portal_news .views-exposed-form .views-exposed-widget, .section-tags .all-topics.view-id-latest_portal_news .views-exposed-form .views-exposed-widget, .views-page .all-topics.view-id-latest_portal_news .views-exposed-form .views-exposed-widget, .page-user .all-topics.view-id-latest_portal_news .views-exposed-form .views-exposed-widget {
+      float: left;
+      width: 50%; }
+    .section-portal .all-topics.view-id-latest_portal_news .views-exposed-form .views-widget-filter-tid, .section-tags .all-topics.view-id-latest_portal_news .views-exposed-form .views-widget-filter-tid, .views-page .all-topics.view-id-latest_portal_news .views-exposed-form .views-widget-filter-tid, .page-user .all-topics.view-id-latest_portal_news .views-exposed-form .views-widget-filter-tid {
+      float: left !important;
+      width: 100% !important; }
 .section-portal .all-topics.view-id-pum_portal_latest_forum_topics .views-field-title, .section-portal .all-topics.view-id-my_latest_forum_topics_test .views-field-title, .section-portal .all-topics.view-id-portal_my_latest_news .views-field-title, .section-portal .all-topics.view-id-my_documents .views-field-title, .section-portal .all-topics.view-id-policies .views-field-title, .section-tags .all-topics.view-id-pum_portal_latest_forum_topics .views-field-title, .section-tags .all-topics.view-id-my_latest_forum_topics_test .views-field-title, .section-tags .all-topics.view-id-portal_my_latest_news .views-field-title, .section-tags .all-topics.view-id-my_documents .views-field-title, .section-tags .all-topics.view-id-policies .views-field-title, .views-page .all-topics.view-id-pum_portal_latest_forum_topics .views-field-title, .views-page .all-topics.view-id-my_latest_forum_topics_test .views-field-title, .views-page .all-topics.view-id-portal_my_latest_news .views-field-title, .views-page .all-topics.view-id-my_documents .views-field-title, .views-page .all-topics.view-id-policies .views-field-title, .page-user .all-topics.view-id-pum_portal_latest_forum_topics .views-field-title, .page-user .all-topics.view-id-my_latest_forum_topics_test .views-field-title, .page-user .all-topics.view-id-portal_my_latest_news .views-field-title, .page-user .all-topics.view-id-my_documents .views-field-title, .page-user .all-topics.view-id-policies .views-field-title {
   float: left;
   width: 72%; }
@@ -14846,6 +14850,14 @@ table {
   .section-portal .all-topics.view-id-latest_portal_documents .views-field-changed, .section-tags .all-topics.view-id-latest_portal_documents .views-field-changed, .views-page .all-topics.view-id-latest_portal_documents .views-field-changed, .page-user .all-topics.view-id-latest_portal_documents .views-field-changed {
     width: 18.9%;
     text-align: left; }
+  .section-portal .all-topics.view-id-latest_portal_documents .views-exposed-form .views-exposed-widget, .section-tags .all-topics.view-id-latest_portal_documents .views-exposed-form .views-exposed-widget, .views-page .all-topics.view-id-latest_portal_documents .views-exposed-form .views-exposed-widget, .page-user .all-topics.view-id-latest_portal_documents .views-exposed-form .views-exposed-widget {
+    float: left;
+    width: 50%; }
+  .section-portal .all-topics.view-id-latest_portal_documents .views-exposed-form .views-widget-filter-tid, .section-tags .all-topics.view-id-latest_portal_documents .views-exposed-form .views-widget-filter-tid, .views-page .all-topics.view-id-latest_portal_documents .views-exposed-form .views-widget-filter-tid, .page-user .all-topics.view-id-latest_portal_documents .views-exposed-form .views-widget-filter-tid {
+    float: left !important;
+    width: 100% !important; }
+  .section-portal .all-topics.view-id-latest_portal_documents .views-exposed-form #edit-tid_chosen, .section-tags .all-topics.view-id-latest_portal_documents .views-exposed-form #edit-tid_chosen, .views-page .all-topics.view-id-latest_portal_documents .views-exposed-form #edit-tid_chosen, .page-user .all-topics.view-id-latest_portal_documents .views-exposed-form #edit-tid_chosen {
+    width: 100%; }
 .section-portal .all-topics.view-id-policies .views-exposed-form, .section-tags .all-topics.view-id-policies .views-exposed-form, .views-page .all-topics.view-id-policies .views-exposed-form, .page-user .all-topics.view-id-policies .views-exposed-form {
   float: none;
   width: 100%;
