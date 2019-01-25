@@ -68,7 +68,7 @@
   $url_expert = !empty($frontpage_fields->field_url_expert['und'][0]['url'])?$frontpage_fields->field_url_expert['und'][0]['url']:'';
   $url_expert_target = !empty($frontpage_fields->field_url_expert['und'][0]['attributes']['target'])?$frontpage_fields->field_url_expert['und'][0]['attributes']['target']:'';
 
-  $url_partner = !empty($frontpage_fields->field_url_partner['und'][0]['url'])?$frontpage_fields->field_url_expert['und'][0]['url']:'';
+  $url_partner = !empty($frontpage_fields->field_url_partner['und'][0]['url'])?$frontpage_fields->field_url_partner['und'][0]['url']:'';
   $url_partner_target = !empty($frontpage_fields->field_url_partner['und'][0]['attributes']['target'])?$frontpage_fields->field_url_partner['und'][0]['attributes']['target']:'';
 
   $title_newsletter = $frontpage_fields->field_front_title_newsletter['und'][0]['value'];
