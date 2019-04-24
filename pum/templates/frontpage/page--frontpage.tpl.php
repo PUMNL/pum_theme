@@ -23,27 +23,27 @@
   // Get the values used on the frontpage
   $intro_text = $frontpage_fields->field_front_intro_text['und'][0]['value'];
 
-  $business_text = $frontpage_fields->field_front_business_text['und'][0]['value'];
-  $expert_text = $frontpage_fields->field_front_expert_text['und'][0]['value'];
-  $partner_text = $frontpage_fields->field_front_partner_text['und'][0]['value'];
-  $business_title = $frontpage_fields->field_front_business_link['und'][0]['title'];
-  $business_link = $frontpage_fields->field_front_business_link['und'][0]['url'];
-  $expert_title = $frontpage_fields->field_front_expert_link['und'][0]['title'];
-  $expert_link = $frontpage_fields->field_front_expert_link['und'][0]['url'];
-  $partner_title = $frontpage_fields->field_front_partner_link['und'][0]['title'];
-  $partner_link = $frontpage_fields->field_front_partner_link['und'][0]['url'];
-  $title_facts = $frontpage_fields->field_front_facts_title['und'][0]['value'];
-  $number_projects = $frontpage_fields->field_front_facts_no_projects['und'][0]['value'];
-  $number_projects_title = $frontpage_fields->field_front_facts_projects_title['und'][0]['value'];
-  $number_projects_text = $frontpage_fields->field_front_facts_text_projects['und'][0]['value'];
-  $number_experts = $frontpage_fields->field_front_facts_no_experts['und'][0]['value'];
-  $number_expert_title = $frontpage_fields->field_front_fact_experts_title['und'][0]['value'];
-  $number_experts_text = $frontpage_fields->field_front_facts_text_experts['und'][0]['value'];
-  $number_years = $frontpage_fields->field_front_facts_no_years['und'][0]['value'];
-  $number_years_title = $frontpage_fields->field_front_fact_years_title['und'][0]['value'];
-  $number_years_text = $frontpage_fields->field_front_facts_text_years['und'][0]['value'];
-  $read_more_title = $frontpage_fields->field_front_link_of_read_more['und'][0]['title'];
-  $read_more_link = $frontpage_fields->field_front_link_of_read_more['und'][0]['url'];
+  $business_text = isset($frontpage_fields->field_front_business_text['und'][0]['value'])?$frontpage_fields->field_front_business_text['und'][0]['value']:'';
+  $business_title = isset($frontpage_fields->field_front_business_link['und'][0]['title'])?$frontpage_fields->field_front_business_link['und'][0]['title']:'';
+  $business_link = isset($frontpage_fields->field_front_business_link['und'][0]['url'])?$frontpage_fields->field_front_business_link['und'][0]['url']:'';
+  $expert_text = isset($frontpage_fields->field_front_expert_text['und'][0]['value'])?$frontpage_fields->field_front_expert_text['und'][0]['value']:'';
+  $expert_title = isset($frontpage_fields->field_front_expert_link['und'][0]['title'])?$frontpage_fields->field_front_expert_link['und'][0]['title']:'';
+  $expert_link = isset($frontpage_fields->field_front_expert_link['und'][0]['url'])?$frontpage_fields->field_front_expert_link['und'][0]['url']:'';
+  $partner_text = isset($frontpage_fields->field_front_partner_text['und'][0]['value'])?$frontpage_fields->field_front_partner_text['und'][0]['value']:'';
+  $partner_title = isset($frontpage_fields->field_front_partner_link['und'][0]['title'])?$frontpage_fields->field_front_partner_link['und'][0]['title']:'';
+  $partner_link = isset($frontpage_fields->field_front_partner_link['und'][0]['url'])?$frontpage_fields->field_front_partner_link['und'][0]['url']:'';
+  $title_facts = isset($frontpage_fields->field_front_facts_title['und'][0]['value'])?$frontpage_fields->field_front_facts_title['und'][0]['value']:'';
+  $number_projects = isset($frontpage_fields->field_front_facts_no_projects['und'][0]['value'])?$frontpage_fields->field_front_facts_no_projects['und'][0]['value']:'';
+  $number_projects_title = isset($frontpage_fields->field_front_facts_projects_title['und'][0]['value'])?$frontpage_fields->field_front_facts_projects_title['und'][0]['value']:'';
+  $number_projects_text = isset($frontpage_fields->field_front_facts_text_projects['und'][0]['value'])?$frontpage_fields->field_front_facts_text_projects['und'][0]['value']:'';
+  $number_experts = isset($frontpage_fields->field_front_facts_no_experts['und'][0]['value'])?$frontpage_fields->field_front_facts_no_experts['und'][0]['value']:'';
+  $number_expert_title = isset($frontpage_fields->field_front_fact_experts_title['und'][0]['value'])?$frontpage_fields->field_front_fact_experts_title['und'][0]['value']:'';
+  $number_experts_text = isset($frontpage_fields->field_front_facts_text_experts['und'][0]['value'])?$frontpage_fields->field_front_facts_text_experts['und'][0]['value']:'';
+  $number_years = isset($frontpage_fields->field_front_facts_no_years['und'][0]['value'])?$frontpage_fields->field_front_facts_no_years['und'][0]['value']:'';
+  $number_years_title = isset($frontpage_fields->field_front_fact_years_title['und'][0]['value'])?$frontpage_fields->field_front_fact_years_title['und'][0]['value']:'';
+  $number_years_text = isset($frontpage_fields->field_front_facts_text_years['und'][0]['value'])?$frontpage_fields->field_front_facts_text_years['und'][0]['value']:'';
+  $read_more_title = isset($frontpage_fields->field_front_link_of_read_more['und'][0]['title'])?$frontpage_fields->field_front_link_of_read_more['und'][0]['title']:'';
+  $read_more_link = isset($frontpage_fields->field_front_link_of_read_more['und'][0]['url'])?$frontpage_fields->field_front_link_of_read_more['und'][0]['url']:'';
 
   $image_business_uri = $frontpage_fields->field_slide_image_business['und'][0]['uri'];
   $image_business = image_style_url('epsa_slider', $image_business_uri);
@@ -54,27 +54,27 @@
   $image_partners_uri = $frontpage_fields->field_slide_image_partner['und'][0]['uri'];
   $image_partners = image_style_url('epsa_slider', $image_partners_uri);
 
-  $text_align_business = $frontpage_fields->field_text_align_business['und'][0]['value'];
-  $text_align_expert = $frontpage_fields->field_text_align_expert['und'][0]['value'];
-  $text_align_partner = $frontpage_fields->field_text_align_partner['und'][0]['value'];
+  $text_align_business = isset($frontpage_fields->field_text_align_business['und'][0]['value'])?$frontpage_fields->field_text_align_business['und'][0]['value']:'';
+  $text_align_expert = isset($frontpage_fields->field_text_align_expert['und'][0]['value'])?$frontpage_fields->field_text_align_expert['und'][0]['value']:'';
+  $text_align_partner = isset($frontpage_fields->field_text_align_partner['und'][0]['value'])?$frontpage_fields->field_text_align_partner['und'][0]['value']:'';
 
-  $text_business = $frontpage_fields->field_text_business['und'][0]['value'];
-  $text_expert = $frontpage_fields->field_text_expert['und'][0]['value'];
-  $text_partner = $frontpage_fields->field_text_partner['und'][0]['value'];
+  $text_business = isset($frontpage_fields->field_text_business['und'][0]['value'])?$frontpage_fields->field_text_business['und'][0]['value']:'';
+  $text_expert = isset($frontpage_fields->field_text_expert['und'][0]['value'])?$frontpage_fields->field_text_expert['und'][0]['value']:'';
+  $text_partner = isset($frontpage_fields->field_text_partner['und'][0]['value'])?$frontpage_fields->field_text_partner['und'][0]['value']:'';
 
-  $url_business = !empty($frontpage_fields->field_url_business['und'][0]['url'])?$frontpage_fields->field_url_business['und'][0]['url']:'';
-  $url_business_target = !empty($frontpage_fields->field_url_business['und'][0]['attributes']['target'])?$frontpage_fields->field_url_business['und'][0]['attributes']['target']:'';
+  $url_business = isset($frontpage_fields->field_url_business['und'][0]['url'])?$frontpage_fields->field_url_business['und'][0]['url']:'';
+  $url_business_target = isset($frontpage_fields->field_url_business['und'][0]['attributes']['target'])?$frontpage_fields->field_url_business['und'][0]['attributes']['target']:'';
 
-  $url_expert = !empty($frontpage_fields->field_url_expert['und'][0]['url'])?$frontpage_fields->field_url_expert['und'][0]['url']:'';
-  $url_expert_target = !empty($frontpage_fields->field_url_expert['und'][0]['attributes']['target'])?$frontpage_fields->field_url_expert['und'][0]['attributes']['target']:'';
+  $url_expert = isset($frontpage_fields->field_url_expert['und'][0]['url'])?$frontpage_fields->field_url_expert['und'][0]['url']:'';
+  $url_expert_target = isset($frontpage_fields->field_url_expert['und'][0]['attributes']['target'])?$frontpage_fields->field_url_expert['und'][0]['attributes']['target']:'';
 
-  $url_partner = !empty($frontpage_fields->field_url_partner['und'][0]['url'])?$frontpage_fields->field_url_partner['und'][0]['url']:'';
-  $url_partner_target = !empty($frontpage_fields->field_url_partner['und'][0]['attributes']['target'])?$frontpage_fields->field_url_partner['und'][0]['attributes']['target']:'';
+  $url_partner = isset($frontpage_fields->field_url_partner['und'][0]['url'])?$frontpage_fields->field_url_partner['und'][0]['url']:'';
+  $url_partner_target = isset($frontpage_fields->field_url_partner['und'][0]['attributes']['target'])?$frontpage_fields->field_url_partner['und'][0]['attributes']['target']:'';
 
-  $title_newsletter = $frontpage_fields->field_front_title_newsletter['und'][0]['value'];
-  $text_newsletter = $frontpage_fields->field_front_text_newsletter['und'][0]['value'];
-  $url_button_newsletter = $frontpage_fields->field_front_link_newsletter['und'][0]['url'];
-  $title_button_newsletter = $frontpage_fields->field_front_link_newsletter['und'][0]['title'];
+  $title_newsletter = isset($frontpage_fields->field_front_title_newsletter['und'][0]['value'])?$frontpage_fields->field_front_title_newsletter['und'][0]['value']:'';
+  $text_newsletter = isset($frontpage_fields->field_front_text_newsletter['und'][0]['value'])?$frontpage_fields->field_front_text_newsletter['und'][0]['value']:'';
+  $url_button_newsletter = isset($frontpage_fields->field_front_link_newsletter['und'][0]['url'])?$frontpage_fields->field_front_link_newsletter['und'][0]['url']:'';
+  $title_button_newsletter = isset($frontpage_fields->field_front_link_newsletter['und'][0]['title'])?$frontpage_fields->field_front_link_newsletter['und'][0]['title']:'';
 ?>
 
 <!--.page -->
