@@ -1,45 +1,45 @@
 .sub-menu {
-   ul { 
-       margin: 1rem 0 3rem 0;
+   ul {
+       margin: 1rem 0 2rem 0;
        padding: 0;
        border-top: 5px solid;
        border-bottom: 5px solid;
        border-color: $pum-color-primary;
-       
+
        li {
            list-style: none;
            margin: 0;
            padding: 0;
-           
+
            a {
                color: $pum-color-dark;
                display: block;
                font-family: $rounded-font-300;
-               padding: .75rem 0 .75rem .5rem;
+               padding: .35rem 0 .35rem .5rem;
                border-bottom: 1px solid;
                border-color: $pum-color-primary;
-               
+
                &:hover, &.active, &.active-trail {
                    text-decoration: none;
                    font-family: $rounded-font-700;
                }
            }
-           
+
            &:last-child {
                a {
                    border: 0;
                }
            }
-           
+
            ul {
                border-top: 0;
                border-bottom: 1px solid;
                padding-left: .75rem;
                margin: 0;
            }
-           
+
            &.last a {border-bottom: 0;}
-       } // ./ li (first) 
+       } // ./ li (first)
    } // ./ ul (first)
     .item-list {
         ul {
@@ -56,5 +56,5 @@
 aside {
 	&.get-advice ul, &.get-advice ul li a {border-color: $pum-color-customer;}
 	&.volunteer ul, &.volunteer ul li a {border-color: $pum-color-expert;}
-	&.partner-with-us ul, &.partner-with-us ul li a {border-color: $pum-color-partner;}    
-} 
+	&.partner-with-us ul, &.partner-with-us ul li a {border-color: $pum-color-partner;}
+}

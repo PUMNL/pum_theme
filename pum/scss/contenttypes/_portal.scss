@@ -54,6 +54,7 @@ table {
 
     .sub-menu ul, .sub-menu .item-list ul {
         border-color: $pum-color-pumnet;
+        margin: 1rem 0 1.5rem 0;
         li a {
             border-color: $pum-color-pumnet;
         }
@@ -678,8 +679,10 @@ table {
     } // ./ field-type-taxonomy-term-reference
 
     h2.block-title {
-        font-size: 1.5rem;
+        font-size: 1.1rem;
         color: $pum-color-primary;
+        line-height: 0;
+        margin-top: 0.5rem;
     }
 
     // Portal directory (smoelenboek)
