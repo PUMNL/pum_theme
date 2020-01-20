@@ -7,9 +7,9 @@
         .inner {
             width: 183px;
         }
-       
-    } // ./ aside.sidebar-second  
-     
+
+    } // ./ aside.sidebar-second
+
 } // ./ medium-up
 
 @media #{$large-up} {
@@ -27,3 +27,26 @@
         }
     } // ./ aside.sidebar-second
 } // ./ xlarge-up
+
+aside.sidebar-second {
+  .block-pum-portal-custom-pum-emergency-button {
+    display: block;
+  }
+  .block-pum-portal-custom-pum-emergency-button .pum_emergency a{
+    padding: 12px 12px 10px 12px;
+    background-color: $pum-color-primary;
+    background-image: url('../images/icons/icon-handclick.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  .pum_emergency {
+    display: flex;
+    width: 100%;
+  }
+}

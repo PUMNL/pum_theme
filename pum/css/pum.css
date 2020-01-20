@@ -13837,6 +13837,24 @@ em, i {
 @media only screen and (min-width: 1221px) {
   aside.sidebar-second .inner {
     width: 285px; } }
+aside.sidebar-second .block-pum-portal-custom-pum-emergency-button {
+  display: block; }
+aside.sidebar-second .block-pum-portal-custom-pum-emergency-button .pum_emergency a {
+  padding: 12px 12px 10px 12px;
+  background-color: #FE7500;
+  background-image: url("../images/icons/icon-handclick.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  color: #fff;
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  font-weight: bold;
+  margin-bottom: 1rem; }
+aside.sidebar-second .pum_emergency {
+  display: flex;
+  width: 100%; }
+
 .webform-client-form .form-item {
   margin-top: 0; }
   .webform-client-form .form-item input[type="text"], .webform-client-form .form-item input[type="email"] {
@@ -14405,7 +14423,7 @@ table {
   color: #483493; }
 .section-portal .l-banner, .section-tags .l-banner, .views-page .l-banner, .page-user .l-banner {
   border-color: #483493 !important;
-  margin-bottom: 35px; }
+  margin-bottom: 20px; }
 .section-portal .panel-pane table, .section-portal .all-topics table, .section-tags .panel-pane table, .section-tags .all-topics table, .views-page .panel-pane table, .views-page .all-topics table, .page-user .panel-pane table, .page-user .all-topics table {
   width: 100%; }
 .section-portal .panel-pane, .section-tags .panel-pane, .views-page .panel-pane, .page-user .panel-pane {
