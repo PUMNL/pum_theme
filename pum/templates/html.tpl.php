@@ -5,10 +5,19 @@
 <!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
+
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
-  <?php print $styles; ?> 
+  <?php print $styles; ?>
   <?php print $scripts; ?>
+
+  <!-- Google Tag Manager -->
+  <script>console.log(Drupal.settings.pum_theme_settings.pum_google_tagcode);(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MFBGCMM');</script>
+  <!-- End Google Tag Manager -->
 
     <!--[if lt IE 9]>
         <link rel="stylesheet" src="/sites/all/themes/pum/css/ie8-grid-support.css" type="text/css">
@@ -23,6 +32,9 @@
   <div class="skip-link">
     <a href="#main-content" class="element-invisible element-focusable"><?php print t('Skip to main content'); ?></a>
   </div>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MFBGCMM" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <?php print $page_top; ?>
   <?php print $page; ?>
   <?php print $page_bottom; ?>
