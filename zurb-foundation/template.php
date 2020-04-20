@@ -509,13 +509,23 @@ function zurb_foundation_preprocess_page(&$variables) {
 
   $variables['linked_logo']  = '';
   if (!empty($variables['logo_img'])) {
-    $variables['linked_logo'] = l($variables['logo_img'], '<front>', array(
-      'attributes' => array(
-        'rel'   => 'home',
-        'title' => strip_tags($variables['site_name']) . ' ' . t('Home'),
-      ),
-      'html' => TRUE,
-    ));
+    if(!empty(variable_get('pum_portal_custom_environment'))) {
+      $variables['linked_logo'] = l($variables['logo_img'], variable_get('pum_portal_custom_environment'), array(
+        'attributes' => array(
+          'rel'   => 'home',
+          'title' => strip_tags($variables['site_name']) . ' ' . t('Home'),
+        ),
+        'html' => TRUE,
+      ));
+    } else {
+      $variables['linked_logo'] = l($variables['logo_img'], '<front>', array(
+        'attributes' => array(
+          'rel'   => 'home',
+          'title' => strip_tags($variables['site_name']) . ' ' . t('Home'),
+        ),
+        'html' => TRUE,
+      ));
+    }
   }
 
   $variables['linked_site_name'] = '';
