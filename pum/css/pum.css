@@ -13867,7 +13867,9 @@ aside.sidebar-second .pum_emergency {
   .webform-client-form .form-item input[type="radio"].error, .webform-client-form .form-item input[type="checkbox"].error {
     outline: 3px solid red; }
   .webform-client-form .form-item select {
-    width: auto; }
+    width: auto;
+    padding-right: 20px;
+    /* fix for dropdown arrow shown over text */ }
   .webform-client-form .form-item .newcustomer-local-rep.error {
     display: block !important;
     position: relative;
