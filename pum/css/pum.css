@@ -13878,6 +13878,9 @@ aside.sidebar-second .pum_emergency {
     height: 42px;
     width: 404px;
     z-index: -1; }
+.webform-client-form .form-item.webform-component.webform-component-select.webform-component--phone-numbers--e-mail-visibility--e-mail1-visibility--civicrm-1-activity-1-cg86-custom-567,
+.webform-client-form .form-item.webform-component.webform-component-select.webform-component--phone-numbers--e-mail-visibility--e-mail2-visibility--civicrm-1-activity-1-cg86-custom-568 {
+  margin-right: 5%; }
 .webform-client-form button {
   display: block;
   float: none;
