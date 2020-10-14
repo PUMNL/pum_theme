@@ -69,6 +69,23 @@ function pum_preprocess_views_view_table(&$vars) {
   }
 }
 
+function pum_theme(&$existing, $type, $theme, $path) {
+   $hooks['user_login'] = array(
+     'template' => 'templates/login/user-login-block',
+     'render element' => 'form',
+     'variables' => array('form' => NULL),
+   );
+   return $hooks;
+ }
+function pum_preprocess_user_login_block(&$vars) {
+  $vars['name'] = render($vars['form']['name']);
+  $vars['pass'] = render($vars['form']['pass']);
+  $vars['submit'] = render($vars['form']['actions']['submit']);
+  $vars['rendered'] = drupal_render_children($vars['form']);
+  $variables['form'] = drupal_build_form('user_login', user_login(array(),$form_state));
+}
+
+
 /**
  * Implements template_preprocess_node
  *
