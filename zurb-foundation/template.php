@@ -509,7 +509,7 @@ function zurb_foundation_preprocess_page(&$variables) {
 
   $variables['linked_logo']  = '';
   if (!empty($variables['logo_img'])) {
-    if(!empty(variable_get('pum_portal_custom_environment'))) {
+    if(variable_get('pum_portal_custom_environment_active') == TRUE && !empty(variable_get('pum_portal_custom_environment'))) {
       $variables['linked_logo'] = l($variables['logo_img'], variable_get('pum_portal_custom_environment'), array(
         'attributes' => array(
           'rel'   => 'home',
